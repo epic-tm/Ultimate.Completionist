@@ -2,51 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>final surely?</title>
-  <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <title>Warframe-style Star Chart — Updated UI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-  <header id="topbar">
-    <div class="brand">STAR CHART</div>
-    <nav class="controls">
-      <label>Theme <input id="themeColor" type="color" value="#00c8ff"></label>
-      <label>Mono <input id="monoToggle" type="checkbox"></label>
-      <label>Debug <input id="debugToggle" type="checkbox"></label>
-      <button id="resetView">Reset</button>
-    </nav>
-  </header>
+  <canvas id="starChart"></canvas>
 
-  <canvas id="starChart" aria-label="Star chart"></canvas>
-
-  <!-- Minecraft-style achievement/title card (icon placeholder left) -->
-  <div id="titleCard" class="title-card" aria-hidden="true">
-    <div id="cardIcon" class="card-icon">✧</div>
-    <div class="card-text">
-      <div id="titleCardTitle" class="card-title">ACHIEVEMENT TITLE</div>
-      <div id="titleCardSubtitle" class="card-sub">Short description or requirement</div>
-    </div>
+  <!-- Hover resource tooltip -->
+  <div id="hoverInfo" class="hover-info" aria-hidden="true">
+    <div class="hi-title"></div>
+    <div class="hi-resources"></div>
   </div>
 
-  <!-- Detail panel -->
-  <div id="detailPanel" class="detail-panel" aria-hidden="true">
-    <div class="detail-inner">
-      <button id="detailClose" class="close">✕</button>
-      <h2 id="detailTitle"></h2>
-      <p id="detailDesc"></p>
-      <div class="detail-actions">
-        <button id="completeBtn">Mark Complete</button>
+  <!-- Achievements / Info panel -->
+  <aside id="sidePanel" class="side-panel" aria-hidden="true">
+    <header class="side-header">
+      <div id="sideTitle">Star Chart</div>
+      <div class="side-controls">
+        <button id="zoomOutBtn">Zoom Out</button>
+        <button id="recenterBtn">Recenter</button>
+      </div>
+    </header>
+
+    <section id="planetSummary" class="panel-section hidden">
+      <h3 id="planetName"></h3>
+      <div id="planetMeta" class="meta-line"></div>
+    </section>
+
+    <section id="tiersSection" class="panel-section hidden">
+      <h4>Tiers</h4>
+      <div id="tiersList" class="tiers-list"></div>
+    </section>
+
+    <section id="junctionSection" class="panel-section hidden">
+      <h4>Junction</h4>
+      <div id="junctionList" class="junction-list"></div>
+    </section>
+
+    <footer class="side-footer">
+      <small>Progress saved locally. Admin tools available.</small>
+    </footer>
+  </aside>
+
+  <!-- Achievement popup (small modal) -->
+  <div id="popup" class="popup" style="display:none;"></div>
+
+  <!-- Junction modal -->
+  <div id="junctionModal" class="modal" style="display:none;">
+    <div class="modal-inner">
+      <button class="modal-close" id="junctionClose">✕</button>
+      <h2 id="junctionTitle">Junction Tasks</h2>
+      <div id="junctionTasks"></div>
+      <div class="modal-actions">
+        <button id="junctionComplete">Mark Task Completed</button>
       </div>
     </div>
   </div>
 
+  <!-- Admin panel (same functionality as before, improved layout) -->
   <div id="adminPanel" class="admin-panel" style="display:none;">
-    <input id="adminPassword" placeholder="admin password" type="password">
-    <button onclick="loginAdmin()">Login</button>
-    <div id="editContent"></div>
+    <div>
+      <label>Admin password: <input id="adminPassword" type="password" /></label>
+      <button onclick="loginAdmin()">Login</button>
+      <button onclick="closeAdmin()">Close</button>
+    </div>
+    <div id="editContent" style="display:none; margin-top:12px;"></div>
   </div>
 
-  <script src="script.js"></script>
+  <button id="adminButton" title="Admin" aria-label="Open admin panel" onclick="showAdminPanel()">Admin</button>
+
+  <script src="./script.js"></script>
 </body>
 </html>
