@@ -1,40 +1,104 @@
 :root {
-    --accent: #64dfff;
-    --bg-dark: rgba(5, 10, 15, 0.85);
-    --muted: #8899a6;
+    --obsidian: #050505;
+    --ghost-white: rgba(255, 255, 255, 0.9);
+    --glow: 0 0 15px rgba(255, 255, 255, 0.4);
 }
 
-body { margin: 0; background: #000; color: white; overflow: hidden; font-family: 'Arial', sans-serif; }
-
-#starChart { display: block; }
-
-/* Warframe Side Panel */
-.side-panel {
-    position: fixed; top: 0; left: 0; width: 350px; height: 100%;
-    background: linear-gradient(90deg, var(--bg-dark), transparent);
-    padding: 30px; display: flex; flex-direction: column; gap: 20px;
-    border-right: 1px solid rgba(100, 223, 255, 0.2);
-    z-index: 100; pointer-events: all;
+body, html {
+    margin: 0;
+    padding: 0;
+    background: var(--obsidian);
+    color: var(--ghost-white);
+    font-family: 'Geist Mono', monospace; /* Ensure you have a mono font */
+    overflow: hidden;
 }
 
-.hi-container {
-    position: fixed; padding: 10px; background: var(--bg-dark);
-    border: 1px solid var(--accent); pointer-events: none; opacity: 0;
-    transition: opacity 0.2s; z-index: 1000;
-}
-.hi-container.show { opacity: 1; }
-
-.tier-card {
-    background: rgba(255,255,255,0.05); margin-bottom: 10px; padding: 10px;
-    border-left: 3px solid var(--accent);
+.hud-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('assets/background.jfif') center/cover no-repeat;
 }
 
-.ach-pill {
-    font-size: 11px; background: rgba(100, 223, 255, 0.1);
-    padding: 4px 8px; margin: 2px; border-radius: 4px; display: inline-block;
-    cursor: pointer; border: 1px solid transparent;
+.scanlines {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), 
+                linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+    background-size: 100% 4px, 3px 100%;
+    pointer-events: none;
+    z-index: 10;
 }
-.ach-pill:hover { border-color: var(--accent); }
 
-.hidden { display: none; }
-.modal { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: var(--bg-dark); padding: 20px; border: 1px solid var(--accent); z-index: 200; }
+.viewport {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    transform-style: preserve-3d;
+    transform: rotateX(45deg); /* The Isometric Tilt */
+    transition: transform 0.1s ease-out;
+}
+
+.orbits-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.zenith {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.core-img {
+    width: 60px;
+    filter: drop-shadow(var(--glow));
+}
+
+.artifact {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+}
+
+.artifact img {
+    width: 100%;
+    transition: transform 0.3s, filter 0.3s;
+    filter: grayscale(1) brightness(0.7);
+}
+
+.artifact:hover img {
+    filter: grayscale(0) brightness(1) drop-shadow(var(--glow));
+    transform: scale(1.2);
+}
+
+.hover-glow {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 70px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.artifact:hover .hover-glow {
+    opacity: 1;
+}
+
+.ui-overlay {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    padding-left: 15px;
+}
+
+.label { font-size: 10px; color: rgba(255,255,255,0.4); display: block; }
+.value { font-size: 14px; letter-spacing: 2px; }
