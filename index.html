@@ -7,23 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="hud-container">
+    <div class="hud-container" id="hud">
         <div class="scanlines"></div>
 
         <div class="viewport" id="viewport">
             <svg class="orbits-svg" id="orbits-svg" viewBox="0 0 800 800"></svg>
             
             <div class="zenith">
-                <img src="assets/center.png" alt="Zenith" onerror="this.style.display='none'">
-                <div class="zenith-fallback"></div>
+                <img src="assets/center.png" alt="Center" class="core-img">
             </div>
 
-            </div>
+            <div id="artifacts-layer"></div>
+        </div>
 
         <div class="ui-overlay">
             <div class="status-box">
-                <span class="label">SYSTEM STATUS</span>
-                <span class="value">LINK_ESTABLISHED</span>
+                <span class="label">SYSTEM STATUS:</span>
+                <span class="value">ZENITH_ACTIVE</span>
             </div>
         </div>
     </div>
