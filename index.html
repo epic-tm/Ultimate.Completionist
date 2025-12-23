@@ -2,23 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mastery Engine | Star Chart</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="star-chart-container">
-        <div id="penacony-hub">
-            <img src="assets/World_Penacony.webp" alt="Penacony" class="center-piece">
-            <img src="assets/pulse.png" alt="Core Pulse" class="pulse-ring">
-        </div>
+    <canvas id="starChart"></canvas>
 
-        <div id="nodes-layer"></div>
+    <div id="hoverInfo" class="hi-container" aria-hidden="true">
+        <div class="hi-title"></div>
+        <div class="hi-resources"></div>
     </div>
 
-    <div id="ui-layer">
-        <h1 id="node-title">STAR CHART</h1>
-        <p id="node-status">SYSTEM READY. SELECT SECTOR.</p>
+    <div id="sidePanel" class="side-panel">
+        <div id="sideTitle" class="side-title">STAR CHART</div>
+        <div id="planetSummary">
+            <h1 id="planetName">SELECT SECTOR</h1>
+            <p id="planetMeta"></p>
+        </div>
+        <div id="tiersSection" class="section hidden">
+            <h3>PROGRESSION TIERS</h3>
+            <div id="tiersList"></div>
+        </div>
+        <div id="junctionSection" class="section hidden">
+            <h3 id="junctionTitle">JUNCTION REQUIREMENTS</h3>
+            <div id="junctionList"></div>
+        </div>
+        <div class="nav-btns">
+            <button id="recenterBtn">RECENTER</button>
+            <button id="zoomOutBtn">EXIT SECTOR</button>
+        </div>
+    </div>
+
+    <div id="popup" class="modal"></div>
+    <div id="junctionModal" class="modal-overlay">
+        <div class="modal-content">
+            <h2 id="junctionTitle">JUNCTION</h2>
+            <div id="junctionTasks"></div>
+            <button id="junctionClose">CLOSE</button>
+        </div>
     </div>
 
     <script src="script.js"></script>
