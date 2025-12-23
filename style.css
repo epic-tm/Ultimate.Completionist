@@ -1,98 +1,117 @@
-const artifactsData = [
-    { id: 1, name: "Physical", radius: 130 },
-    { id: 2, name: "Cognitive", radius: 175 },
-    { id: 3, name: "Social", radius: 220 },
-    { id: 4, name: "Technical", radius: 265 },
-    { id: 5, name: "Creative", radius: 310 },
-    { id: 6, name: "Financial", radius: 355 },
-    { id: 7, name: "Spiritual", radius: 400 },
-];
-
-const viewport = document.getElementById('viewport');
-const orbitsSvg = document.getElementById('orbits-svg');
-const hoverSfx = document.getElementById('hover-sound');
-const artifactsLayer = document.getElementById('artifacts-layer');
-
-function initMap() {
-    // Clear previous elements if re-running
-    orbitsSvg.innerHTML = '';
-    
-    artifactsData.forEach((data, index) => {
-        // 1. Precise SVG Ring
-        const ring = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-        ring.setAttribute("cx", "400");
-        ring.setAttribute("cy", "400");
-        ring.setAttribute("r", data.radius);
-        ring.setAttribute("fill", "none");
-        ring.setAttribute("stroke", "rgba(255,255,255,0.15)");
-        ring.setAttribute("stroke-width", "0.8");
-        orbitsSvg.appendChild(ring);
-
-        // 2. Trigonometry for Placement (0 to 360 degrees)
-        const angle = (index * (360 / artifactsData.length)) * (Math.PI / 180);
-        const x = 400 + data.radius * Math.cos(angle);
-        const y = 400 + data.radius * Math.sin(angle);
-
-        const node = document.createElement('div');
-        node.className = 'artifact';
-        
-        // Centering Trick: Use transform translate to ensure the image 
-        // center sits exactly on the coordinate.
-        node.style.left = `${x}px`;
-        node.style.top = `${y}px`;
-        node.style.transform = `translate(-50%, -50%)`;
-
-        node.innerHTML = `
-            <img src="assets/hover.png" class="hover-bg">
-            <img src="assets/World_Penacony.webp" class="artifact-icon" alt="${data.name}">
-        `;
-
-        // Interaction
-        node.addEventListener('mouseenter', () => {
-            if(hoverSfx) {
-                hoverSfx.currentTime = 0;
-                hoverSfx.play().catch(() => {}); // Catch browser autoplay blocks
-            }
-        });
-
-        viewport.appendChild(node);
-    });
+:root {
+    --obsidian: #050505;
+    --ghost-white: #ffffff;
+    --glow: 0 0 15px rgba(255, 255, 255, 0.5);
 }
 
-// Parallax (Flattened - only subtle X/Y shift, no rotation)
-document.addEventListener('mousemove', (e) => {
-    const moveX = (window.innerWidth / 2 - e.pageX) / 60;
-    const moveY = (window.innerHeight / 2 - e.pageY) / 60;
-    
-    // Subtly shift the whole map instead of rotating it
-    viewport.style.left = `${moveX}px`;
-    viewport.style.top = `${moveY}px`;
-});
+* { box-sizing: border-box; }
 
-initMap();
-/* Add this to your existing CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: var(--obsidian); /* Prevents white screen */
+    color: var(--ghost-white);
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
 
-.artifact-label {
+.hud-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #050505 url('assets/background.jfif') center/cover no-repeat;
+}
+
+.viewport {
+    position: relative;
+    width: 800px;
+    height: 800px;
+}
+
+.orbits-svg {
     position: absolute;
-    bottom: -20px;
-    font-size: 10px;
-    letter-spacing: 2px;
-    color: rgba(255, 255, 255, 0.5);
-    text-transform: uppercase;
-    white-space: nowrap;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.zenith {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 60px;
+    height: 60px;
+}
+
+.zenith img { width: 100%; filter: drop-shadow(0 0 10px white); }
+
+/* If image is missing, show this */
+.zenith-fallback {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: var(--glow);
+}
+
+.artifact {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artifact-icon {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1) brightness(0.5);
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+.hover-bg {
+    position: absolute;
+    width: 150%;
+    height: 150%;
     opacity: 0;
     transition: opacity 0.3s ease;
-    pointer-events: none;
+    z-index: 1;
 }
 
-.artifact:hover .artifact-label {
+.artifact:hover .artifact-icon {
+    filter: grayscale(0) brightness(1.2) drop-shadow(0 0 10px white);
+    transform: scale(1.1);
+}
+
+.artifact:hover .hover-bg {
     opacity: 1;
-    color: white;
-    text-shadow: 0 0 10px white;
 }
 
-/* Ensure the Zenith stays above rings but below hover effects */
-.zenith {
-    z-index: 10;
+.scanlines {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.2) 50%);
+    background-size: 100% 4px;
     pointer-events: none;
+    z-index: 100;
+}
+
+.ui-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border-left: 2px solid white;
+    padding-left: 10px;
 }
