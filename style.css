@@ -1,117 +1,72 @@
-:root {
-    --obsidian: #050505;
-    --ghost-white: rgba(255, 255, 255, 0.9);
-    --glow-strength: drop-shadow(0 0 10px rgba(255, 255, 255, 0.6));
+const artifactsData = [
+    { id: 1, name: "Physical", radius: 130 },
+    { id: 2, name: "Cognitive", radius: 175 },
+    { id: 3, name: "Social", radius: 220 },
+    { id: 4, name: "Technical", radius: 265 },
+    { id: 5, name: "Creative", radius: 310 },
+    { id: 6, name: "Financial", radius: 355 },
+    { id: 7, name: "Spiritual", radius: 400 },
+];
+
+const viewport = document.getElementById('viewport');
+const orbitsSvg = document.getElementById('orbits-svg');
+const hoverSfx = document.getElementById('hover-sound');
+const artifactsLayer = document.getElementById('artifacts-layer');
+
+function initMap() {
+    // Clear previous elements if re-running
+    orbitsSvg.innerHTML = '';
+    
+    artifactsData.forEach((data, index) => {
+        // 1. Precise SVG Ring
+        const ring = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+        ring.setAttribute("cx", "400");
+        ring.setAttribute("cy", "400");
+        ring.setAttribute("r", data.radius);
+        ring.setAttribute("fill", "none");
+        ring.setAttribute("stroke", "rgba(255,255,255,0.15)");
+        ring.setAttribute("stroke-width", "0.8");
+        orbitsSvg.appendChild(ring);
+
+        // 2. Trigonometry for Placement (0 to 360 degrees)
+        const angle = (index * (360 / artifactsData.length)) * (Math.PI / 180);
+        const x = 400 + data.radius * Math.cos(angle);
+        const y = 400 + data.radius * Math.sin(angle);
+
+        const node = document.createElement('div');
+        node.className = 'artifact';
+        
+        // Centering Trick: Use transform translate to ensure the image 
+        // center sits exactly on the coordinate.
+        node.style.left = `${x}px`;
+        node.style.top = `${y}px`;
+        node.style.transform = `translate(-50%, -50%)`;
+
+        node.innerHTML = `
+            <img src="assets/hover.png" class="hover-bg">
+            <img src="assets/World_Penacony.webp" class="artifact-icon" alt="${data.name}">
+        `;
+
+        // Interaction
+        node.addEventListener('mouseenter', () => {
+            if(hoverSfx) {
+                hoverSfx.currentTime = 0;
+                hoverSfx.play().catch(() => {}); // Catch browser autoplay blocks
+            }
+        });
+
+        viewport.appendChild(node);
+    });
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    background: var(--obsidian);
-    font-family: 'Geist Mono', monospace;
-    overflow: hidden;
-    height: 100vh;
-    width: 100vw;
-}
+// Parallax (Flattened - only subtle X/Y shift, no rotation)
+document.addEventListener('mousemove', (e) => {
+    const moveX = (window.innerWidth / 2 - e.pageX) / 60;
+    const moveY = (window.innerHeight / 2 - e.pageY) / 60;
+    
+    // Subtly shift the whole map instead of rotating it
+    viewport.style.left = `${moveX}px`;
+    viewport.style.top = `${moveY}px`;
+});
 
-.hud-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url('assets/background.jfif') center/cover no-repeat;
-}
-
-/* Perfect alignment for the map container */
-.viewport {
-    position: relative;
-    width: 800px;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.orbits-svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-}
-
-.zenith {
-    position: absolute;
-    z-index: 5;
-    width: 80px;
-    height: 80px;
-}
-
-.zenith img {
-    width: 100%;
-    filter: var(--glow-strength);
-}
-
-.artifact {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-/* The actual planet/icon */
-.artifact-icon {
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    filter: grayscale(1) brightness(0.5);
-    transition: filter 0.3s ease;
-}
-
-/* The hover.png background glow */
-.hover-bg {
-    position: absolute;
-    width: 140%; /* Slightly larger than the icon */
-    height: 140%;
-    z-index: 1;
-    opacity: 0;
-    transform: scale(0.8);
-    transition: all 0.3s ease;
-    pointer-events: none;
-}
-
-.artifact:hover {
-    transform: scale(1.1);
-}
-
-.artifact:hover .artifact-icon {
-    filter: grayscale(0) brightness(1.2) var(--glow-strength);
-}
-
-.artifact:hover .hover-bg {
-    opacity: 1;
-    transform: scale(1);
-    animation: pulse 2s infinite ease-in-out;
-}
-
-@keyframes pulse {
-    0% { opacity: 0.6; }
-    50% { opacity: 1; }
-    100% { opacity: 0.6; }
-}
-
-.scanlines {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%);
-    background-size: 100% 4px;
-    pointer-events: none;
-    z-index: 20;
-}
+initMap();
