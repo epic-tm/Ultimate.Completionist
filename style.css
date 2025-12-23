@@ -1,44 +1,50 @@
 :root {
     --obsidian: #050505;
-    --ghost-white: #ffffff;
-    --glow: 0 0 15px rgba(255, 255, 255, 0.5);
+    --ghost-white: rgba(255, 255, 255, 0.9);
+    --glow: 0 0 15px rgba(255, 255, 255, 0.4);
 }
-
-* { box-sizing: border-box; }
 
 body, html {
     margin: 0;
     padding: 0;
-    background-color: var(--obsidian); /* Prevents white screen */
+    background: var(--obsidian);
     color: var(--ghost-white);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Geist Mono', monospace; /* Ensure you have a mono font */
     overflow: hidden;
-    height: 100vh;
-    width: 100vw;
 }
 
 .hud-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #050505 url('assets/background.jfif') center/cover no-repeat;
+    background: url('assets/background.jfif') center/cover no-repeat;
+}
+
+.scanlines {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), 
+                linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+    background-size: 100% 4px, 3px 100%;
+    pointer-events: none;
+    z-index: 10;
 }
 
 .viewport {
     position: relative;
     width: 800px;
     height: 800px;
+    transform-style: preserve-3d;
+    transform: rotateX(45deg); /* The Isometric Tilt */
+    transition: transform 0.1s ease-out;
 }
 
 .orbits-svg {
     position: absolute;
-    inset: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
 }
 
 .zenith {
@@ -46,20 +52,11 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 10;
-    width: 60px;
-    height: 60px;
 }
 
-.zenith img { width: 100%; filter: drop-shadow(0 0 10px white); }
-
-/* If image is missing, show this */
-.zenith-fallback {
-    width: 10px;
-    height: 10px;
-    background: white;
-    border-radius: 50%;
-    box-shadow: var(--glow);
+.core-img {
+    width: 60px;
+    filter: drop-shadow(var(--glow));
 }
 
 .artifact {
@@ -67,51 +64,41 @@ body, html {
     width: 50px;
     height: 50px;
     cursor: pointer;
-    z-index: 5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    transform-style: preserve-3d;
 }
 
-.artifact-icon {
+.artifact img {
     width: 100%;
-    height: 100%;
-    filter: grayscale(1) brightness(0.5);
-    transition: all 0.3s ease;
-    z-index: 2;
+    transition: transform 0.3s, filter 0.3s;
+    filter: grayscale(1) brightness(0.7);
 }
 
-.hover-bg {
+.artifact:hover img {
+    filter: grayscale(0) brightness(1) drop-shadow(var(--glow));
+    transform: scale(1.2);
+}
+
+.hover-glow {
     position: absolute;
-    width: 150%;
-    height: 150%;
+    top: -10px;
+    left: -10px;
+    width: 70px;
     opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: 1;
-}
-
-.artifact:hover .artifact-icon {
-    filter: grayscale(0) brightness(1.2) drop-shadow(0 0 10px white);
-    transform: scale(1.1);
-}
-
-.artifact:hover .hover-bg {
-    opacity: 1;
-}
-
-.scanlines {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.2) 50%);
-    background-size: 100% 4px;
     pointer-events: none;
-    z-index: 100;
+    transition: opacity 0.3s;
+}
+
+.artifact:hover .hover-glow {
+    opacity: 1;
 }
 
 .ui-overlay {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
-    border-left: 2px solid white;
-    padding-left: 10px;
+    bottom: 40px;
+    left: 40px;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    padding-left: 15px;
 }
+
+.label { font-size: 10px; color: rgba(255,255,255,0.4); display: block; }
+.value { font-size: 14px; letter-spacing: 2px; }
