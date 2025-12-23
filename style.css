@@ -1,31 +1,69 @@
-body {
+body, html {
     margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url('assets/background.jfif') no-repeat center center fixed;
+    background-size: cover;
     overflow: hidden;
-    background-color: #020205;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
 }
 
-#ui-overlay {
+#star-chart-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Penacony Hub Styling */
+.center-piece {
+    width: 500px;
+    filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.2));
+    z-index: 5;
+    animation: float 6s ease-in-out infinite;
+}
+
+.pulse-ring {
     position: absolute;
-    top: 5%;
-    left: 5%;
-    color: white;
-    pointer-events: none; /* Let clicks pass through to 3D */
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    opacity: 0.3;
+    animation: pulse-grow 4s linear infinite;
 }
 
-h1 {
-    font-size: 3rem;
-    margin: 0;
-    letter-spacing: 5px;
-    font-weight: 200;
+/* Domain Nodes */
+.node {
+    position: absolute;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 10;
 }
 
-p {
-    opacity: 0.6;
-    letter-spacing: 2px;
+.node img {
+    width: 80px; /* Adjust based on node.png size */
+    filter: brightness(0.8) cyan(100%);
 }
 
-canvas {
-    display: block;
+.node:hover {
+    transform: scale(1.2);
+}
+
+.node:hover img {
+    filter: brightness(1.2) drop-shadow(0 0 15px cyan);
+}
+
+/* Animations */
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes pulse-grow {
+    0% { transform: translate(-50%, -50%) scale(0.8); opacity: 0; }
+    50% { opacity: 0.4; }
+    100% { transform: translate(-50%, -50%) scale(1.2); opacity: 0; }
 }
