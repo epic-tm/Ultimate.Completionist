@@ -2,46 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Mastery Engine | Star Chart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Completionist Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <canvas id="starChart"></canvas>
+    <div class="hud-container" id="hud">
+        <div class="scanlines"></div>
 
-    <div id="hoverInfo" class="hi-container" aria-hidden="true">
-        <div class="hi-title"></div>
-        <div class="hi-resources"></div>
-    </div>
+        <div class="viewport" id="viewport">
+            <svg class="orbits-svg" id="orbits-svg" viewBox="0 0 800 800"></svg>
+            
+            <div class="zenith">
+                <img src="assets/center.png" alt="Center" class="core-img">
+            </div>
 
-    <div id="sidePanel" class="side-panel">
-        <div id="sideTitle" class="side-title">STAR CHART</div>
-        <div id="planetSummary">
-            <h1 id="planetName">SELECT SECTOR</h1>
-            <p id="planetMeta"></p>
+            <div id="artifacts-layer"></div>
         </div>
-        <div id="tiersSection" class="section hidden">
-            <h3>PROGRESSION TIERS</h3>
-            <div id="tiersList"></div>
-        </div>
-        <div id="junctionSection" class="section hidden">
-            <h3 id="junctionTitle">JUNCTION REQUIREMENTS</h3>
-            <div id="junctionList"></div>
-        </div>
-        <div class="nav-btns">
-            <button id="recenterBtn">RECENTER</button>
-            <button id="zoomOutBtn">EXIT SECTOR</button>
+
+        <div class="ui-overlay">
+            <div class="status-box">
+                <span class="label">SYSTEM STATUS:</span>
+                <span class="value">ZENITH_ACTIVE</span>
+            </div>
         </div>
     </div>
 
-    <div id="popup" class="modal"></div>
-    <div id="junctionModal" class="modal-overlay">
-        <div class="modal-content">
-            <h2 id="junctionTitle">JUNCTION</h2>
-            <div id="junctionTasks"></div>
-            <button id="junctionClose">CLOSE</button>
-        </div>
-    </div>
-
+    <audio id="hover-sound" src="assets/hover.mp3"></audio>
     <script src="script.js"></script>
 </body>
 </html>
