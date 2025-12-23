@@ -1,7 +1,7 @@
 :root {
     --obsidian: #050505;
     --ghost-white: #ffffff;
-    --glow: 0 0 15px rgba(255, 255, 255, 0.5);
+    --glow: drop-shadow(0 0 8px rgba(255, 255, 255, 0.7));
 }
 
 * { box-sizing: border-box; }
@@ -9,9 +9,9 @@
 body, html {
     margin: 0;
     padding: 0;
-    background-color: var(--obsidian); /* Prevents white screen */
+    background-color: var(--obsidian);
     color: var(--ghost-white);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace; /* High-tech terminal feel */
     overflow: hidden;
     height: 100vh;
     width: 100vw;
@@ -31,6 +31,9 @@ body, html {
     position: relative;
     width: 800px;
     height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .orbits-svg {
@@ -39,6 +42,7 @@ body, html {
     width: 100%;
     height: 100%;
     z-index: 1;
+    pointer-events: none;
 }
 
 .zenith {
@@ -46,63 +50,65 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 28px; /* Shrunken to look high-tech */
+    height: 28px;
     z-index: 10;
-    width: 60px;
-    height: 60px;
 }
 
-.zenith img { width: 100%; filter: drop-shadow(0 0 10px white); }
-
-/* If image is missing, show this */
-.zenith-fallback {
-    width: 10px;
-    height: 10px;
-    background: white;
-    border-radius: 50%;
-    box-shadow: var(--glow);
+.zenith img {
+    width: 100%;
+    height: 100%;
+    filter: var(--glow);
 }
 
 .artifact {
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     cursor: pointer;
     z-index: 5;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s cubic-bezier(0.2, 0, 0.2, 1);
 }
 
 .artifact-icon {
     width: 100%;
     height: 100%;
-    filter: grayscale(1) brightness(0.5);
-    transition: all 0.3s ease;
+    filter: grayscale(1) brightness(0.4) opacity(0.8);
+    transition: all 0.4s ease;
     z-index: 2;
 }
 
 .hover-bg {
     position: absolute;
-    width: 150%;
-    height: 150%;
+    width: 160%;
+    height: 160%;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transform: scale(0.7);
+    transition: all 0.3s ease;
     z-index: 1;
+    pointer-events: none;
+}
+
+.artifact:hover {
+    transform: translate(-50%, -50%) scale(1.15); /* Keep centering while scaling */
 }
 
 .artifact:hover .artifact-icon {
-    filter: grayscale(0) brightness(1.2) drop-shadow(0 0 10px white);
-    transform: scale(1.1);
+    filter: grayscale(0) brightness(1.1) var(--glow);
 }
 
 .artifact:hover .hover-bg {
     opacity: 1;
+    transform: scale(1);
 }
 
 .scanlines {
     position: absolute;
     inset: 0;
-    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.2) 50%);
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.15) 50%);
     background-size: 100% 4px;
     pointer-events: none;
     z-index: 100;
@@ -110,8 +116,11 @@ body, html {
 
 .ui-overlay {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
-    border-left: 2px solid white;
-    padding-left: 10px;
+    bottom: 30px;
+    left: 30px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 12px;
 }
+
+.label { font-size: 9px; color: rgba(255,255,255,0.4); display: block; letter-spacing: 1px; }
+.value { font-size: 12px; font-weight: bold; letter-spacing: 2px; }
