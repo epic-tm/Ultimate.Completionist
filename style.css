@@ -70,3 +70,29 @@ document.addEventListener('mousemove', (e) => {
 });
 
 initMap();
+/* Add this to your existing CSS */
+
+.artifact-label {
+    position: absolute;
+    bottom: -20px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.artifact:hover .artifact-label {
+    opacity: 1;
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+
+/* Ensure the Zenith stays above rings but below hover effects */
+.zenith {
+    z-index: 10;
+    pointer-events: none;
+}
