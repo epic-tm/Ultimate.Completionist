@@ -1,58 +1,48 @@
 const artifactsData = [
-    { id: 1, name: "Physical", radius: 150 },
-    { id: 2, name: "Cognitive", radius: 180 },
-    { id: 3, name: "Social", radius: 210 },
-    { id: 4, name: "Technical", radius: 240 },
-    { id: 5, name: "Creative", radius: 270 },
-    { id: 6, name: "Financial", radius: 300 },
-    { id: 7, name: "Spiritual", radius: 330 },
+    { name: "Physical", r: 120 },
+    { name: "Cognitive", r: 160 },
+    { name: "Social", r: 200 },
+    { name: "Technical", r: 240 },
+    { name: "Creative", r: 280 },
+    { name: "Financial", r: 320 },
+    { name: "Spiritual", r: 360 },
 ];
 
-const viewport = document.getElementById('viewport');
-const orbitsSvg = document.getElementById('orbits-svg');
-const hoverSfx = document.getElementById('hover-sound');
-
-function initMap() {
-    orbitsSvg.innerHTML = '';
+function init() {
+    const viewport = document.getElementById('viewport');
+    const svg = document.getElementById('orbits-svg');
     const total = artifactsData.length;
 
-    artifactsData.forEach((data, index) => {
-        // 1. Create the Orbital Ring
-        const ring = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-        ring.setAttribute("cx", "400");
-        ring.setAttribute("cy", "400");
-        ring.setAttribute("r", data.radius);
-        ring.setAttribute("fill", "none");
-        ring.setAttribute("stroke", "rgba(255, 255, 255, 0.1)");
-        ring.setAttribute("stroke-width", "0.5");
-        orbitsSvg.appendChild(ring);
+    artifactsData.forEach((data, i) => {
+        // Draw Ring
+        const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+        circle.setAttribute("cx", "400");
+        circle.setAttribute("cy", "400");
+        circle.setAttribute("r", data.r);
+        circle.setAttribute("fill", "none");
+        circle.setAttribute("stroke", "rgba(255,255,255,0.1)");
+        circle.setAttribute("stroke-width", "1");
+        svg.appendChild(circle);
 
-        // 2. EQUAL SPREAD LOGIC
-        // Dividing 360 degrees (2 * PI) by the number of artifacts
-        const angle = (index * (2 * Math.PI / total)) - (Math.PI / 2); // -Math.PI/2 starts at the top
-        
-        const x = 400 + data.radius * Math.cos(angle);
-        const y = 400 + data.radius * Math.sin(angle);
+        // Equal Spread Math
+        const angle = (i * (2 * Math.PI / total)) - (Math.PI / 2);
+        const x = 400 + data.r * Math.cos(angle);
+        const y = 400 + data.r * Math.sin(angle);
 
-        // 3. Create Artifact Element
-        const node = document.createElement('div');
-        node.className = 'artifact';
-        node.style.left = `${x}px`;
-        node.style.top = `${y}px`;
-        node.style.transform = `translate(-50%, -50%)`;
+        // Create Artifact
+        const el = document.createElement('div');
+        el.className = 'artifact';
+        el.style.left = `${x}px`;
+        el.style.top = `${y}px`;
+        el.style.transform = `translate(-50%, -50%)`;
 
-        node.innerHTML = `
+        el.innerHTML = `
             <img src="assets/hover.png" class="hover-bg">
             <img src="assets/World_Penacony.webp" class="artifact-icon" alt="${data.name}">
-            <span class="artifact-label">${data.name}</span>
         `;
 
-        node.addEventListener('mouseenter', () => {
-            if(hoverSfx) { hoverSfx.currentTime = 0; hoverSfx.play().catch(()=>{}); }
-        });
-
-        viewport.appendChild(node);
+        viewport.appendChild(el);
     });
 }
 
-initMap();
+window.onload = init;
