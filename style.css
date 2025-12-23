@@ -1,50 +1,44 @@
 :root {
     --obsidian: #050505;
-    --ghost-white: rgba(255, 255, 255, 0.9);
-    --glow: 0 0 15px rgba(255, 255, 255, 0.4);
+    --ghost-white: #ffffff;
+    --glow: 0 0 15px rgba(255, 255, 255, 0.5);
 }
+
+* { box-sizing: border-box; }
 
 body, html {
     margin: 0;
     padding: 0;
-    background: var(--obsidian);
+    background-color: var(--obsidian); /* Prevents white screen */
     color: var(--ghost-white);
-    font-family: 'Geist Mono', monospace; /* Ensure you have a mono font */
+    font-family: 'Courier New', Courier, monospace;
     overflow: hidden;
+    height: 100vh;
+    width: 100vw;
 }
 
 .hud-container {
-    width: 100vw;
-    height: 100vh;
+    position: relative;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('assets/background.jfif') center/cover no-repeat;
-}
-
-.scanlines {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), 
-                linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
-    background-size: 100% 4px, 3px 100%;
-    pointer-events: none;
-    z-index: 10;
+    background: #050505 url('assets/background.jfif') center/cover no-repeat;
 }
 
 .viewport {
     position: relative;
     width: 800px;
     height: 800px;
-    transform-style: preserve-3d;
-    transform: rotateX(45deg); /* The Isometric Tilt */
-    transition: transform 0.1s ease-out;
 }
 
 .orbits-svg {
     position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
+    z-index: 1;
 }
 
 .zenith {
@@ -52,11 +46,20 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 60px;
+    height: 60px;
 }
 
-.core-img {
-    width: 60px;
-    filter: drop-shadow(var(--glow));
+.zenith img { width: 100%; filter: drop-shadow(0 0 10px white); }
+
+/* If image is missing, show this */
+.zenith-fallback {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: var(--glow);
 }
 
 .artifact {
@@ -64,41 +67,51 @@ body, html {
     width: 50px;
     height: 50px;
     cursor: pointer;
-    transform-style: preserve-3d;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.artifact img {
+.artifact-icon {
     width: 100%;
-    transition: transform 0.3s, filter 0.3s;
-    filter: grayscale(1) brightness(0.7);
+    height: 100%;
+    filter: grayscale(1) brightness(0.5);
+    transition: all 0.3s ease;
+    z-index: 2;
 }
 
-.artifact:hover img {
-    filter: grayscale(0) brightness(1) drop-shadow(var(--glow));
-    transform: scale(1.2);
-}
-
-.hover-glow {
+.hover-bg {
     position: absolute;
-    top: -10px;
-    left: -10px;
-    width: 70px;
+    width: 150%;
+    height: 150%;
     opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s;
+    transition: opacity 0.3s ease;
+    z-index: 1;
 }
 
-.artifact:hover .hover-glow {
+.artifact:hover .artifact-icon {
+    filter: grayscale(0) brightness(1.2) drop-shadow(0 0 10px white);
+    transform: scale(1.1);
+}
+
+.artifact:hover .hover-bg {
     opacity: 1;
+}
+
+.scanlines {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.2) 50%);
+    background-size: 100% 4px;
+    pointer-events: none;
+    z-index: 100;
 }
 
 .ui-overlay {
     position: absolute;
-    bottom: 40px;
-    left: 40px;
-    border-left: 1px solid rgba(255,255,255,0.3);
-    padding-left: 15px;
+    bottom: 20px;
+    left: 20px;
+    border-left: 2px solid white;
+    padding-left: 10px;
 }
-
-.label { font-size: 10px; color: rgba(255,255,255,0.4); display: block; }
-.value { font-size: 14px; letter-spacing: 2px; }
