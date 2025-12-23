@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mastery Engine | God's Eye</title>
+    <title>Mastery Engine | Star Chart</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="ui-overlay">
-        <h1 id="domain-name">THE GALAXY</h1>
-        <p id="domain-desc">Select an Artifact to view Roadmap</p>
+    <div id="star-chart-container">
+        <div id="penacony-hub">
+            <img src="assets/World_Penacony.webp" alt="Penacony" class="center-piece">
+            <img src="assets/pulse.png" alt="Core Pulse" class="pulse-ring">
+        </div>
+
+        <div id="nodes-layer"></div>
     </div>
-    
-    <script type="importmap">
-        {
-            "imports": {
-                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
-                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
-            }
-        }
-    </script>
-    <script type="module" src="script.js"></script>
+
+    <div id="ui-layer">
+        <h1 id="node-title">STAR CHART</h1>
+        <p id="node-status">SYSTEM READY. SELECT SECTOR.</p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
