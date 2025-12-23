@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8"/>
-<title>Ultimate Completionist</title>
-<link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastery Engine | God's Eye</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<canvas id="starChart"></canvas>
-<script src="script.js"></script>
+    <div id="ui-overlay">
+        <h1 id="domain-name">THE GALAXY</h1>
+        <p id="domain-desc">Select an Artifact to view Roadmap</p>
+    </div>
+    
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>
