@@ -1,104 +1,117 @@
 :root {
     --obsidian: #050505;
     --ghost-white: rgba(255, 255, 255, 0.9);
-    --glow: 0 0 15px rgba(255, 255, 255, 0.4);
+    --glow-strength: drop-shadow(0 0 10px rgba(255, 255, 255, 0.6));
 }
 
 body, html {
     margin: 0;
     padding: 0;
     background: var(--obsidian);
-    color: var(--ghost-white);
-    font-family: 'Geist Mono', monospace; /* Ensure you have a mono font */
+    font-family: 'Geist Mono', monospace;
     overflow: hidden;
+    height: 100vh;
+    width: 100vw;
 }
 
 .hud-container {
-    width: 100vw;
-    height: 100vh;
+    position: relative;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: url('assets/background.jfif') center/cover no-repeat;
 }
 
-.scanlines {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), 
-                linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
-    background-size: 100% 4px, 3px 100%;
-    pointer-events: none;
-    z-index: 10;
-}
-
+/* Perfect alignment for the map container */
 .viewport {
     position: relative;
     width: 800px;
     height: 800px;
-    transform-style: preserve-3d;
-    transform: rotateX(45deg); /* The Isometric Tilt */
-    transition: transform 0.1s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .orbits-svg {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    pointer-events: none;
 }
 
 .zenith {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 80px;
+    height: 80px;
 }
 
-.core-img {
-    width: 60px;
-    filter: drop-shadow(var(--glow));
+.zenith img {
+    width: 100%;
+    filter: var(--glow-strength);
 }
 
 .artifact {
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    transform-style: preserve-3d;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.artifact img {
+/* The actual planet/icon */
+.artifact-icon {
     width: 100%;
-    transition: transform 0.3s, filter 0.3s;
-    filter: grayscale(1) brightness(0.7);
+    height: 100%;
+    z-index: 2;
+    filter: grayscale(1) brightness(0.5);
+    transition: filter 0.3s ease;
 }
 
-.artifact:hover img {
-    filter: grayscale(0) brightness(1) drop-shadow(var(--glow));
-    transform: scale(1.2);
-}
-
-.hover-glow {
+/* The hover.png background glow */
+.hover-bg {
     position: absolute;
-    top: -10px;
-    left: -10px;
-    width: 70px;
+    width: 140%; /* Slightly larger than the icon */
+    height: 140%;
+    z-index: 1;
     opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.3s ease;
     pointer-events: none;
-    transition: opacity 0.3s;
 }
 
-.artifact:hover .hover-glow {
+.artifact:hover {
+    transform: scale(1.1);
+}
+
+.artifact:hover .artifact-icon {
+    filter: grayscale(0) brightness(1.2) var(--glow-strength);
+}
+
+.artifact:hover .hover-bg {
     opacity: 1;
+    transform: scale(1);
+    animation: pulse 2s infinite ease-in-out;
 }
 
-.ui-overlay {
+@keyframes pulse {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
+}
+
+.scanlines {
     position: absolute;
-    bottom: 40px;
-    left: 40px;
-    border-left: 1px solid rgba(255,255,255,0.3);
-    padding-left: 15px;
+    inset: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%);
+    background-size: 100% 4px;
+    pointer-events: none;
+    z-index: 20;
 }
-
-.label { font-size: 10px; color: rgba(255,255,255,0.4); display: block; }
-.value { font-size: 14px; letter-spacing: 2px; }
