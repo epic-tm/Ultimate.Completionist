@@ -4,110 +4,62 @@
 }
 
 body, html {
-    margin: 0; padding: 0;
+    margin: 0; 
+    padding: 0;
     background: var(--obsidian);
     overflow: hidden;
-    height: 100vh; width: 100vw;
+    height: 100vh; 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* COSMIC BACKGROUND ANIMATION */
-.cosmic-background {
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    overflow: hidden;
-    background: radial-gradient(circle at center, #0a0a0a 0%, #000 100%);
+.hud-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex; 
+    justify-content: center; /* Absolute Horizontal Center */
+    align-items: center;     /* Absolute Vertical Center */
+    background: url('assets/background.jfif') center/cover no-repeat;
 }
 
-.nebula {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(120px);
-    opacity: 0.15;
-    pointer-events: none;
-}
-
-.nebula-1 {
-    width: 80vw; height: 80vh;
-    background: radial-gradient(circle, #fff 0%, transparent 70%);
-    top: -10%; left: -10%;
-    animation: drift 30s infinite alternate linear;
-}
-
-.nebula-2 {
-    width: 60vw; height: 60vh;
-    background: radial-gradient(circle, #444 0%, transparent 70%);
-    bottom: -10%; right: -10%;
-    animation: drift 40s infinite alternate-reverse linear;
-}
-
-@keyframes drift {
-    from { transform: translate(0, 0) scale(1); }
-    to { transform: translate(150px, 100px) scale(1.1); }
-}
-
-/* SCANLINE HUD EFFECT */
-.scanline-hud {
-    position: absolute;
-    inset: 0;
-    z-index: 100;
-    pointer-events: none;
-    background: linear-gradient(
-        rgba(18, 16, 16, 0) 50%, 
-        rgba(0, 0, 0, 0.25) 50%
-    ), linear-gradient(
-        90deg, 
-        rgba(255, 0, 0, 0.02), 
-        rgba(0, 255, 0, 0.01), 
-        rgba(0, 0, 255, 0.02)
-    );
-    background-size: 100% 4px, 3px 100%;
-}
-
-/* VIEWPORT & MASSIVE CENTER */
+/* The Viewport must be relative so its children (Zenith/Artifacts) 
+   position themselves based on its center */
 .viewport {
     position: relative;
-    z-index: 10;
-    width: 1000px; height: 1000px;
-    display: flex; justify-content: center; align-items: center;
+    width: 1000px; 
+    height: 1000px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-shrink: 0; /* Prevents the map from squishing on small screens */
 }
 
+/* MASSIVE CENTER - Fixed to be dead center of the viewport */
 .zenith {
     position: absolute;
-    width: 180px; /* Massive Center */
-    height: 180px;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
+    width: 200px; /* Increased size based on your request */
+    height: 200px;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); /* This is the magic for perfect centering */
     filter: var(--white-glow);
     z-index: 20;
 }
 
 .zenith img {
-    width: 100%; height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     animation: core-breathe 6s infinite ease-in-out;
 }
 
-@keyframes core-breathe {
-    0%, 100% { transform: scale(1); opacity: 0.7; }
-    50% { transform: scale(1.1); opacity: 1; }
-}
-
-/* ARTIFACTS */
-.artifact {
-    position: absolute;
-    width: 110px; height: 110px;
-    display: flex; flex-direction: column; align-items: center;
-    cursor: pointer;
-    z-index: 30;
-}
-
-.artifact-icon {
-    width: 100%;
-    filter: grayscale(1) brightness(0.4);
-    transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.artifact:hover .artifact-icon {
-    filter: grayscale(0) brightness(1.2) var(--white-glow);
-    transform: scale(1.2);
+/* Cosmic Background Fix */
+.cosmic-background {
+    position: fixed; /* Fixed so it covers the whole screen regardless of viewport */
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
 }
