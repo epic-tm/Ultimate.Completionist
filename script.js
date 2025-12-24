@@ -1,12 +1,12 @@
-// Radii adjusted for a 600px viewport
+// Radii are now wider to use more of the screen space
 const artifactsData = [
-    { name: "Physical", r: 100 },
-    { name: "Cognitive", r: 130 },
-    { name: "Social", r: 160 },
-    { name: "Technical", r: 190 },
-    { name: "Creative", r: 220 },
-    { name: "Financial", r: 250 },
-    { name: "Spiritual", r: 280 },
+    { name: "Physical", r: 180 },
+    { name: "Cognitive", r: 230 },
+    { name: "Social", r: 280 },
+    { name: "Technical", r: 330 },
+    { name: "Creative", r: 380 },
+    { name: "Financial", r: 430 },
+    { name: "Spiritual", r: 480 },
 ];
 
 function initMap() {
@@ -16,21 +16,24 @@ function initMap() {
 
     svg.innerHTML = '';
 
+    // Center point is now 450 (half of 900px viewport)
+    const center = 450;
+
     artifactsData.forEach((data, i) => {
-        // 1. Draw Ring (Center is 300, 300 for a 600px viewport)
+        // 1. Draw Expanded Rings
         const ring = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-        ring.setAttribute("cx", "300");
-        ring.setAttribute("cy", "300");
+        ring.setAttribute("cx", center);
+        ring.setAttribute("cy", center);
         ring.setAttribute("r", data.r);
         ring.setAttribute("fill", "none");
-        ring.setAttribute("stroke", "rgba(255, 255, 255, 0.05)");
+        ring.setAttribute("stroke", "rgba(255, 255, 255, 0.04)"); // Very faint lines
         ring.setAttribute("stroke-width", "0.5");
         svg.appendChild(ring);
 
-        // 2. Equal Spread Logic
+        // 2. Spread Out Logic
         const angle = (i * (2 * Math.PI / total)) - (Math.PI / 2);
-        const x = 300 + data.r * Math.cos(angle);
-        const y = 300 + data.r * Math.sin(angle);
+        const x = center + data.r * Math.cos(angle);
+        const y = center + data.r * Math.sin(angle);
 
         const node = document.createElement('div');
         node.className = 'artifact';
@@ -47,9 +50,10 @@ function initMap() {
     });
 }
 
+// Parallax sensitivity - made smoother for the larger map
 document.addEventListener('mousemove', (e) => {
-    const moveX = (window.innerWidth / 2 - e.pageX) / 80;
-    const moveY = (window.innerHeight / 2 - e.pageY) / 80;
+    const moveX = (window.innerWidth / 2 - e.pageX) / 100;
+    const moveY = (window.innerHeight / 2 - e.pageY) / 100;
     const viewport = document.getElementById('viewport');
     viewport.style.transform = `translate(${moveX}px, ${moveY}px)`;
 });
