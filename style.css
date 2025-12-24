@@ -11,7 +11,7 @@ body, html {
     padding: 0;
     background-color: var(--obsidian);
     color: var(--ghost-white);
-    font-family: 'Courier New', Courier, monospace; /* High-tech terminal feel */
+    font-family: 'Geist Mono', 'Courier New', monospace;
     overflow: hidden;
     height: 100vh;
     width: 100vw;
@@ -29,8 +29,8 @@ body, html {
 
 .viewport {
     position: relative;
-    width: 800px;
-    height: 800px;
+    width: 600px; /* Constrained width for better focus */
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,82 +45,69 @@ body, html {
     pointer-events: none;
 }
 
+/* The Central Core */
 .zenith {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 28px; /* Shrunken to look high-tech */
-    height: 28px;
+    width: 24px; 
+    height: 24px;
     z-index: 10;
 }
 
 .zenith img {
     width: 100%;
-    height: 100%;
-    filter: var(--glow);
+    filter: drop-shadow(0 0 12px white);
 }
 
+/* The Domain Nodes */
 .artifact {
     position: absolute;
-    width: 45px;
-    height: 45px;
+    width: 42px; /* Balanced size */
+    height: 42px;
     cursor: pointer;
     z-index: 5;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 0.3s cubic-bezier(0.2, 0, 0.2, 1);
 }
 
 .artifact-icon {
     width: 100%;
     height: 100%;
-    filter: grayscale(1) brightness(0.4) opacity(0.8);
-    transition: all 0.4s ease;
+    filter: grayscale(1) brightness(0.5) opacity(0.7);
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     z-index: 2;
 }
 
 .hover-bg {
     position: absolute;
-    width: 160%;
-    height: 160%;
+    width: 180%;
+    height: 180%;
     opacity: 0;
-    transform: scale(0.7);
-    transition: all 0.3s ease;
+    transform: scale(0.5);
+    transition: all 0.4s ease;
     z-index: 1;
     pointer-events: none;
 }
 
-.artifact:hover {
-    transform: translate(-50%, -50%) scale(1.15); /* Keep centering while scaling */
-}
-
+/* Hover States */
 .artifact:hover .artifact-icon {
-    filter: grayscale(0) brightness(1.1) var(--glow);
+    filter: grayscale(0) brightness(1.2) var(--glow);
+    transform: scale(1.1);
 }
 
 .artifact:hover .hover-bg {
-    opacity: 1;
+    opacity: 0.8;
     transform: scale(1);
 }
 
 .scanlines {
     position: absolute;
     inset: 0;
-    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.15) 50%);
-    background-size: 100% 4px;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%);
+    background-size: 100% 2px;
     pointer-events: none;
     z-index: 100;
 }
-
-.ui-overlay {
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    border-left: 1px solid rgba(255, 255, 255, 0.3);
-    padding-left: 12px;
-}
-
-.label { font-size: 9px; color: rgba(255,255,255,0.4); display: block; letter-spacing: 1px; }
-.value { font-size: 12px; font-weight: bold; letter-spacing: 2px; }
