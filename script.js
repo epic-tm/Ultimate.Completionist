@@ -1,39 +1,35 @@
-// Radii are now wider to use more of the screen space
-const artifactsData = [
-    { name: "Physical", r: 180 },
-    { name: "Cognitive", r: 230 },
-    { name: "Social", r: 280 },
-    { name: "Technical", r: 330 },
-    { name: "Creative", r: 380 },
-    { name: "Financial", r: 430 },
-    { name: "Spiritual", r: 480 },
+const artifacts = [
+    "Physical", "Cognitive", "Social", "Technical", 
+    "Creative", "Financial", "Spiritual"
 ];
 
 function initMap() {
     const viewport = document.getElementById('viewport');
     const svg = document.getElementById('orbits-svg');
-    const total = artifactsData.length;
+    const hoverSfx = document.getElementById('hover-sound');
+    
+    // Configuration
+    const center = 400; // Center of our 800px viewport
+    const orbitRadius = 280; // All artifacts sit on this one line
+    const total = artifacts.length;
 
     svg.innerHTML = '';
 
-    // Center point is now 450 (half of 900px viewport)
-    const center = 450;
+    // 1. Draw the single shared orbital ring
+    const ring = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    ring.setAttribute("cx", center);
+    ring.setAttribute("cy", center);
+    ring.setAttribute("r", orbitRadius);
+    ring.setAttribute("fill", "none");
+    ring.setAttribute("stroke", "rgba(255, 255, 255, 0.1)");
+    ring.setAttribute("stroke-width", "1");
+    svg.appendChild(ring);
 
-    artifactsData.forEach((data, i) => {
-        // 1. Draw Expanded Rings
-        const ring = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-        ring.setAttribute("cx", center);
-        ring.setAttribute("cy", center);
-        ring.setAttribute("r", data.r);
-        ring.setAttribute("fill", "none");
-        ring.setAttribute("stroke", "rgba(255, 255, 255, 0.04)"); // Very faint lines
-        ring.setAttribute("stroke-width", "0.5");
-        svg.appendChild(ring);
-
-        // 2. Spread Out Logic
+    // 2. Distribute all 7 artifacts on that one ring
+    artifacts.forEach((name, i) => {
         const angle = (i * (2 * Math.PI / total)) - (Math.PI / 2);
-        const x = center + data.r * Math.cos(angle);
-        const y = center + data.r * Math.sin(angle);
+        const x = center + orbitRadius * Math.cos(angle);
+        const y = center + orbitRadius * Math.sin(angle);
 
         const node = document.createElement('div');
         node.className = 'artifact';
@@ -43,17 +39,22 @@ function initMap() {
 
         node.innerHTML = `
             <img src="assets/hover.png" class="hover-bg">
-            <img src="assets/World_Penacony.webp" class="artifact-icon" alt="${data.name}">
+            <img src="assets/World_Penacony.webp" class="artifact-icon" alt="${name}">
         `;
+
+        // Sound trigger
+        node.addEventListener('mouseenter', () => {
+            if(hoverSfx) { hoverSfx.currentTime = 0; hoverSfx.play().catch(()=>{}); }
+        });
 
         viewport.appendChild(node);
     });
 }
 
-// Parallax sensitivity - made smoother for the larger map
+// Very subtle parallax to keep it feeling high-end without being dizzying
 document.addEventListener('mousemove', (e) => {
-    const moveX = (window.innerWidth / 2 - e.pageX) / 100;
-    const moveY = (window.innerHeight / 2 - e.pageY) / 100;
+    const moveX = (window.innerWidth / 2 - e.pageX) / 80;
+    const moveY = (window.innerHeight / 2 - e.pageY) / 80;
     const viewport = document.getElementById('viewport');
     viewport.style.transform = `translate(${moveX}px, ${moveY}px)`;
 });
