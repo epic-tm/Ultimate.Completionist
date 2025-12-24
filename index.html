@@ -2,24 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Zenith Star Chart | Ultimate Dashboard</title>
+    <title>Zenith Star Chart</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="hud-container">
-        <div class="cosmic-background">
-            <div class="nebula nebula-1"></div>
-            <div class="nebula nebula-2"></div>
-            <div class="stars"></div>
-        </div>
-
-        <div class="scanline-hud"></div>
+        <div class="cosmic-nebula"></div>
+        <div class="scanlines"></div>
 
         <div class="viewport" id="viewport">
-            <svg class="orbits-svg" id="orbits-svg" viewBox="0 0 1000 1000"></svg>
+            <svg class="orbits-svg" id="orbits-svg" viewBox="0 0 1000 1000" style="position:absolute; inset:0;"></svg>
             
-            <div class="zenith" id="zenith">
-                <img src="assets/center.png" alt="Core">
+            <div class="zenith">
+                <img src="assets/center.png" alt="Zenith Core">
             </div>
         </div>
     </div>
