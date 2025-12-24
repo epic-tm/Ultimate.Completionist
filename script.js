@@ -2,118 +2,123 @@ window.addEventListener('DOMContentLoaded', () => {
     const domains = ["Physical", "Cognitive", "Social", "Technical", "Creative", "Financial", "Spiritual"];
     const viewport = document.getElementById('viewport');
     const svg = document.getElementById('orbits-svg');
-    const warpCanvas = document.getElementById('warp-canvas');
-    const meteorCanvas = document.createElement('canvas'); // We'll add this to the UI
+    const canvas = document.getElementById('warp-canvas');
     const mainUI = document.getElementById('main-ui');
+    const ctx = canvas.getContext('2d');
 
-    // Setup Meteor Canvas
-    meteorCanvas.id = "meteor-canvas";
-    mainUI.prepend(meteorCanvas);
-    const mctx = meteorCanvas.getContext('2d');
-    const wctx = warpCanvas.getContext('2d');
-
-    let stars = [], meteors = [];
+    // --- HYPERSPACE WARP ---
+    let stars = [];
+    let speed = 0.2;
     let warping = true;
     let startTime = Date.now();
 
     function resize() {
-        warpCanvas.width = meteorCanvas.width = window.innerWidth;
-        warpCanvas.height = meteorCanvas.height = window.innerHeight;
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
     }
     window.addEventListener('resize', resize);
     resize();
 
-    // Init Stars & Meteors
-    for (let i = 0; i < 800; i++) stars.push({ x: Math.random() * warpCanvas.width - warpCanvas.width/2, y: Math.random() * warpCanvas.height - warpCanvas.height/2, z: Math.random() * warpCanvas.width });
-    for (let i = 0; i < 15; i++) meteors.push({ x: Math.random() * -500, y: Math.random() * window.innerHeight, speed: 2 + Math.random() * 5, len: 50 + Math.random() * 100 });
+    for (let i = 0; i < 600; i++) {
+        stars.push({ x: Math.random() * canvas.width - canvas.width / 2, y: Math.random() * canvas.height - canvas.height / 2, z: Math.random() * canvas.width });
+    }
 
-    // 1. HYPERSPACE ENGINE
     function drawWarp() {
         if (!warping) return;
         const elapsed = (Date.now() - startTime) / 1000;
-        let warpSpeed = elapsed > 1.5 ? (elapsed - 1.5) * 15 : 0.5;
-
-        wctx.fillStyle = "black";
-        wctx.fillRect(0, 0, warpCanvas.width, warpCanvas.height);
+        ctx.fillStyle = "black";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.translate(canvas.width / 2, canvas.height / 2);
         
-        // Add a monochromatic glow core
-        let grad = wctx.createRadialGradient(warpCanvas.width/2, warpCanvas.height/2, 0, warpCanvas.width/2, warpCanvas.height/2, 400);
-        grad.addColorStop(0, "rgba(255,255,255,0.05)");
-        grad.addColorStop(1, "transparent");
-        wctx.fillStyle = grad;
-        wctx.fillRect(0,0, warpCanvas.width, warpCanvas.height);
+        if (elapsed > 1.5) speed += 1.2; 
+        else speed += 0.04;
 
-        wctx.translate(warpCanvas.width/2, warpCanvas.height/2);
-        wctx.strokeStyle = "rgba(255,255,255,0.5)";
-        
         stars.forEach(s => {
-            let xPrev = s.x / (s.z / warpCanvas.width);
-            let yPrev = s.y / (s.z / warpCanvas.width);
-            s.z -= warpSpeed;
-            if (s.z <= 0) s.z = warpCanvas.width;
-            let xNext = s.x / (s.z / warpCanvas.width);
-            let yNext = s.y / (s.z / warpCanvas.width);
-            wctx.beginPath();
-            wctx.moveTo(xPrev, yPrev);
-            wctx.lineTo(xNext, yNext);
-            wctx.stroke();
+            let xPrev = s.x / (s.z / canvas.width);
+            let yPrev = s.y / (s.z / canvas.width);
+            s.z -= speed;
+            if (s.z <= 0) s.z = canvas.width;
+            let xNext = s.x / (s.z / canvas.width);
+            let yNext = s.y / (s.z / canvas.width);
+            ctx.strokeStyle = "white";
+            ctx.beginPath(); ctx.moveTo(xPrev, yPrev); ctx.lineTo(xNext, yNext); ctx.stroke();
         });
-        wctx.setTransform(1, 0, 0, 1, 0, 0);
+        ctx.setTransform(1, 0, 0, 1, 0, 0);
         requestAnimationFrame(drawWarp);
     }
 
-    // 2. METEOR SHOWER ENGINE (Left to Right)
-    function drawMeteors() {
-        mctx.clearRect(0, 0, meteorCanvas.width, meteorCanvas.height);
-        mctx.strokeStyle = "rgba(255, 255, 255, 0.15)";
-        mctx.lineWidth = 1;
-
-        meteors.forEach(m => {
-            mctx.beginPath();
-            mctx.moveTo(m.x, m.y);
-            mctx.lineTo(m.x + m.len, m.y + (m.len * 0.1)); // Slight downward angle
-            mctx.stroke();
-
-            m.x += m.speed;
-            if (m.x > meteorCanvas.width + 200) {
-                m.x = -200;
-                m.y = Math.random() * meteorCanvas.height;
-            }
-        });
-        requestAnimationFrame(drawMeteors);
-    }
-
-    // Sequence Transition
     setTimeout(() => {
-        warpCanvas.style.opacity = '0';
+        canvas.style.opacity = '0';
         mainUI.style.opacity = '1';
         mainUI.classList.add('exit-flash');
-        setTimeout(() => { warping = false; warpCanvas.remove(); }, 1000);
+        setTimeout(() => { warping = false; canvas.remove(); }, 800);
+        initEnvironment(); // Start space debris
     }, 3000);
 
     drawWarp();
-    drawMeteors();
-    initMap();
 
+    // --- ENVIRONMENT (Asteroids & Meteors) ---
+    function initEnvironment() {
+        const container = document.createElement('div');
+        container.id = 'debris-container';
+        mainUI.appendChild(container);
+
+        // Static drifting asteroids
+        for (let i = 0; i < 15; i++) {
+            const asteroid = document.createElement('div');
+            asteroid.className = 'asteroid';
+            const size = Math.random() * 5 + 2;
+            asteroid.style.width = `${size}px`;
+            asteroid.style.height = `${size}px`;
+            asteroid.style.left = `${Math.random() * 100}%`;
+            asteroid.style.top = `${Math.random() * 100}%`;
+            asteroid.style.opacity = Math.random() * 0.5;
+            container.appendChild(asteroid);
+        }
+
+        // Meteor shower loop
+        setInterval(() => {
+            const meteor = document.createElement('div');
+            meteor.className = 'meteor';
+            meteor.style.left = `${Math.random() * 120}%`;
+            meteor.style.top = `${Math.random() * -20}%`;
+            meteor.style.animation = `meteorSlide ${Math.random() * 2 + 1}s linear forwards`;
+            container.appendChild(meteor);
+            setTimeout(() => meteor.remove(), 3000);
+        }, 4000);
+    }
+
+    // --- STAR CHART ---
     function initMap() {
-        const cp = 500, rad = 390;
-        svg.innerHTML = `<circle cx="${cp}" cy="${cp}" r="${rad}" fill="none" stroke="rgba(255,255,255,0.1)" />`;
+        const centerPoint = 500;
+        const orbitRadius = 390;
+        svg.innerHTML = `<circle cx="${centerPoint}" cy="${centerPoint}" r="${orbitRadius}" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1" />`;
+
         domains.forEach((name, i) => {
             const angle = (i * (2 * Math.PI / domains.length)) - (Math.PI / 2);
-            const x = cp + rad * Math.cos(angle), y = cp + rad * Math.sin(angle);
+            const x = centerPoint + orbitRadius * Math.cos(angle);
+            const y = centerPoint + orbitRadius * Math.sin(angle);
+
             const node = document.createElement('div');
             node.className = 'artifact';
-            node.style.left = `${x}px`; node.style.top = `${y}px`;
+            node.style.left = `${x}px`;
+            node.style.top = `${y}px`;
             node.style.transform = `translate(-50%, -50%)`;
-            node.innerHTML = `<img src="assets/hover.png" class="hover-bg"><img src="assets/World_Penacony.webp" class="artifact-icon"><span class="artifact-label">${name}</span>`;
+
+            node.innerHTML = `
+                <img src="assets/hover.png" class="hover-bg">
+                <img src="assets/World_Penacony.webp" class="artifact-icon">
+                <span class="artifact-label">${name}</span>
+            `;
             viewport.appendChild(node);
         });
     }
 
     document.addEventListener('mousemove', (e) => {
-        const mx = (window.innerWidth / 2 - e.pageX) / 50;
-        const my = (window.innerHeight / 2 - e.pageY) / 50;
+        const mx = (window.innerWidth / 2 - e.pageX) / 45;
+        const my = (window.innerHeight / 2 - e.pageY) / 45;
         viewport.style.transform = `translate(${mx}px, ${my}px)`;
-        document.querySelector('.nebula-cloud').style.transform = `translate(${-mx}px, ${-my}px)`;
     });
+
+    initMap();
 });
