@@ -1,121 +1,111 @@
 :root {
     --obsidian: #050505;
     --ghost-white: #ffffff;
-    --glow: drop-shadow(0 0 15px rgba(255, 255, 255, 0.9));
+    --glow: drop-shadow(0 0 12px rgba(255, 255, 255, 0.8));
 }
 
+* { box-sizing: border-box; }
+
 body, html {
-    margin: 0; padding: 0;
-    background: var(--obsidian);
+    margin: 0;
+    padding: 0;
+    background-color: var(--obsidian);
     color: var(--ghost-white);
     font-family: 'Geist Mono', 'Courier New', monospace;
     overflow: hidden;
+    height: 100vh;
+    width: 100vw;
 }
 
 .hud-container {
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('assets/background.jfif') center/cover no-repeat;
+    background: #050505 url('assets/background.jfif') center/cover no-repeat;
 }
 
 .viewport {
     position: relative;
-    width: 900px; /* Big interaction area */
-    height: 900px;
+    width: 800px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* The Central Zenith Core - Made Larger */
-.zenith {
+.orbits-svg {
     position: absolute;
-    width: 80px; 
-    height: 80px;
-    z-index: 10;
-    filter: var(--glow);
-    animation: core-pulse 4s infinite ease-in-out;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
 }
 
-.zenith img { width: 100%; height: 100%; }
+/* The Central Core */
+.zenith {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px; /* Same scale as artifacts for symmetry */
+    height: 50px;
+    z-index: 10;
+}
 
-/* The Artifact Nodes - BIG SCALE */
+.zenith img {
+    width: 100%;
+    filter: var(--glow);
+}
+
+/* The Domain Nodes */
 .artifact {
     position: absolute;
-    width: 100px; /* Large icons */
-    height: 100px;
+    width: 55px; /* Uniform size for all 7 */
+    height: 55px;
     cursor: pointer;
     z-index: 5;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .artifact-icon {
     width: 100%;
-    filter: grayscale(1) brightness(0.5) opacity(0.7);
-    transition: all 0.4s ease;
-}
-
-.artifact-label {
-    margin-top: 10px;
-    font-size: 12px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: rgba(255,255,255,0.5);
-    opacity: 0.8;
-}
-
-/* The hover.png as a background flare */
-.hover-bg {
-    position: absolute;
-    top: -20px;
-    width: 140%;
-    opacity: 0;
-    transform: scale(0.8);
-    transition: all 0.4s ease;
-    pointer-events: none;
-}
-
-/* KEYFRAMES & HOVER LOGIC */
-.artifact:hover {
-    transform: translate(-50%, -50%) scale(1.2);
+    height: 100%;
+    filter: grayscale(1) brightness(0.6) opacity(0.8);
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .artifact:hover .artifact-icon {
     filter: grayscale(0) brightness(1.2) var(--glow);
+    transform: scale(1.2);
+}
+
+.hover-bg {
+    position: absolute;
+    width: 180%;
+    height: 180%;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.4s ease;
+    z-index: 1;
+    pointer-events: none;
 }
 
 .artifact:hover .hover-bg {
-    opacity: 1;
-    transform: scale(1.1);
-    animation: rotate-flare 10s linear infinite;
-}
-
-.artifact:hover .artifact-label {
-    color: white;
-    text-shadow: 0 0 10px white;
-}
-
-@keyframes core-pulse {
-    0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.8; }
-    50% { transform: translate(-50%, -50%) scale(1.1); opacity: 1; }
-}
-
-@keyframes rotate-flare {
-    from { transform: scale(1.1) rotate(0deg); }
-    to { transform: scale(1.1) rotate(360deg); }
+    opacity: 0.8;
+    transform: scale(1);
 }
 
 .scanlines {
-    position: absolute; inset: 0;
-    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.2) 50%);
-    background-size: 100% 4px;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%);
+    background-size: 100% 2px;
     pointer-events: none;
     z-index: 100;
 }
