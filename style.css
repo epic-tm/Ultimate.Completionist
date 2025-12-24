@@ -1,36 +1,71 @@
 :root {
     --obsidian: #050505;
     --ghost-white: #ffffff;
-    /* High-intensity glow for that high-tech relic feel */
     --glow: drop-shadow(0 0 12px rgba(255, 255, 255, 0.8));
+}
+
+* { box-sizing: border-box; }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: var(--obsidian);
+    color: var(--ghost-white);
+    font-family: 'Geist Mono', 'Courier New', monospace;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hud-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #050505 url('assets/background.jfif') center/cover no-repeat;
 }
 
 .viewport {
     position: relative;
-    /* Increased viewport size to allow for more spreading */
-    width: 900px; 
-    height: 900px;
+    width: 800px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.orbits-svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* The Central Core */
 .zenith {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* Scaled up slightly to be more visible as the 'Zenith' */
-    width: 40px; 
-    height: 40px;
+    width: 50px; /* Same scale as artifacts for symmetry */
+    height: 50px;
     z-index: 10;
 }
 
+.zenith img {
+    width: 100%;
+    filter: var(--glow);
+}
+
+/* The Domain Nodes */
 .artifact {
     position: absolute;
-    /* Scaled up nodes to match your Star Chart reference */
-    width: 65px; 
-    height: 65px;
+    width: 55px; /* Uniform size for all 7 */
+    height: 55px;
     cursor: pointer;
     z-index: 5;
     display: flex;
@@ -40,21 +75,37 @@
 
 .artifact-icon {
     width: 100%;
-    /* Start with a 'Ghostly' dim look */
+    height: 100%;
     filter: grayscale(1) brightness(0.6) opacity(0.8);
-    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .artifact:hover .artifact-icon {
-    filter: grayscale(0) brightness(1.3) var(--glow);
+    filter: grayscale(0) brightness(1.2) var(--glow);
     transform: scale(1.2);
 }
 
 .hover-bg {
     position: absolute;
-    width: 200%; /* Massive pulse area */
-    height: 200%;
+    width: 180%;
+    height: 180%;
     opacity: 0;
-    transform: scale(0.6);
+    transform: scale(0.5);
     transition: all 0.4s ease;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.artifact:hover .hover-bg {
+    opacity: 0.8;
+    transform: scale(1);
+}
+
+.scanlines {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%);
+    background-size: 100% 2px;
+    pointer-events: none;
+    z-index: 100;
 }
