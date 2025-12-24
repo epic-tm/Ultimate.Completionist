@@ -50,8 +50,8 @@ body, html {
 /* MASSIVE CENTER CORE */
 .zenith {
     position: absolute;
-    width: 120px; /* Scaled up significantly */
-    height: 120px;
+    width: 240px; /* Scaled up significantly */
+    height: 240px;
     z-index: 10;
     filter: var(--glow);
     /* Perfect CSS centering */
