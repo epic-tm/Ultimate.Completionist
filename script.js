@@ -1,24 +1,21 @@
 window.addEventListener('DOMContentLoaded', () => {
-    const artifacts = [
-        "Physical", "Cognitive", "Social", "Technical", 
-        "Creative", "Financial", "Spiritual"
-    ];
-
+    const domains = ["Physical", "Cognitive", "Social", "Technical", "Creative", "Financial", "Spiritual"];
     const viewport = document.getElementById('viewport');
     const svg = document.getElementById('orbits-svg');
-    const center = 500; // Half of 1000px viewport
-    const orbitRadius = 350;
+    const center = 500;
+    const orbitRadius = 380; // Large, spread out orbit
 
     function init() {
-        if (!viewport || !svg) return;
+        if (!svg) return;
 
+        // One massive, clean orbital ring
         svg.innerHTML = `
             <circle cx="${center}" cy="${center}" r="${orbitRadius}" 
-                    fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+                    fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" />
         `;
 
-        artifacts.forEach((name, i) => {
-            const angle = (i * (2 * Math.PI / artifacts.length)) - (Math.PI / 2);
+        domains.forEach((name, i) => {
+            const angle = (i * (2 * Math.PI / domains.length)) - (Math.PI / 2);
             const x = center + orbitRadius * Math.cos(angle);
             const y = center + orbitRadius * Math.sin(angle);
 
@@ -29,33 +26,37 @@ window.addEventListener('DOMContentLoaded', () => {
             node.style.transform = `translate(-50%, -50%)`;
 
             node.innerHTML = `
-                <img src="assets/hover.png" class="hover-bg" style="position:absolute; width:150%; opacity:0; transition:0.3s;">
+                <img src="assets/hover.png" class="hover-bg" style="position:absolute; width:180%; opacity:0; transition:0.4s; pointer-events:none;">
                 <img src="assets/World_Penacony.webp" class="artifact-icon">
-                <span class="artifact-label">${name}</span>
+                <span style="color:white; font-size:12px; margin-top:10px; letter-spacing:3px; font-family:monospace; opacity:0.6;">${name}</span>
             `;
 
-            // Hover BG Logic
             node.addEventListener('mouseenter', () => {
-                node.querySelector('.hover-bg').style.opacity = "0.7";
+                node.querySelector('.hover-bg').style.opacity = "0.8";
+                node.querySelector('.hover-bg').style.transform = "scale(1.1) rotate(45deg)";
             });
             node.addEventListener('mouseleave', () => {
                 node.querySelector('.hover-bg').style.opacity = "0";
+                node.querySelector('.hover-bg').style.transform = "scale(1) rotate(0deg)";
             });
 
             viewport.appendChild(node);
         });
     }
 
-    // Parallax logic for background and viewport
+    // Advanced Parallax: UI moves one way, Cosmic Background moves the other
     document.addEventListener('mousemove', (e) => {
-        const x = (window.innerWidth / 2 - e.pageX) / 40;
-        const y = (window.innerHeight / 2 - e.pageY) / 40;
+        const mouseX = (window.innerWidth / 2 - e.pageX) / 40;
+        const mouseY = (window.innerHeight / 2 - e.pageY) / 40;
         
-        viewport.style.transform = `translate(${x}px, ${y}px)`;
+        // Move UI Viewport
+        viewport.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
         
-        // Clouds move in opposite direction for depth
-        const bgFx = document.getElementById('bg-fx');
-        if (bgFx) bgFx.style.transform = `translate(${-x/2}px, ${-y/2}px)`;
+        // Move Cosmic Clouds more slowly in the opposite direction
+        const bg = document.querySelector('.cosmic-background');
+        if (bg) {
+            bg.style.transform = `translate(${-mouseX * 0.5}px, ${-mouseY * 0.5}px)`;
+        }
     });
 
     init();
