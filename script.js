@@ -7,11 +7,11 @@ window.addEventListener('DOMContentLoaded', () => {
     const ctx = canvas.getContext('2d');
 
     let stars = [];
-    const starCount = 600;
-    let speed = 0.5;
+    const starCount = 800;
+    let speed = 0.2;
     let warping = true;
+    let startTime = Date.now();
 
-    // --- HYPERSPACE SEQUENCE ---
     function resize() {
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
@@ -19,6 +19,7 @@ window.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('resize', resize);
     resize();
 
+    // Generate Stars
     for (let i = 0; i < starCount; i++) {
         stars.push({
             x: Math.random() * canvas.width - canvas.width / 2,
@@ -29,12 +30,24 @@ window.addEventListener('DOMContentLoaded', () => {
 
     function drawWarp() {
         if (!warping) return;
+
+        const elapsed = (Date.now() - startTime) / 1000;
+
         ctx.fillStyle = "black";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
-        
         ctx.translate(canvas.width / 2, canvas.height / 2);
-        ctx.strokeStyle = "white";
         
+        // HYPERSPACE ACCELERATION LOGIC
+        if (elapsed > 1.5) {
+            speed += 1.2; // Massive acceleration after 1.5s
+            ctx.strokeStyle = "rgba(255, 255, 255, 0.9)";
+            ctx.lineWidth = 2;
+        } else {
+            speed += 0.04; // Gentle takeoff
+            ctx.strokeStyle = "rgba(255, 255, 255, 0.4)";
+            ctx.lineWidth = 1;
+        }
+
         stars.forEach(s => {
             let xPrev = s.x / (s.z / canvas.width);
             let yPrev = s.y / (s.z / canvas.width);
@@ -52,25 +65,25 @@ window.addEventListener('DOMContentLoaded', () => {
         });
 
         ctx.setTransform(1, 0, 0, 1, 0, 0);
-        
-        if (speed < 50) speed += 0.2; // Accelerate
-
         requestAnimationFrame(drawWarp);
     }
 
-    // End warp after 3 seconds
+    // THE TRANSITION REVEAL
     setTimeout(() => {
         canvas.style.opacity = '0';
-        mainUI.classList.add('active');
+        mainUI.style.opacity = '1';
+        mainUI.classList.add('exit-flash');
+
         setTimeout(() => {
             warping = false;
+            canvas.style.display = 'none';
             canvas.remove();
-        }, 1500);
+        }, 800); 
     }, 3000);
 
     drawWarp();
+    initMap();
 
-    // --- STAR CHART LOGIC ---
     function initMap() {
         const centerPoint = 500;
         const orbitRadius = 390;
@@ -96,11 +109,10 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // PARALLAX
     document.addEventListener('mousemove', (e) => {
-        const mouseX = (window.innerWidth / 2 - e.pageX) / 45;
-        const mouseY = (window.innerHeight / 2 - e.pageY) / 45;
-        viewport.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+        const mx = (window.innerWidth / 2 - e.pageX) / 45;
+        const my = (window.innerHeight / 2 - e.pageY) / 45;
+        viewport.style.transform = `translate(${mx}px, ${my}px)`;
     });
-
-    initMap();
 });
