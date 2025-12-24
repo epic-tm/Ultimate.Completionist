@@ -1,83 +1,78 @@
 :root {
-    --obsidian: #050505;
-    --ghost-white: #ffffff;
-    --glow: drop-shadow(0 0 12px rgba(255, 255, 255, 0.8));
+    --obsidian: #020202;
+    --glow: drop-shadow(0 0 20px rgba(255, 255, 255, 0.8));
 }
 
-* { box-sizing: border-box; }
-
 body, html {
-    margin: 0;
-    padding: 0;
-    background-color: var(--obsidian);
-    color: var(--ghost-white);
-    font-family: 'Geist Mono', 'Courier New', monospace;
+    margin: 0; padding: 0;
+    background: var(--obsidian);
     overflow: hidden;
-    height: 100vh;
-    width: 100vw;
+    height: 100vh; width: 100vw;
 }
 
 .hud-container {
     position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #050505 url('assets/background.jfif') center/cover no-repeat;
+    width: 100%; height: 100%;
+    display: flex; justify-content: center; align-items: center;
+    background: url('assets/background.jfif') center/cover no-repeat;
+}
+
+/* Moving Background Effects */
+.bg-fx {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.cloud {
+    position: absolute;
+    width: 800px; height: 800px;
+    background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0) 70%);
+    border-radius: 50%;
+    filter: blur(50px);
+}
+
+.cloud-1 { top: -10%; left: -10%; animation: drift 20s infinite alternate; }
+.cloud-2 { bottom: -10%; right: -10%; animation: drift 25s infinite alternate-reverse; }
+
+@keyframes drift {
+    from { transform: translate(0, 0); }
+    to { transform: translate(100px, 50px); }
 }
 
 .viewport {
     position: relative;
-    width: 800px;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 1000px; height: 1000px;
+    display: flex; justify-content: center; align-items: center;
 }
 
-.orbits-svg {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    pointer-events: none;
-}
-
-/* The Central Core */
+/* MASSIVE CENTER CORE */
 .zenith {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50px; /* Same scale as artifacts for symmetry */
-    height: 50px;
+    width: 120px; /* Scaled up significantly */
+    height: 120px;
     z-index: 10;
-}
-
-.zenith img {
-    width: 100%;
     filter: var(--glow);
+    /* Perfect CSS centering */
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-/* The Domain Nodes */
+.zenith img { width: 100%; height: 100%; animation: pulse 4s infinite; }
+
 .artifact {
     position: absolute;
-    width: 55px; /* Uniform size for all 7 */
-    height: 55px;
+    width: 90px; height: 90px;
+    display: flex; flex-direction: column; align-items: center;
     cursor: pointer;
     z-index: 5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .artifact-icon {
     width: 100%;
-    height: 100%;
-    filter: grayscale(1) brightness(0.6) opacity(0.8);
-    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    filter: grayscale(1) brightness(0.5);
+    transition: 0.4s ease;
 }
 
 .artifact:hover .artifact-icon {
@@ -85,27 +80,16 @@ body, html {
     transform: scale(1.2);
 }
 
-.hover-bg {
-    position: absolute;
-    width: 180%;
-    height: 180%;
-    opacity: 0;
-    transform: scale(0.5);
-    transition: all 0.4s ease;
-    z-index: 1;
-    pointer-events: none;
+.artifact-label {
+    margin-top: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 0 0 5px black;
 }
 
-.artifact:hover .hover-bg {
-    opacity: 0.8;
-    transform: scale(1);
-}
-
-.scanlines {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%);
-    background-size: 100% 2px;
-    pointer-events: none;
-    z-index: 100;
+@keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 0.8; }
+    50% { transform: scale(1.1); opacity: 1; }
 }
