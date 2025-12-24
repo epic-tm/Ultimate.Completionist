@@ -3,23 +3,20 @@ window.addEventListener('DOMContentLoaded', () => {
     const viewport = document.getElementById('viewport');
     const svg = document.getElementById('orbits-svg');
     
-    const centerPoint = 500; // Center of our 1000px viewport
-    const orbitRadius = 400; // Large spread
+    const centerPoint = 500; // Half of 1000px viewport
+    const orbitRadius = 390; 
 
-    function initMap() {
+    function init() {
         if (!viewport || !svg) return;
 
-        // Clear existing artifacts
-        viewport.querySelectorAll('.artifact').forEach(n => n.remove());
-
-        // 1. Draw the massive Orbital Ring
+        // Draw the orbital ring in the SVG
         svg.innerHTML = `
             <circle cx="${centerPoint}" cy="${centerPoint}" r="${orbitRadius}" 
-                    fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" />
+                    fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
         `;
 
-        // 2. Distribute Domains
         domains.forEach((name, i) => {
+            // Calculate perfect circular distribution
             const angle = (i * (2 * Math.PI / domains.length)) - (Math.PI / 2);
             const x = centerPoint + orbitRadius * Math.cos(angle);
             const y = centerPoint + orbitRadius * Math.sin(angle);
@@ -28,42 +25,33 @@ window.addEventListener('DOMContentLoaded', () => {
             node.className = 'artifact';
             node.style.left = `${x}px`;
             node.style.top = `${y}px`;
-            node.style.transform = `translate(-50%, -50%)`; // CRITICAL FOR ALIGNMENT
+            // Critical: translate(-50%, -50%) ensures the element is centered on the point
+            node.style.transform = `translate(-50%, -50%)`;
 
             node.innerHTML = `
-                <img src="assets/hover.png" class="hover-bg" style="position:absolute; width:180%; opacity:0; transition:0.4s; pointer-events:none; z-index:1;">
-                <img src="assets/World_Penacony.webp" class="artifact-icon" style="z-index:2;">
+                <img src="assets/hover.png" class="hover-bg">
+                <img src="assets/World_Penacony.webp" class="artifact-icon">
                 <span class="artifact-label">${name}</span>
             `;
-
-            // Hover effects
-            node.addEventListener('mouseenter', () => {
-                node.querySelector('.hover-bg').style.opacity = "0.7";
-                node.querySelector('.hover-bg').style.transform = "scale(1.1) rotate(20deg)";
-            });
-            node.addEventListener('mouseleave', () => {
-                node.querySelector('.hover-bg').style.opacity = "0";
-                node.querySelector('.hover-bg').style.transform = "scale(1) rotate(0deg)";
-            });
 
             viewport.appendChild(node);
         });
     }
 
-    // Centered Parallax with Background Drift
+    // Parallax logic for depth feel
     document.addEventListener('mousemove', (e) => {
-        const mouseX = (window.innerWidth / 2 - e.pageX) / 40;
-        const mouseY = (window.innerHeight / 2 - e.pageY) / 40;
+        const mouseX = (window.innerWidth / 2 - e.pageX) / 45;
+        const mouseY = (window.innerHeight / 2 - e.pageY) / 45;
         
-        // Move main map
+        // Move the UI
         viewport.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
         
-        // Move clouds slowly in opposite direction for 3D feel
+        // Move the background nebula slightly differently for a 3D effect
         const nebula = document.querySelector('.cosmic-nebula');
         if (nebula) {
-            nebula.style.transform = `translate(${-mouseX * 0.3}px, ${-mouseY * 0.3}px)`;
+            nebula.style.transform = `translate(${-mouseX * 0.4}px, ${-mouseY * 0.4}px)`;
         }
     });
 
-    initMap();
+    init();
 });
