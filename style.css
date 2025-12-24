@@ -1,6 +1,6 @@
 :root {
     --obsidian: #020202;
-    --glow: drop-shadow(0 0 20px rgba(255, 255, 255, 0.8));
+    --white-glow: drop-shadow(0 0 25px rgba(255, 255, 255, 0.8));
 }
 
 body, html {
@@ -10,86 +10,104 @@ body, html {
     height: 100vh; width: 100vw;
 }
 
-.hud-container {
-    position: relative;
-    width: 100%; height: 100%;
-    display: flex; justify-content: center; align-items: center;
-    background: url('assets/background.jfif') center/cover no-repeat;
-}
-
-/* Moving Background Effects */
-.bg-fx {
+/* COSMIC BACKGROUND ANIMATION */
+.cosmic-background {
     position: absolute;
     inset: 0;
-    pointer-events: none;
+    z-index: 1;
     overflow: hidden;
+    background: radial-gradient(circle at center, #0a0a0a 0%, #000 100%);
 }
 
-.cloud {
+.nebula {
     position: absolute;
-    width: 800px; height: 800px;
-    background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0) 70%);
     border-radius: 50%;
-    filter: blur(50px);
+    filter: blur(120px);
+    opacity: 0.15;
+    pointer-events: none;
 }
 
-.cloud-1 { top: -10%; left: -10%; animation: drift 20s infinite alternate; }
-.cloud-2 { bottom: -10%; right: -10%; animation: drift 25s infinite alternate-reverse; }
+.nebula-1 {
+    width: 80vw; height: 80vh;
+    background: radial-gradient(circle, #fff 0%, transparent 70%);
+    top: -10%; left: -10%;
+    animation: drift 30s infinite alternate linear;
+}
+
+.nebula-2 {
+    width: 60vw; height: 60vh;
+    background: radial-gradient(circle, #444 0%, transparent 70%);
+    bottom: -10%; right: -10%;
+    animation: drift 40s infinite alternate-reverse linear;
+}
 
 @keyframes drift {
-    from { transform: translate(0, 0); }
-    to { transform: translate(100px, 50px); }
+    from { transform: translate(0, 0) scale(1); }
+    to { transform: translate(150px, 100px) scale(1.1); }
 }
 
+/* SCANLINE HUD EFFECT */
+.scanline-hud {
+    position: absolute;
+    inset: 0;
+    z-index: 100;
+    pointer-events: none;
+    background: linear-gradient(
+        rgba(18, 16, 16, 0) 50%, 
+        rgba(0, 0, 0, 0.25) 50%
+    ), linear-gradient(
+        90deg, 
+        rgba(255, 0, 0, 0.02), 
+        rgba(0, 255, 0, 0.01), 
+        rgba(0, 0, 255, 0.02)
+    );
+    background-size: 100% 4px, 3px 100%;
+}
+
+/* VIEWPORT & MASSIVE CENTER */
 .viewport {
     position: relative;
+    z-index: 10;
     width: 1000px; height: 1000px;
     display: flex; justify-content: center; align-items: center;
 }
 
-/* MASSIVE CENTER CORE */
 .zenith {
     position: absolute;
-    width: 240px; /* Scaled up significantly */
-    height: 240px;
-    z-index: 10;
-    filter: var(--glow);
-    /* Perfect CSS centering */
+    width: 180px; /* Massive Center */
+    height: 180px;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
+    filter: var(--white-glow);
+    z-index: 20;
 }
 
-.zenith img { width: 100%; height: 100%; animation: pulse 4s infinite; }
+.zenith img {
+    width: 100%; height: 100%;
+    animation: core-breathe 6s infinite ease-in-out;
+}
 
+@keyframes core-breathe {
+    0%, 100% { transform: scale(1); opacity: 0.7; }
+    50% { transform: scale(1.1); opacity: 1; }
+}
+
+/* ARTIFACTS */
 .artifact {
     position: absolute;
-    width: 90px; height: 90px;
+    width: 110px; height: 110px;
     display: flex; flex-direction: column; align-items: center;
     cursor: pointer;
-    z-index: 5;
+    z-index: 30;
 }
 
 .artifact-icon {
     width: 100%;
-    filter: grayscale(1) brightness(0.5);
-    transition: 0.4s ease;
+    filter: grayscale(1) brightness(0.4);
+    transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .artifact:hover .artifact-icon {
-    filter: grayscale(0) brightness(1.2) var(--glow);
+    filter: grayscale(0) brightness(1.2) var(--white-glow);
     transform: scale(1.2);
-}
-
-.artifact-label {
-    margin-top: 8px;
-    font-family: 'Courier New', monospace;
-    font-size: 14px;
-    letter-spacing: 2px;
-    color: white;
-    text-shadow: 0 0 5px black;
-}
-
-@keyframes pulse {
-    0%, 100% { transform: scale(1); opacity: 0.8; }
-    50% { transform: scale(1.1); opacity: 1; }
 }
