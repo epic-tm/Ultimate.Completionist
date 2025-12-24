@@ -1,24 +1,20 @@
 const artifactsData = [
-    { name: "Physical", icon: "assets/World_Penacony.webp" },
-    { name: "Cognitive", icon: "assets/World_Penacony.webp" },
-    { name: "Social", icon: "assets/World_Penacony.webp" },
-    { name: "Technical", icon: "assets/World_Penacony.webp" },
-    { name: "Creative", icon: "assets/World_Penacony.webp" },
-    { name: "Financial", icon: "assets/World_Penacony.webp" },
-    { name: "Spiritual", icon: "assets/World_Penacony.webp" },
+    { name: "PHYSICAL" }, { name: "COGNITIVE" }, 
+    { name: "SOCIAL" }, { name: "TECHNICAL" }, 
+    { name: "CREATIVE" }, { name: "FINANCIAL" }, 
+    { name: "SPIRITUAL" }
 ];
 
 function initMap() {
     const viewport = document.getElementById('viewport');
     const svg = document.getElementById('orbits-svg');
-    const center = 450; // Half of 900px viewport
-    const orbitRadius = 380; // WIDE orbit to make it feel big
+    const center = 500; // Half of 1000px viewport
+    const orbitRadius = 400; // Large spread
     const total = artifactsData.length;
 
-    // Draw the big orbital ring
     svg.innerHTML = `
         <circle cx="${center}" cy="${center}" r="${orbitRadius}" 
-                fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+                fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" />
     `;
 
     artifactsData.forEach((data, i) => {
@@ -34,19 +30,34 @@ function initMap() {
 
         node.innerHTML = `
             <img src="assets/hover.png" class="hover-bg">
-            <img src="${data.icon}" class="artifact-icon">
-            <span class="artifact-label">${data.name}</span>
+            <img src="assets/World_Penacony.webp" class="artifact-icon">
+            <div class="artifact-label" style="color: white; margin-top: 10px; font-size: 10px; letter-spacing: 2px;">${data.name}</div>
         `;
 
         viewport.appendChild(node);
     });
 }
 
-// Parallax for depth
+// Advanced Multi-Layer Parallax
 document.addEventListener('mousemove', (e) => {
-    const moveX = (window.innerWidth / 2 - e.pageX) / 50;
-    const moveY = (window.innerHeight / 2 - e.pageY) / 50;
-    document.getElementById('viewport').style.transform = `translate(${moveX}px, ${moveY}px)`;
+    const { clientX, clientY } = e;
+    const centerX = window.innerWidth / 2;
+    const centerY = window.innerHeight / 2;
+
+    const moveX = (centerX - clientX);
+    const moveY = (centerY - clientY);
+
+    // Nebula (Slowest)
+    document.querySelector('.nebula-bg').style.transform = 
+        `translate(${moveX / 40}px, ${moveY / 40}px)`;
+
+    // Grid (Medium)
+    document.querySelector('.grid-overlay').style.transform = 
+        `translate(${moveX / 30}px, ${moveY / 30}px)`;
+
+    // Main Viewport (Fastest/Responsive)
+    document.getElementById('viewport').style.transform = 
+        `translate(${moveX / 20}px, ${moveY / 20}px)`;
 });
 
 window.onload = initMap;
