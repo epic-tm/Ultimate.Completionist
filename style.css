@@ -114,3 +114,68 @@ body, html {
     10% { opacity: 1; }
     100% { transform: translate(-1000px, 1000px) rotate(45deg); opacity: 0; }
 }
+/* VIEWPORT ZOOM LOGIC */
+.viewport.is-zoomed .zenith {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5);
+    pointer-events: none;
+    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.viewport.is-zoomed .orbits-svg {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+/* Hide other artifacts during zoom */
+.artifact.is-hidden {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.2) !important;
+    pointer-events: none;
+    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* The Active (Clicked) Artifact Zoom */
+.artifact.is-active {
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) scale(2.5) !important;
+    transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 100;
+}
+
+.artifact.is-active .artifact-label {
+    font-size: 8px; /* Shrink label relative to scaled icon */
+    opacity: 0.5;
+}
+
+/* Back Button styling */
+#back-btn {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    padding: 10px 30px;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ease;
+    z-index: 1000;
+}
+
+#back-btn.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#back-btn:hover {
+    background: white;
+    color: black;
+    box-shadow: 0 0 20px white;
+}
