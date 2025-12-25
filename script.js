@@ -5,6 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const canvas = document.getElementById('warp-canvas');
     const mainUI = document.getElementById('main-ui');
     const backBtn = document.getElementById('back-btn');
+    const panelTitle = document.getElementById('panel-title');
     const ctx = canvas.getContext('2d');
 
     let stars = [];
@@ -12,7 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
     let warping = true;
     let startTime = Date.now();
 
-    // 1. INITIALIZE WARP
+    // --- 1. HYPERSPACE ENGINE ---
     function resize() {
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
@@ -48,21 +49,21 @@ window.addEventListener('DOMContentLoaded', () => {
         requestAnimationFrame(drawWarp);
     }
 
-    // 2. TRANSITION REVEAL
+    // --- 2. SEQUENCE TRANSITION ---
     setTimeout(() => {
         canvas.style.opacity = '0';
         mainUI.style.opacity = '1';
-        mainUI.classList.add('exit-flash');
         setTimeout(() => { warping = false; canvas.remove(); }, 800);
         initEnvironment(); 
     }, 3000);
 
     drawWarp();
 
-    // 3. BACKGROUND LIFE (Meteors)
+    // --- 3. SPACE ENVIRONMENT (Meteors) ---
     function initEnvironment() {
         const container = document.getElementById('debris-container');
         setInterval(() => {
+            if (viewport.classList.contains('is-zoomed')) return; // Quieter space when zoomed
             const meteor = document.createElement('div');
             meteor.className = 'meteor';
             meteor.style.left = `${Math.random() * 140 - 20}%`;
@@ -74,7 +75,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }, 600); 
     }
 
-    // 4. STAR CHART & ZOOM LOGIC
+    // --- 4. MAP & INTERACTION ENGINE ---
     function initMap() {
         const centerPoint = 500;
         const orbitRadius = 390;
@@ -87,21 +88,25 @@ window.addEventListener('DOMContentLoaded', () => {
 
             const node = document.createElement('div');
             node.className = 'artifact';
-            node.style.left = `${x}px`;
-            node.style.top = `${y}px`;
-            node.style.transform = `translate(-50%, -50%)`;
-
             node.innerHTML = `
                 <img src="assets/hover.png" class="hover-bg">
                 <img src="assets/World_Penacony.webp" class="artifact-icon">
                 <span class="artifact-label">${name}</span>
             `;
+            node.style.left = `${x}px`;
+            node.style.top = `${y}px`;
+            node.style.transform = `translate(-50%, -50%)`;
 
+            // CLICK TO ZOOM
             node.addEventListener('click', () => {
                 if (viewport.classList.contains('is-zoomed')) return;
+                
                 viewport.classList.add('is-zoomed');
+                mainUI.classList.add('is-zoomed');
                 node.classList.add('is-active');
                 backBtn.classList.add('show');
+                panelTitle.innerText = name.toUpperCase();
+
                 document.querySelectorAll('.artifact').forEach(other => {
                     if (other !== node) other.classList.add('is-hidden');
                 });
@@ -111,17 +116,19 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 5. RESET VIEW
+    // --- 5. DISENGAGE ZOOM ---
     backBtn.addEventListener('click', () => {
         viewport.classList.remove('is-zoomed');
+        mainUI.classList.remove('is-zoomed');
         backBtn.classList.remove('show');
-        document.querySelectorAll('.artifact').forEach(node => {
-            node.classList.remove('is-active', 'is-hidden');
+        document.querySelectorAll('.artifact').forEach(n => {
+            n.classList.remove('is-active', 'is-hidden');
         });
     });
 
-    // 6. HUD PARALLAX
+    // --- 6. PARALLAX (Active only in main view) ---
     document.addEventListener('mousemove', (e) => {
+        if (viewport.classList.contains('is-zoomed')) return;
         const mx = (window.innerWidth / 2 - e.pageX) / 45;
         const my = (window.innerHeight / 2 - e.pageY) / 45;
         viewport.style.transform = `translate(${mx}px, ${my}px)`;
