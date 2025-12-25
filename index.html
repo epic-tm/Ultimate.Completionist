@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ultimate Completionist</title>
+    <title>Zenith Deep Space</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <canvas id="warp-canvas"></canvas>
 
     <div class="hud-container" id="main-ui">
+        <div class="bg-zoom-wrapper" id="bg-zoom"></div>
+        
         <div class="nebula-layer"></div>
         <div id="debris-container"></div>
         <div class="scanlines"></div>
@@ -21,9 +23,19 @@
                 <img src="assets/center.png" alt="Zenith Core">
             </div>
         </div>
+
+        <div id="data-panel">
+            <h2 id="panel-title">DOMAIN_DATA</h2>
+            <div class="separator"></div>
+            <p>Scanning sector... Status: OPTIMAL</p>
+            <div class="data-grid">
+                <div class="stat">COORD: 44.09.2</div>
+                <div class="stat">LIFE: DETECTED</div>
+            </div>
+        </div>
     </div>
 
-    <button id="back-btn">RETURN TO ZENITH</button>
+    <button id="back-btn">DISENGAGE ZOOM</button>
 
     <script src="script.js"></script>
 </body>
