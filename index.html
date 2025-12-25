@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zenith Deep Space HUD</title>
+    <title>Zenith Deep Space Interface</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,12 +11,14 @@
 
     <div class="hud-container" id="main-ui">
         <div class="bg-zoom-wrapper"></div>
+        
         <div class="nebula-layer"></div>
         <div id="debris-container"></div>
         <div class="scanlines"></div>
 
         <div class="viewport" id="viewport">
             <svg class="orbits-svg" id="orbits-svg" viewBox="0 0 1000 1000"></svg>
+            
             <div class="zenith" id="zenith-core">
                 <img src="assets/center.png" alt="Zenith Core">
             </div>
@@ -26,18 +28,19 @@
             <h2 id="panel-title">DOMAIN_DATA</h2>
             <div class="separator"></div>
             <div id="panel-body">
-                <p>STATUS: <span style="color: #00ff00;">STABLE</span></p>
+                <p>CONNECTION: <span style="color: #00ff00;">ENCRYPTED</span></p>
                 <div class="stat" id="stat-1">SECTOR: 07-ALPHA</div>
-                <div class="stat" id="stat-2">ATMOSPHERE: BREATHABLE</div>
+                <div class="stat" id="stat-2">SYNC: 98.4%</div>
             </div>
             <div class="separator"></div>
             <div id="node-info">
-                <p style="font-size: 10px; opacity: 0.5;">SELECT SUB-NODE FOR INTEL</p>
+                <p style="font-size: 10px; opacity: 0.5; letter-spacing: 2px;">WAITING FOR SUB-NODE SELECTION...</p>
             </div>
         </div>
     </div>
 
     <button id="back-btn">DISENGAGE ZOOM</button>
+
     <script src="script.js"></script>
 </body>
 </html>
