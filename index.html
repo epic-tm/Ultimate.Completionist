@@ -2,24 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Zenith Star Chart | Ultimate Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Completionist</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <canvas id="warp-canvas"></canvas>
 
     <div class="hud-container" id="main-ui">
-        <div class="cosmic-nebula"></div>
+        <div class="nebula-layer"></div>
+        <div id="debris-container"></div>
         <div class="scanlines"></div>
 
         <div class="viewport" id="viewport">
             <svg class="orbits-svg" id="orbits-svg" viewBox="0 0 1000 1000"></svg>
             
-            <div class="zenith">
+            <div class="zenith" id="zenith-core">
                 <img src="assets/center.png" alt="Zenith Core">
             </div>
         </div>
     </div>
+
+    <button id="back-btn">RETURN TO ZENITH</button>
+
     <script src="script.js"></script>
 </body>
 </html>
