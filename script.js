@@ -1,42 +1,26 @@
 window.addEventListener('DOMContentLoaded', () => {
     const domains = ["Physical", "Cognitive", "Social", "Technical", "Creative", "Financial", "Spiritual"];
-    
-    // Detailed intelligence data for sub-nodes
-    const intelData = {
-        "Physical": [
-            { x: 35, y: 40, label: "BIOMETRIC_SYNC", detail: "Deep sleep cycle: 2h 45m. Recovery status: 88%." },
-            { x: 60, y: 65, label: "KINETIC_OUTPUT", detail: "Last session: 450 kcal burned. Intensity: High." }
-        ],
-        "Financial": [
-            { x: 45, y: 30, label: "ASSET_VAULT", detail: "Portfolio diversity: Balanced. Yield: +3.2% Monthly." },
-            { x: 50, y: 70, label: "LEDGER_01", detail: "Fixed costs optimized. Liquidity: High." }
-        ]
-    };
-
     const viewport = document.getElementById('viewport');
     const svg = document.getElementById('orbits-svg');
     const canvas = document.getElementById('warp-canvas');
     const mainUI = document.getElementById('main-ui');
     const backBtn = document.getElementById('back-btn');
-    const panelTitle = document.getElementById('panel-title');
-    const nodeInfo = document.getElementById('node-info');
+    const missionList = document.getElementById('mission-list');
+    const achievementGrid = document.getElementById('achievement-grid');
+    const progressFill = document.getElementById('progress-fill');
+    const completionText = document.getElementById('completion-text');
     const ctx = canvas.getContext('2d');
 
-    // --- 1. HYPERSPACE WARP ENGINE ---
+    // --- WARP ENGINE ---
     let stars = []; let speed = 0.2; let warping = true; let startTime = Date.now();
     function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
     window.addEventListener('resize', resize); resize();
     for (let i = 0; i < 600; i++) { stars.push({ x: Math.random() * canvas.width - canvas.width / 2, y: Math.random() * canvas.height - canvas.height / 2, z: Math.random() * canvas.width }); }
-
     function drawWarp() {
         if (!warping) return;
         const elapsed = (Date.now() - startTime) / 1000;
-        ctx.fillStyle = "black"; ctx.fillRect(0, 0, canvas.width, canvas.height);
-        ctx.translate(canvas.width / 2, canvas.height / 2);
-        
-        // The 1.5s Acceleration Boost
+        ctx.fillStyle = "black"; ctx.fillRect(0, 0, canvas.width, canvas.height); ctx.translate(canvas.width / 2, canvas.height / 2);
         if (elapsed > 1.5) speed += 1.3; else speed += 0.04;
-
         stars.forEach(s => {
             let xPrev = s.x / (s.z / canvas.width); let yPrev = s.y / (s.z / canvas.width);
             s.z -= speed; if (s.z <= 0) s.z = canvas.width;
@@ -45,41 +29,42 @@ window.addEventListener('DOMContentLoaded', () => {
         });
         ctx.setTransform(1, 0, 0, 1, 0, 0); requestAnimationFrame(drawWarp);
     }
-
-    // --- 2. TRANSITION REVEAL ---
-    setTimeout(() => {
-        canvas.style.opacity = '0'; mainUI.style.opacity = '1';
-        setTimeout(() => { warping = false; canvas.remove(); }, 800);
-        initEnvironment(); 
-    }, 3000);
+    setTimeout(() => { canvas.style.opacity = '0'; mainUI.style.opacity = '1'; setTimeout(() => { warping = false; canvas.remove(); }, 800); initEnvironment(); }, 3000);
     drawWarp();
 
-    // --- 3. METEOR SHOWER ---
+    // --- ENVIRONMENT ---
     function initEnvironment() {
         const container = document.getElementById('debris-container');
         setInterval(() => {
             if (viewport.classList.contains('is-zoomed')) return;
-            const meteor = document.createElement('div');
-            meteor.className = 'meteor';
-            meteor.style.left = `${Math.random() * 140 - 20}%`;
-            meteor.style.top = `${Math.random() * -10}%`;
-            meteor.style.animation = `meteorSlide ${Math.random() * 1.2 + 0.6}s linear forwards`;
-            container.appendChild(meteor);
-            setTimeout(() => meteor.remove(), 2000);
-        }, 600); 
+            const m = document.createElement('div'); m.className = 'meteor';
+            m.style.left = `${Math.random() * 140 - 20}%`; m.style.top = `${Math.random() * -10}%`;
+            m.style.animation = `meteorSlide ${Math.random() * 1.2 + 0.6}s linear forwards`;
+            container.appendChild(m); setTimeout(() => m.remove(), 2000);
+        }, 600);
     }
 
-    // --- 4. MAP & INTEL LOGIC ---
-    function initMap() {
-        const centerPoint = 500;
-        const orbitRadius = 390;
-        svg.innerHTML = `<circle cx="${centerPoint}" cy="${centerPoint}" r="${orbitRadius}" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1" />`;
+    // --- DATA PANEL POPULATION ---
+    function updatePanel(name) {
+        const data = domainDatabase[name];
+        progressFill.style.width = data.completion;
+        completionText.innerText = `SYNC: ${data.completion}`;
+        missionList.innerHTML = data.missions.map(m => `
+            <li class="mission-item">
+                <span style="color:#00ff00;">[${m.status}]</span>
+                <span>${m.title}</span>
+                <span style="opacity:0.4">+${m.xp}xp</span>
+            </li>`).join('');
+        achievementGrid.innerHTML = data.achievements.map(a => `<div class="achievement-badge">★ ${a}</div>`).join('');
+    }
 
+    // --- STAR CHART GENERATION ---
+    function initMap() {
+        svg.innerHTML = `<circle cx="500" cy="500" r="390" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1" />`;
         domains.forEach((name, i) => {
             const angle = (i * (2 * Math.PI / domains.length)) - (Math.PI / 2);
-            const x = centerPoint + orbitRadius * Math.cos(angle);
-            const y = centerPoint + orbitRadius * Math.sin(angle);
-
+            const x = 500 + 390 * Math.cos(angle);
+            const y = 500 + 390 * Math.sin(angle);
             const node = document.createElement('div');
             node.className = 'artifact';
             node.innerHTML = `<img src="assets/hover.png" class="hover-bg"><img src="assets/World_Penacony.webp" class="artifact-icon"><span class="artifact-label">${name}</span>`;
@@ -87,42 +72,20 @@ window.addEventListener('DOMContentLoaded', () => {
 
             node.addEventListener('click', () => {
                 if (viewport.classList.contains('is-zoomed')) return;
-                
-                viewport.classList.add('is-zoomed');
-                mainUI.classList.add('is-zoomed');
-                node.classList.add('is-active');
-                backBtn.classList.add('show');
-                panelTitle.innerText = name.toUpperCase();
-
-                // Spawn Intellectual Sub-Nodes
-                if (intelData[name]) {
-                    intelData[name].forEach(data => {
-                        const sn = document.createElement('div');
-                        sn.className = 'sub-node';
-                        sn.style.left = `${data.x}%`; sn.style.top = `${data.y}%`;
-                        sn.addEventListener('click', (e) => {
-                            e.stopPropagation();
-                            nodeInfo.innerHTML = `<h3 style="color: #00ff00; letter-spacing: 2px; font-size: 14px;">${data.label}</h3><p style="font-size: 12px; line-height: 1.4; opacity: 0.9;">${data.detail}</p>`;
-                        });
-                        node.appendChild(sn);
-                    });
-                }
-                document.querySelectorAll('.artifact').forEach(other => { if (other !== node) other.classList.add('is-hidden'); });
+                viewport.classList.add('is-zoomed'); mainUI.classList.add('is-zoomed');
+                node.classList.add('is-active'); backBtn.classList.add('show');
+                document.getElementById('panel-title').innerText = name.toUpperCase();
+                updatePanel(name);
+                document.querySelectorAll('.artifact').forEach(o => { if (o !== node) o.classList.add('is-hidden'); });
             });
             viewport.appendChild(node);
         });
     }
 
-    // --- 5. SYSTEM DISENGAGE ---
     backBtn.addEventListener('click', () => {
-        viewport.classList.remove('is-zoomed');
-        mainUI.classList.remove('is-zoomed');
+        viewport.classList.remove('is-zoomed'); mainUI.classList.remove('is-zoomed');
         backBtn.classList.remove('show');
-        document.querySelectorAll('.artifact').forEach(n => {
-            n.classList.remove('is-active', 'is-hidden');
-            n.querySelectorAll('.sub-node').forEach(s => s.remove());
-        });
-        nodeInfo.innerHTML = `<p style="font-size: 10px; opacity: 0.5; letter-spacing: 2px;">WAITING FOR SUB-NODE SELECTION...</p>`;
+        document.querySelectorAll('.artifact').forEach(n => n.classList.remove('is-active', 'is-hidden'));
     });
 
     document.addEventListener('mousemove', (e) => {
