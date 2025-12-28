@@ -9,6 +9,12 @@ window.addEventListener('DOMContentLoaded', () => {
     const achievementGrid = document.getElementById('achievement-grid');
     const progressFill = document.getElementById('progress-fill');
     const completionText = document.getElementById('completion-text');
+    
+    // Audio Elements
+    const bgMusic = document.getElementById('bg-music');
+    const sfxHover = document.getElementById('sfx-hover');
+    const sfxZoom = document.getElementById('sfx-zoom');
+
     const ctx = canvas.getContext('2d');
 
     // --- WARP ENGINE ---
@@ -16,6 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
     function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
     window.addEventListener('resize', resize); resize();
     for (let i = 0; i < 600; i++) { stars.push({ x: Math.random() * canvas.width - canvas.width / 2, y: Math.random() * canvas.height - canvas.height / 2, z: Math.random() * canvas.width }); }
+    
     function drawWarp() {
         if (!warping) return;
         const elapsed = (Date.now() - startTime) / 1000;
@@ -29,7 +36,19 @@ window.addEventListener('DOMContentLoaded', () => {
         });
         ctx.setTransform(1, 0, 0, 1, 0, 0); requestAnimationFrame(drawWarp);
     }
-    setTimeout(() => { canvas.style.opacity = '0'; mainUI.style.opacity = '1'; setTimeout(() => { warping = false; canvas.remove(); }, 800); initEnvironment(); }, 3000);
+
+    // --- START SEQUENCE ---
+    setTimeout(() => {
+        canvas.style.opacity = '0';
+        mainUI.style.opacity = '1';
+        // Background music starts on the transition
+        bgMusic.volume = 0.5;
+        bgMusic.play().catch(e => console.log("Audio needs user interaction first"));
+        
+        setTimeout(() => { warping = false; canvas.remove(); }, 800);
+        initEnvironment();
+    }, 3000);
+
     drawWarp();
 
     // --- ENVIRONMENT ---
@@ -70,8 +89,21 @@ window.addEventListener('DOMContentLoaded', () => {
             node.innerHTML = `<img src="assets/hover.png" class="hover-bg"><img src="assets/World_Penacony.webp" class="artifact-icon"><span class="artifact-label">${name}</span>`;
             node.style.left = `${x}px`; node.style.top = `${y}px`; node.style.transform = `translate(-50%, -50%)`;
 
+            // Audio: Hover
+            node.addEventListener('mouseenter', () => {
+                if (!viewport.classList.contains('is-zoomed')) {
+                    sfxHover.currentTime = 0;
+                    sfxHover.play();
+                }
+            });
+
+            // Audio: Zoom Click
             node.addEventListener('click', () => {
                 if (viewport.classList.contains('is-zoomed')) return;
+                
+                sfxZoom.currentTime = 0;
+                sfxZoom.play();
+
                 viewport.classList.add('is-zoomed'); mainUI.classList.add('is-zoomed');
                 node.classList.add('is-active'); backBtn.classList.add('show');
                 document.getElementById('panel-title').innerText = name.toUpperCase();
@@ -83,6 +115,9 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     backBtn.addEventListener('click', () => {
+        sfxZoom.currentTime = 0;
+        sfxZoom.play();
+        
         viewport.classList.remove('is-zoomed'); mainUI.classList.remove('is-zoomed');
         backBtn.classList.remove('show');
         document.querySelectorAll('.artifact').forEach(n => n.classList.remove('is-active', 'is-hidden'));
