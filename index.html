@@ -9,6 +9,10 @@
 <body>
     <canvas id="warp-canvas"></canvas>
 
+    <audio id="bg-music" src="assets/background.mp3" loop></audio>
+    <audio id="sfx-hover" src="assets/hover.mp3" preload="auto"></audio>
+    <audio id="sfx-zoom" src="assets/zoom.mp3" preload="auto"></audio>
+
     <div class="hud-container" id="main-ui">
         <div class="bg-zoom-wrapper"></div>
         <div class="nebula-layer"></div>
@@ -25,9 +29,7 @@
         <div id="data-panel">
             <div class="panel-header">
                 <h2 id="panel-title">DOMAIN_DATA</h2>
-                <div class="progress-container">
-                    <div id="progress-fill"></div>
-                </div>
+                <div class="progress-container"><div id="progress-fill"></div></div>
                 <div id="completion-text">SYNC: 0%</div>
             </div>
             <div class="separator"></div>
