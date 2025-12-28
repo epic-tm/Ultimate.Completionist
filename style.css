@@ -68,7 +68,42 @@ body, html { margin: 0; padding: 0; background: #000; overflow: hidden; height: 
 /* BUTTONS */
 #back-btn { position: fixed; bottom: 50px; left: 50%; transform: translateX(-50%); background: none; border: 1px solid white; color: white; padding: 12px 35px; cursor: pointer; opacity: 0; pointer-events: none; transition: 0.5s; z-index: 1000; letter-spacing: 4px; }
 #back-btn.show { opacity: 1; pointer-events: auto; }
+/* Add these to your existing style.css */
 
+#terminal-overlay {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 400px;
+    height: 80vh;
+    z-index: 1000; /* Above warp canvas */
+    pointer-events: none;
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    color: rgba(0, 255, 0, 0.8); /* Classic Matrix green */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse; /* Newest text at bottom */
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+}
+
+.terminal-line {
+    margin-bottom: 4px;
+    animation: terminalFade 2s forwards;
+}
+
+@keyframes terminalFade {
+    0% { opacity: 0; transform: translateX(-10px); }
+    10% { opacity: 1; transform: translateX(0); }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+/* Ensure the main UI transition is smooth */
+#main-ui {
+    opacity: 0;
+    transition: opacity 2s cubic-bezier(0.4, 0, 0.2, 1);
+}
 /* ANIMATIONS */
 @keyframes nebulaPulse { 0% { opacity: 0.6; transform: scale(1); } 100% { opacity: 1; transform: scale(1.1); } }
 @keyframes rotateSlow { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
