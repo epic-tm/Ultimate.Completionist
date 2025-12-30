@@ -1,0 +1,4615 @@
+{
+  "domain": "Mental",
+  "stats": [
+    "Emotional Intelligence",
+    "Resilience",
+    "Focus",
+    "Self-Awareness",
+    "Stress Management",
+    "Mindfulness"
+  ],
+  "categories": [
+    "Meditation",
+    "Therapy",
+    "CBT",
+    "Mindfulness",
+    "Habit Formation",
+    "Breathwork",
+    "Philosophy",
+    "Journaling",
+    "Resilience Training",
+    "Flow Training",
+    "Biofeedback",
+    "Dream Work",
+    "Shadow Work",
+    "Trauma Work",
+    "Concentration Training",
+    "Visualization",
+    "Cognitive Training",
+    "Exposure Work",
+    "Acceptance",
+    "Mental Models",
+    "Stoicism"
+  ],
+  "ranks": {
+    "1": "Novice",
+    "2": "Apprentice",
+    "3": "Adept",
+    "4": "Expert",
+    "5": "Master",
+    "6": "Grandmaster",
+    "7": "Legend",
+    "8": "Mythic",
+    "9": "Transcendent",
+    "10": "Ultimate Completionist"
+  },
+  "achievements": [
+    {
+      "id": "mental_r1_a1",
+      "title": "7-Day Meditation",
+      "description": "Meditate daily for 7 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Meditation",
+      "points": 13,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Emotional Intelligence": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a2",
+      "title": "Complete CBT",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Therapy",
+      "points": 37,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Resilience": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a3",
+      "title": "30-Day Journaling",
+      "description": "Complete 30-Day Journaling practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "CBT",
+      "points": 26,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Focus": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a4",
+      "title": "Cold Intro",
+      "description": "Complete Cold Intro practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Mindfulness",
+      "points": 47,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Self-Awareness": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a5",
+      "title": "Handle 1 Stressor",
+      "description": "Complete Handle 1 Stressor practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Habit Formation",
+      "points": 22,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Stress Management": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a6",
+      "title": "Read Stoic Book",
+      "description": "Complete Read Stoic Book practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Breathwork",
+      "points": 39,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Mindfulness": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a7",
+      "title": "Breathwork Habit",
+      "description": "Complete Breathwork Habit practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Philosophy",
+      "points": 20,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Emotional Intelligence": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a8",
+      "title": "Therapy Intro",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Journaling",
+      "points": 26,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Resilience": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a9",
+      "title": "Resilience Week",
+      "description": "Complete Resilience Week practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Resilience Training",
+      "points": 28,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Focus": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a10",
+      "title": "Focus Sprint",
+      "description": "Complete Focus Sprint practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Flow Training",
+      "points": 32,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Self-Awareness": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a11",
+      "title": "7-Day Meditation",
+      "description": "Meditate daily for 7 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Biofeedback",
+      "points": 43,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Stress Management": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a12",
+      "title": "Complete CBT",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Dream Work",
+      "points": 17,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Mindfulness": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a13",
+      "title": "30-Day Journaling",
+      "description": "Complete 30-Day Journaling practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Shadow Work",
+      "points": 45,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Emotional Intelligence": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a14",
+      "title": "Cold Intro",
+      "description": "Complete Cold Intro practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Trauma Work",
+      "points": 23,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Resilience": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a15",
+      "title": "Handle 1 Stressor",
+      "description": "Complete Handle 1 Stressor practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Concentration Training",
+      "points": 19,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Focus": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a16",
+      "title": "Read Stoic Book",
+      "description": "Complete Read Stoic Book practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Visualization",
+      "points": 39,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Self-Awareness": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a17",
+      "title": "Breathwork Habit",
+      "description": "Complete Breathwork Habit practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Cognitive Training",
+      "points": 42,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Stress Management": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a18",
+      "title": "Therapy Intro",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Exposure Work",
+      "points": 31,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Mindfulness": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a19",
+      "title": "Resilience Week",
+      "description": "Complete Resilience Week practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Acceptance",
+      "points": 48,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Emotional Intelligence": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r1_a20",
+      "title": "Focus Sprint",
+      "description": "Complete Focus Sprint practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Mental Models",
+      "points": 31,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Resilience": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a1",
+      "title": "7-Day Meditation",
+      "description": "Meditate daily for 7 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Meditation",
+      "points": 54,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Emotional Intelligence": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a2",
+      "title": "Complete CBT",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Therapy",
+      "points": 88,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Resilience": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a3",
+      "title": "30-Day Journaling",
+      "description": "Complete 30-Day Journaling practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "CBT",
+      "points": 75,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Focus": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a4",
+      "title": "Cold Intro",
+      "description": "Complete Cold Intro practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Mindfulness",
+      "points": 52,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Self-Awareness": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a5",
+      "title": "Handle 1 Stressor",
+      "description": "Complete Handle 1 Stressor practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Habit Formation",
+      "points": 71,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Stress Management": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a5"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a6",
+      "title": "Read Stoic Book",
+      "description": "Complete Read Stoic Book practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Breathwork",
+      "points": 74,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Mindfulness": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a7",
+      "title": "Breathwork Habit",
+      "description": "Complete Breathwork Habit practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Philosophy",
+      "points": 91,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Emotional Intelligence": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a8",
+      "title": "Therapy Intro",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Journaling",
+      "points": 68,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Resilience": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a9",
+      "title": "Resilience Week",
+      "description": "Complete Resilience Week practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Resilience Training",
+      "points": 93,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Focus": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a10",
+      "title": "Focus Sprint",
+      "description": "Complete Focus Sprint practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Flow Training",
+      "points": 50,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Self-Awareness": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a10"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a11",
+      "title": "7-Day Meditation",
+      "description": "Meditate daily for 7 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Biofeedback",
+      "points": 67,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Stress Management": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a12",
+      "title": "Complete CBT",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Dream Work",
+      "points": 77,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Mindfulness": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a13",
+      "title": "30-Day Journaling",
+      "description": "Complete 30-Day Journaling practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Shadow Work",
+      "points": 81,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Emotional Intelligence": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a14",
+      "title": "Cold Intro",
+      "description": "Complete Cold Intro practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Trauma Work",
+      "points": 90,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Resilience": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a15",
+      "title": "Handle 1 Stressor",
+      "description": "Complete Handle 1 Stressor practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Concentration Training",
+      "points": 69,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Focus": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a15"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a16",
+      "title": "Read Stoic Book",
+      "description": "Complete Read Stoic Book practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Visualization",
+      "points": 63,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Self-Awareness": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a17",
+      "title": "Breathwork Habit",
+      "description": "Complete Breathwork Habit practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Cognitive Training",
+      "points": 63,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Stress Management": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a18",
+      "title": "Therapy Intro",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Exposure Work",
+      "points": 51,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Mindfulness": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a19",
+      "title": "Resilience Week",
+      "description": "Complete Resilience Week practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Acceptance",
+      "points": 90,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Emotional Intelligence": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r2_a20",
+      "title": "Focus Sprint",
+      "description": "Complete Focus Sprint practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Mental Models",
+      "points": 58,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Resilience": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "mental_r1_a20"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a1",
+      "title": "7-Day Meditation",
+      "description": "Meditate daily for 7 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Meditation",
+      "points": 115,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Emotional Intelligence": 6,
+        "Resilience": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a2",
+      "title": "Complete CBT",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Therapy",
+      "points": 246,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Resilience": 6,
+        "Focus": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a3",
+      "title": "30-Day Journaling",
+      "description": "Complete 30-Day Journaling practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "CBT",
+      "points": 204,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Focus": 6,
+        "Self-Awareness": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a4",
+      "title": "Cold Intro",
+      "description": "Complete Cold Intro practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Mindfulness",
+      "points": 243,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Self-Awareness": 6,
+        "Stress Management": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a5",
+      "title": "Handle 1 Stressor",
+      "description": "Complete Handle 1 Stressor practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Habit Formation",
+      "points": 121,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Stress Management": 6,
+        "Mindfulness": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a5"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a6",
+      "title": "Read Stoic Book",
+      "description": "Complete Read Stoic Book practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Breathwork",
+      "points": 169,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Mindfulness": 6,
+        "Emotional Intelligence": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a7",
+      "title": "Breathwork Habit",
+      "description": "Complete Breathwork Habit practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Philosophy",
+      "points": 118,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Emotional Intelligence": 6,
+        "Resilience": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a8",
+      "title": "Therapy Intro",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Journaling",
+      "points": 145,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Resilience": 6,
+        "Focus": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a9",
+      "title": "Resilience Week",
+      "description": "Complete Resilience Week practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Resilience Training",
+      "points": 121,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Focus": 6,
+        "Self-Awareness": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a10",
+      "title": "Focus Sprint",
+      "description": "Complete Focus Sprint practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Flow Training",
+      "points": 107,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Self-Awareness": 6,
+        "Stress Management": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a10"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a11",
+      "title": "7-Day Meditation",
+      "description": "Meditate daily for 7 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Biofeedback",
+      "points": 174,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Stress Management": 6,
+        "Mindfulness": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a12",
+      "title": "Complete CBT",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Dream Work",
+      "points": 189,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Mindfulness": 6,
+        "Emotional Intelligence": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a13",
+      "title": "30-Day Journaling",
+      "description": "Complete 30-Day Journaling practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Shadow Work",
+      "points": 163,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Emotional Intelligence": 6,
+        "Resilience": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a14",
+      "title": "Cold Intro",
+      "description": "Complete Cold Intro practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Trauma Work",
+      "points": 122,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Resilience": 6,
+        "Focus": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a15",
+      "title": "Handle 1 Stressor",
+      "description": "Complete Handle 1 Stressor practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Concentration Training",
+      "points": 175,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Focus": 6,
+        "Self-Awareness": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a15"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a16",
+      "title": "Read Stoic Book",
+      "description": "Complete Read Stoic Book practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Visualization",
+      "points": 172,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Self-Awareness": 6,
+        "Stress Management": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a17",
+      "title": "Breathwork Habit",
+      "description": "Complete Breathwork Habit practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Cognitive Training",
+      "points": 108,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Stress Management": 6,
+        "Mindfulness": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a18",
+      "title": "Therapy Intro",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Exposure Work",
+      "points": 230,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Mindfulness": 6,
+        "Emotional Intelligence": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a19",
+      "title": "Resilience Week",
+      "description": "Complete Resilience Week practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Acceptance",
+      "points": 217,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Emotional Intelligence": 6,
+        "Resilience": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r3_a20",
+      "title": "Focus Sprint",
+      "description": "Complete Focus Sprint practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Mental Models",
+      "points": 128,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Resilience": 6,
+        "Focus": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "mental_r2_a20"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a1",
+      "title": "30-Day Meditation x4",
+      "description": "Meditate daily for 304 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Meditation",
+      "points": 477,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Emotional Intelligence": 8,
+        "Resilience": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a2",
+      "title": "Resilience Challenge 4",
+      "description": "Complete Resilience Challenge 4 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Therapy",
+      "points": 315,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Resilience": 8,
+        "Focus": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a3",
+      "title": "Mindfulness Retreat 4d",
+      "description": "Complete Mindfulness Retreat 4d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "CBT",
+      "points": 260,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Focus": 8,
+        "Self-Awareness": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a4",
+      "title": "Therapy Block 4",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Mindfulness",
+      "points": 418,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Self-Awareness": 8,
+        "Stress Management": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a5",
+      "title": "Focus Streak 28d",
+      "description": "Complete Focus Streak 28d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Habit Formation",
+      "points": 344,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Stress Management": 8,
+        "Mindfulness": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a5",
+        "mental_r2_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a6",
+      "title": "30-Day Meditation x4",
+      "description": "Meditate daily for 304 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Breathwork",
+      "points": 461,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Mindfulness": 8,
+        "Emotional Intelligence": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a7",
+      "title": "Resilience Challenge 4",
+      "description": "Complete Resilience Challenge 4 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Philosophy",
+      "points": 443,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Emotional Intelligence": 8,
+        "Resilience": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a8",
+      "title": "Mindfulness Retreat 4d",
+      "description": "Complete Mindfulness Retreat 4d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Journaling",
+      "points": 296,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Resilience": 8,
+        "Focus": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a9",
+      "title": "Therapy Block 4",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Resilience Training",
+      "points": 491,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Focus": 8,
+        "Self-Awareness": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a10",
+      "title": "Focus Streak 28d",
+      "description": "Complete Focus Streak 28d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Flow Training",
+      "points": 343,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Self-Awareness": 8,
+        "Stress Management": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a10",
+        "mental_r2_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a11",
+      "title": "30-Day Meditation x4",
+      "description": "Meditate daily for 304 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Biofeedback",
+      "points": 378,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Stress Management": 8,
+        "Mindfulness": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a12",
+      "title": "Resilience Challenge 4",
+      "description": "Complete Resilience Challenge 4 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Dream Work",
+      "points": 416,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Mindfulness": 8,
+        "Emotional Intelligence": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a13",
+      "title": "Mindfulness Retreat 4d",
+      "description": "Complete Mindfulness Retreat 4d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Shadow Work",
+      "points": 364,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Emotional Intelligence": 8,
+        "Resilience": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a14",
+      "title": "Therapy Block 4",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Trauma Work",
+      "points": 317,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Resilience": 8,
+        "Focus": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a15",
+      "title": "Focus Streak 28d",
+      "description": "Complete Focus Streak 28d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Concentration Training",
+      "points": 285,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Focus": 8,
+        "Self-Awareness": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a15",
+        "mental_r2_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a16",
+      "title": "30-Day Meditation x4",
+      "description": "Meditate daily for 304 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Visualization",
+      "points": 379,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Self-Awareness": 8,
+        "Stress Management": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a17",
+      "title": "Resilience Challenge 4",
+      "description": "Complete Resilience Challenge 4 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Cognitive Training",
+      "points": 274,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Stress Management": 8,
+        "Mindfulness": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a18",
+      "title": "Mindfulness Retreat 4d",
+      "description": "Complete Mindfulness Retreat 4d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Exposure Work",
+      "points": 394,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Mindfulness": 8,
+        "Emotional Intelligence": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a19",
+      "title": "Therapy Block 4",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Acceptance",
+      "points": 253,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Emotional Intelligence": 8,
+        "Resilience": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r4_a20",
+      "title": "Focus Streak 28d",
+      "description": "Complete Focus Streak 28d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Mental Models",
+      "points": 359,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Resilience": 8,
+        "Focus": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "mental_r3_a20",
+        "mental_r2_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a1",
+      "title": "30-Day Meditation x5",
+      "description": "Meditate daily for 305 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Meditation",
+      "points": 714,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Emotional Intelligence": 10,
+        "Resilience": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a2",
+      "title": "Resilience Challenge 5",
+      "description": "Complete Resilience Challenge 5 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Therapy",
+      "points": 975,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Resilience": 10,
+        "Focus": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a3",
+      "title": "Mindfulness Retreat 5d",
+      "description": "Complete Mindfulness Retreat 5d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "CBT",
+      "points": 935,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Focus": 10,
+        "Self-Awareness": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a4",
+      "title": "Therapy Block 5",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Mindfulness",
+      "points": 966,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Self-Awareness": 10,
+        "Stress Management": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a5",
+      "title": "Focus Streak 35d",
+      "description": "Complete Focus Streak 35d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Habit Formation",
+      "points": 618,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Stress Management": 10,
+        "Mindfulness": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a5",
+        "mental_r3_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a6",
+      "title": "30-Day Meditation x5",
+      "description": "Meditate daily for 305 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Breathwork",
+      "points": 558,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Mindfulness": 10,
+        "Emotional Intelligence": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a7",
+      "title": "Resilience Challenge 5",
+      "description": "Complete Resilience Challenge 5 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Philosophy",
+      "points": 683,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Emotional Intelligence": 10,
+        "Resilience": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a8",
+      "title": "Mindfulness Retreat 5d",
+      "description": "Complete Mindfulness Retreat 5d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Journaling",
+      "points": 773,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Resilience": 10,
+        "Focus": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a9",
+      "title": "Therapy Block 5",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Resilience Training",
+      "points": 768,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Focus": 10,
+        "Self-Awareness": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a10",
+      "title": "Focus Streak 35d",
+      "description": "Complete Focus Streak 35d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Flow Training",
+      "points": 722,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Self-Awareness": 10,
+        "Stress Management": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a10",
+        "mental_r3_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a11",
+      "title": "30-Day Meditation x5",
+      "description": "Meditate daily for 305 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Biofeedback",
+      "points": 610,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Stress Management": 10,
+        "Mindfulness": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a12",
+      "title": "Resilience Challenge 5",
+      "description": "Complete Resilience Challenge 5 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Dream Work",
+      "points": 798,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Mindfulness": 10,
+        "Emotional Intelligence": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a13",
+      "title": "Mindfulness Retreat 5d",
+      "description": "Complete Mindfulness Retreat 5d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Shadow Work",
+      "points": 565,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Emotional Intelligence": 10,
+        "Resilience": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a14",
+      "title": "Therapy Block 5",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Trauma Work",
+      "points": 860,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Resilience": 10,
+        "Focus": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a15",
+      "title": "Focus Streak 35d",
+      "description": "Complete Focus Streak 35d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Concentration Training",
+      "points": 994,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Focus": 10,
+        "Self-Awareness": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a15",
+        "mental_r3_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a16",
+      "title": "30-Day Meditation x5",
+      "description": "Meditate daily for 305 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Visualization",
+      "points": 617,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Self-Awareness": 10,
+        "Stress Management": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a17",
+      "title": "Resilience Challenge 5",
+      "description": "Complete Resilience Challenge 5 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Cognitive Training",
+      "points": 550,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Stress Management": 10,
+        "Mindfulness": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a18",
+      "title": "Mindfulness Retreat 5d",
+      "description": "Complete Mindfulness Retreat 5d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Exposure Work",
+      "points": 981,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Mindfulness": 10,
+        "Emotional Intelligence": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a19",
+      "title": "Therapy Block 5",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Acceptance",
+      "points": 740,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Emotional Intelligence": 10,
+        "Resilience": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r5_a20",
+      "title": "Focus Streak 35d",
+      "description": "Complete Focus Streak 35d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Mental Models",
+      "points": 679,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Resilience": 10,
+        "Focus": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "mental_r4_a20",
+        "mental_r3_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "mental_r6_a1",
+      "title": "30-Day Meditation x6",
+      "description": "Meditate daily for 306 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Meditation",
+      "points": 2086,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Emotional Intelligence": 12,
+        "Resilience": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a2",
+      "title": "Resilience Challenge 6",
+      "description": "Complete Resilience Challenge 6 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Therapy",
+      "points": 2379,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Resilience": 12,
+        "Focus": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a3",
+      "title": "Mindfulness Retreat 6d",
+      "description": "Complete Mindfulness Retreat 6d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "CBT",
+      "points": 2151,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Focus": 12,
+        "Self-Awareness": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a4",
+      "title": "Therapy Block 6",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Mindfulness",
+      "points": 1967,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Self-Awareness": 12,
+        "Stress Management": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a5",
+      "title": "Focus Streak 42d",
+      "description": "Complete Focus Streak 42d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Habit Formation",
+      "points": 2359,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Stress Management": 12,
+        "Mindfulness": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a5",
+        "mental_r4_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a6",
+      "title": "30-Day Meditation x6",
+      "description": "Meditate daily for 306 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Breathwork",
+      "points": 2183,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Mindfulness": 12,
+        "Emotional Intelligence": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a7",
+      "title": "Resilience Challenge 6",
+      "description": "Complete Resilience Challenge 6 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Philosophy",
+      "points": 2342,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Emotional Intelligence": 12,
+        "Resilience": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a8",
+      "title": "Mindfulness Retreat 6d",
+      "description": "Complete Mindfulness Retreat 6d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Journaling",
+      "points": 2067,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Resilience": 12,
+        "Focus": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a9",
+      "title": "Therapy Block 6",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Resilience Training",
+      "points": 1111,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Focus": 12,
+        "Self-Awareness": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a10",
+      "title": "Focus Streak 42d",
+      "description": "Complete Focus Streak 42d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Flow Training",
+      "points": 1148,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Self-Awareness": 12,
+        "Stress Management": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a10",
+        "mental_r4_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a11",
+      "title": "30-Day Meditation x6",
+      "description": "Meditate daily for 306 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Biofeedback",
+      "points": 2299,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Stress Management": 12,
+        "Mindfulness": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a12",
+      "title": "Resilience Challenge 6",
+      "description": "Complete Resilience Challenge 6 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Dream Work",
+      "points": 1746,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Mindfulness": 12,
+        "Emotional Intelligence": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a13",
+      "title": "Mindfulness Retreat 6d",
+      "description": "Complete Mindfulness Retreat 6d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Shadow Work",
+      "points": 2326,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Emotional Intelligence": 12,
+        "Resilience": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a14",
+      "title": "Therapy Block 6",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Trauma Work",
+      "points": 1518,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Resilience": 12,
+        "Focus": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a15",
+      "title": "Focus Streak 42d",
+      "description": "Complete Focus Streak 42d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Concentration Training",
+      "points": 1889,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Focus": 12,
+        "Self-Awareness": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a15",
+        "mental_r4_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a16",
+      "title": "30-Day Meditation x6",
+      "description": "Meditate daily for 306 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Visualization",
+      "points": 1773,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Self-Awareness": 12,
+        "Stress Management": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a17",
+      "title": "Resilience Challenge 6",
+      "description": "Complete Resilience Challenge 6 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Cognitive Training",
+      "points": 1970,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Stress Management": 12,
+        "Mindfulness": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a18",
+      "title": "Mindfulness Retreat 6d",
+      "description": "Complete Mindfulness Retreat 6d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Exposure Work",
+      "points": 2221,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Mindfulness": 12,
+        "Emotional Intelligence": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a19",
+      "title": "Therapy Block 6",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Acceptance",
+      "points": 1957,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Emotional Intelligence": 12,
+        "Resilience": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r6_a20",
+      "title": "Focus Streak 42d",
+      "description": "Complete Focus Streak 42d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Mental Models",
+      "points": 1275,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Resilience": 12,
+        "Focus": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "mental_r5_a20",
+        "mental_r4_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a1",
+      "title": "30-Day Meditation x7",
+      "description": "Meditate daily for 307 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Meditation",
+      "points": 3931,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Emotional Intelligence": 14,
+        "Resilience": 17,
+        "Focus": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a2",
+      "title": "Resilience Challenge 7",
+      "description": "Complete Resilience Challenge 7 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Therapy",
+      "points": 2884,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Resilience": 14,
+        "Focus": 17,
+        "Self-Awareness": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a3",
+      "title": "Mindfulness Retreat 7d",
+      "description": "Complete Mindfulness Retreat 7d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "CBT",
+      "points": 3471,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Focus": 14,
+        "Self-Awareness": 17,
+        "Stress Management": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a4",
+      "title": "Therapy Block 7",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Mindfulness",
+      "points": 4556,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Self-Awareness": 14,
+        "Stress Management": 17,
+        "Mindfulness": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a5",
+      "title": "Focus Streak 49d",
+      "description": "Complete Focus Streak 49d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Habit Formation",
+      "points": 3087,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Stress Management": 14,
+        "Mindfulness": 17,
+        "Emotional Intelligence": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a5",
+        "mental_r5_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a6",
+      "title": "30-Day Meditation x7",
+      "description": "Meditate daily for 307 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Breathwork",
+      "points": 3793,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Mindfulness": 14,
+        "Emotional Intelligence": 17,
+        "Resilience": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a7",
+      "title": "Resilience Challenge 7",
+      "description": "Complete Resilience Challenge 7 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Philosophy",
+      "points": 4494,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Emotional Intelligence": 14,
+        "Resilience": 17,
+        "Focus": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a8",
+      "title": "Mindfulness Retreat 7d",
+      "description": "Complete Mindfulness Retreat 7d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Journaling",
+      "points": 2720,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Resilience": 14,
+        "Focus": 17,
+        "Self-Awareness": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a9",
+      "title": "Therapy Block 7",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Resilience Training",
+      "points": 3941,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Focus": 14,
+        "Self-Awareness": 17,
+        "Stress Management": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a10",
+      "title": "Focus Streak 49d",
+      "description": "Complete Focus Streak 49d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Flow Training",
+      "points": 4874,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Self-Awareness": 14,
+        "Stress Management": 17,
+        "Mindfulness": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a10",
+        "mental_r5_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a11",
+      "title": "30-Day Meditation x7",
+      "description": "Meditate daily for 307 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Biofeedback",
+      "points": 3824,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Stress Management": 14,
+        "Mindfulness": 17,
+        "Emotional Intelligence": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a12",
+      "title": "Resilience Challenge 7",
+      "description": "Complete Resilience Challenge 7 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Dream Work",
+      "points": 4179,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Mindfulness": 14,
+        "Emotional Intelligence": 17,
+        "Resilience": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a13",
+      "title": "Mindfulness Retreat 7d",
+      "description": "Complete Mindfulness Retreat 7d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Shadow Work",
+      "points": 3757,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Emotional Intelligence": 14,
+        "Resilience": 17,
+        "Focus": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a14",
+      "title": "Therapy Block 7",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Trauma Work",
+      "points": 3868,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Resilience": 14,
+        "Focus": 17,
+        "Self-Awareness": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a15",
+      "title": "Focus Streak 49d",
+      "description": "Complete Focus Streak 49d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Concentration Training",
+      "points": 4453,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Focus": 14,
+        "Self-Awareness": 17,
+        "Stress Management": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a15",
+        "mental_r5_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a16",
+      "title": "30-Day Meditation x7",
+      "description": "Meditate daily for 307 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Visualization",
+      "points": 3255,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Self-Awareness": 14,
+        "Stress Management": 17,
+        "Mindfulness": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a17",
+      "title": "Resilience Challenge 7",
+      "description": "Complete Resilience Challenge 7 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Cognitive Training",
+      "points": 4798,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Stress Management": 14,
+        "Mindfulness": 17,
+        "Emotional Intelligence": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a18",
+      "title": "Mindfulness Retreat 7d",
+      "description": "Complete Mindfulness Retreat 7d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Exposure Work",
+      "points": 4830,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Mindfulness": 14,
+        "Emotional Intelligence": 17,
+        "Resilience": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a19",
+      "title": "Therapy Block 7",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Acceptance",
+      "points": 3446,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Emotional Intelligence": 14,
+        "Resilience": 17,
+        "Focus": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r7_a20",
+      "title": "Focus Streak 49d",
+      "description": "Complete Focus Streak 49d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Mental Models",
+      "points": 3019,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Resilience": 14,
+        "Focus": 17,
+        "Self-Awareness": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "mental_r6_a20",
+        "mental_r5_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a1",
+      "title": "30-Day Meditation x8",
+      "description": "Meditate daily for 308 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Meditation",
+      "points": 6351,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Emotional Intelligence": 16,
+        "Resilience": 20,
+        "Focus": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a2",
+      "title": "Resilience Challenge 8",
+      "description": "Complete Resilience Challenge 8 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Therapy",
+      "points": 8200,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Resilience": 16,
+        "Focus": 20,
+        "Self-Awareness": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a3",
+      "title": "Mindfulness Retreat 8d",
+      "description": "Complete Mindfulness Retreat 8d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "CBT",
+      "points": 7892,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Focus": 16,
+        "Self-Awareness": 20,
+        "Stress Management": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a4",
+      "title": "Therapy Block 8",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Mindfulness",
+      "points": 9098,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Self-Awareness": 16,
+        "Stress Management": 20,
+        "Mindfulness": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a5",
+      "title": "Focus Streak 56d",
+      "description": "Complete Focus Streak 56d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Habit Formation",
+      "points": 8552,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Stress Management": 16,
+        "Mindfulness": 20,
+        "Emotional Intelligence": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a5",
+        "mental_r6_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a6",
+      "title": "30-Day Meditation x8",
+      "description": "Meditate daily for 308 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Breathwork",
+      "points": 5099,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Mindfulness": 16,
+        "Emotional Intelligence": 20,
+        "Resilience": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a7",
+      "title": "Resilience Challenge 8",
+      "description": "Complete Resilience Challenge 8 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Philosophy",
+      "points": 7979,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Emotional Intelligence": 16,
+        "Resilience": 20,
+        "Focus": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a8",
+      "title": "Mindfulness Retreat 8d",
+      "description": "Complete Mindfulness Retreat 8d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Journaling",
+      "points": 6334,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Resilience": 16,
+        "Focus": 20,
+        "Self-Awareness": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a9",
+      "title": "Therapy Block 8",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Resilience Training",
+      "points": 7453,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Focus": 16,
+        "Self-Awareness": 20,
+        "Stress Management": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a10",
+      "title": "Focus Streak 56d",
+      "description": "Complete Focus Streak 56d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Flow Training",
+      "points": 7602,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Self-Awareness": 16,
+        "Stress Management": 20,
+        "Mindfulness": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a10",
+        "mental_r6_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a11",
+      "title": "30-Day Meditation x8",
+      "description": "Meditate daily for 308 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Biofeedback",
+      "points": 9289,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Stress Management": 16,
+        "Mindfulness": 20,
+        "Emotional Intelligence": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a12",
+      "title": "Resilience Challenge 8",
+      "description": "Complete Resilience Challenge 8 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Dream Work",
+      "points": 7456,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Mindfulness": 16,
+        "Emotional Intelligence": 20,
+        "Resilience": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a13",
+      "title": "Mindfulness Retreat 8d",
+      "description": "Complete Mindfulness Retreat 8d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Shadow Work",
+      "points": 7759,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Emotional Intelligence": 16,
+        "Resilience": 20,
+        "Focus": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a14",
+      "title": "Therapy Block 8",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Trauma Work",
+      "points": 6286,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Resilience": 16,
+        "Focus": 20,
+        "Self-Awareness": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a15",
+      "title": "Focus Streak 56d",
+      "description": "Complete Focus Streak 56d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Concentration Training",
+      "points": 5683,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Focus": 16,
+        "Self-Awareness": 20,
+        "Stress Management": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a15",
+        "mental_r6_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a16",
+      "title": "30-Day Meditation x8",
+      "description": "Meditate daily for 308 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Visualization",
+      "points": 8115,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Self-Awareness": 16,
+        "Stress Management": 20,
+        "Mindfulness": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a17",
+      "title": "Resilience Challenge 8",
+      "description": "Complete Resilience Challenge 8 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Cognitive Training",
+      "points": 5987,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Stress Management": 16,
+        "Mindfulness": 20,
+        "Emotional Intelligence": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a18",
+      "title": "Mindfulness Retreat 8d",
+      "description": "Complete Mindfulness Retreat 8d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Exposure Work",
+      "points": 9568,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Mindfulness": 16,
+        "Emotional Intelligence": 20,
+        "Resilience": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a19",
+      "title": "Therapy Block 8",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Acceptance",
+      "points": 5665,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Emotional Intelligence": 16,
+        "Resilience": 20,
+        "Focus": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r8_a20",
+      "title": "Focus Streak 56d",
+      "description": "Complete Focus Streak 56d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Mental Models",
+      "points": 9078,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Resilience": 16,
+        "Focus": 20,
+        "Self-Awareness": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "mental_r7_a20",
+        "mental_r6_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a1",
+      "title": "30-Day Meditation x9",
+      "description": "Meditate daily for 309 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Meditation",
+      "points": 24733,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Emotional Intelligence": 18,
+        "Resilience": 22,
+        "Focus": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a2",
+      "title": "Resilience Challenge 9",
+      "description": "Complete Resilience Challenge 9 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Therapy",
+      "points": 20854,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Resilience": 18,
+        "Focus": 22,
+        "Self-Awareness": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a3",
+      "title": "Mindfulness Retreat 9d",
+      "description": "Complete Mindfulness Retreat 9d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "CBT",
+      "points": 19706,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Focus": 18,
+        "Self-Awareness": 22,
+        "Stress Management": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a4",
+      "title": "Therapy Block 9",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Mindfulness",
+      "points": 11244,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Self-Awareness": 18,
+        "Stress Management": 22,
+        "Mindfulness": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a5",
+      "title": "Focus Streak 63d",
+      "description": "Complete Focus Streak 63d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Habit Formation",
+      "points": 24514,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Stress Management": 18,
+        "Mindfulness": 22,
+        "Emotional Intelligence": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a5",
+        "mental_r7_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a6",
+      "title": "30-Day Meditation x9",
+      "description": "Meditate daily for 309 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Breathwork",
+      "points": 13711,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Mindfulness": 18,
+        "Emotional Intelligence": 22,
+        "Resilience": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a7",
+      "title": "Resilience Challenge 9",
+      "description": "Complete Resilience Challenge 9 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Philosophy",
+      "points": 16344,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Emotional Intelligence": 18,
+        "Resilience": 22,
+        "Focus": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a8",
+      "title": "Mindfulness Retreat 9d",
+      "description": "Complete Mindfulness Retreat 9d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Journaling",
+      "points": 13702,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Resilience": 18,
+        "Focus": 22,
+        "Self-Awareness": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a9",
+      "title": "Therapy Block 9",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Resilience Training",
+      "points": 17958,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Focus": 18,
+        "Self-Awareness": 22,
+        "Stress Management": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a10",
+      "title": "Focus Streak 63d",
+      "description": "Complete Focus Streak 63d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Flow Training",
+      "points": 13385,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Self-Awareness": 18,
+        "Stress Management": 22,
+        "Mindfulness": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a10",
+        "mental_r7_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a11",
+      "title": "30-Day Meditation x9",
+      "description": "Meditate daily for 309 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Biofeedback",
+      "points": 10297,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Stress Management": 18,
+        "Mindfulness": 22,
+        "Emotional Intelligence": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a12",
+      "title": "Resilience Challenge 9",
+      "description": "Complete Resilience Challenge 9 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Dream Work",
+      "points": 21206,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Mindfulness": 18,
+        "Emotional Intelligence": 22,
+        "Resilience": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a13",
+      "title": "Mindfulness Retreat 9d",
+      "description": "Complete Mindfulness Retreat 9d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Shadow Work",
+      "points": 23754,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Emotional Intelligence": 18,
+        "Resilience": 22,
+        "Focus": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a14",
+      "title": "Therapy Block 9",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Trauma Work",
+      "points": 16446,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Resilience": 18,
+        "Focus": 22,
+        "Self-Awareness": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a15",
+      "title": "Focus Streak 63d",
+      "description": "Complete Focus Streak 63d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Concentration Training",
+      "points": 23015,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Focus": 18,
+        "Self-Awareness": 22,
+        "Stress Management": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a15",
+        "mental_r7_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a16",
+      "title": "30-Day Meditation x9",
+      "description": "Meditate daily for 309 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Visualization",
+      "points": 16981,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Self-Awareness": 18,
+        "Stress Management": 22,
+        "Mindfulness": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a17",
+      "title": "Resilience Challenge 9",
+      "description": "Complete Resilience Challenge 9 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Cognitive Training",
+      "points": 20420,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Stress Management": 18,
+        "Mindfulness": 22,
+        "Emotional Intelligence": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a18",
+      "title": "Mindfulness Retreat 9d",
+      "description": "Complete Mindfulness Retreat 9d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Exposure Work",
+      "points": 20691,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Mindfulness": 18,
+        "Emotional Intelligence": 22,
+        "Resilience": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a19",
+      "title": "Therapy Block 9",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Acceptance",
+      "points": 22288,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Emotional Intelligence": 18,
+        "Resilience": 22,
+        "Focus": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r9_a20",
+      "title": "Focus Streak 63d",
+      "description": "Complete Focus Streak 63d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Mental Models",
+      "points": 17867,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Resilience": 18,
+        "Focus": 22,
+        "Self-Awareness": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "mental_r8_a20",
+        "mental_r7_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a1",
+      "title": "30-Day Meditation x10",
+      "description": "Meditate daily for 3010 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Meditation",
+      "points": 55515,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Emotional Intelligence": 20,
+        "Resilience": 25,
+        "Focus": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a2",
+      "title": "Resilience Challenge 10",
+      "description": "Complete Resilience Challenge 10 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Therapy",
+      "points": 29526,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Resilience": 20,
+        "Focus": 25,
+        "Self-Awareness": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a3",
+      "title": "Mindfulness Retreat 10d",
+      "description": "Complete Mindfulness Retreat 10d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "CBT",
+      "points": 73464,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Focus": 20,
+        "Self-Awareness": 25,
+        "Stress Management": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a4",
+      "title": "Therapy Block 10",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Mindfulness",
+      "points": 88984,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Self-Awareness": 20,
+        "Stress Management": 25,
+        "Mindfulness": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a5",
+      "title": "Focus Streak 70d",
+      "description": "Complete Focus Streak 70d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Habit Formation",
+      "points": 43095,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Stress Management": 20,
+        "Mindfulness": 25,
+        "Emotional Intelligence": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a5",
+        "mental_r8_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a6",
+      "title": "30-Day Meditation x10",
+      "description": "Meditate daily for 3010 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Breathwork",
+      "points": 63194,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Mindfulness": 20,
+        "Emotional Intelligence": 25,
+        "Resilience": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a7",
+      "title": "Resilience Challenge 10",
+      "description": "Complete Resilience Challenge 10 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Philosophy",
+      "points": 56678,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Emotional Intelligence": 20,
+        "Resilience": 25,
+        "Focus": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a8",
+      "title": "Mindfulness Retreat 10d",
+      "description": "Complete Mindfulness Retreat 10d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Journaling",
+      "points": 30087,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Resilience": 20,
+        "Focus": 25,
+        "Self-Awareness": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a9",
+      "title": "Therapy Block 10",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Resilience Training",
+      "points": 39375,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Focus": 20,
+        "Self-Awareness": 25,
+        "Stress Management": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a10",
+      "title": "Focus Streak 70d",
+      "description": "Complete Focus Streak 70d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Flow Training",
+      "points": 99089,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Self-Awareness": 20,
+        "Stress Management": 25,
+        "Mindfulness": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a10",
+        "mental_r8_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a11",
+      "title": "30-Day Meditation x10",
+      "description": "Meditate daily for 3010 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Biofeedback",
+      "points": 63207,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Stress Management": 20,
+        "Mindfulness": 25,
+        "Emotional Intelligence": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a12",
+      "title": "Resilience Challenge 10",
+      "description": "Complete Resilience Challenge 10 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Dream Work",
+      "points": 66500,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Mindfulness": 20,
+        "Emotional Intelligence": 25,
+        "Resilience": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a13",
+      "title": "Mindfulness Retreat 10d",
+      "description": "Complete Mindfulness Retreat 10d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Shadow Work",
+      "points": 55263,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Emotional Intelligence": 20,
+        "Resilience": 25,
+        "Focus": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a14",
+      "title": "Therapy Block 10",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Trauma Work",
+      "points": 71309,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Resilience": 20,
+        "Focus": 25,
+        "Self-Awareness": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a15",
+      "title": "Focus Streak 70d",
+      "description": "Complete Focus Streak 70d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Concentration Training",
+      "points": 28005,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Focus": 20,
+        "Self-Awareness": 25,
+        "Stress Management": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a15",
+        "mental_r8_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a16",
+      "title": "30-Day Meditation x10",
+      "description": "Meditate daily for 3010 consecutive days, log sessions (time & notes), and submit a reflection.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Visualization",
+      "points": 60113,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Self-Awareness": 20,
+        "Stress Management": 25,
+        "Mindfulness": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a17",
+      "title": "Resilience Challenge 10",
+      "description": "Complete Resilience Challenge 10 practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Cognitive Training",
+      "points": 75749,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Stress Management": 20,
+        "Mindfulness": 25,
+        "Emotional Intelligence": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a18",
+      "title": "Mindfulness Retreat 10d",
+      "description": "Complete Mindfulness Retreat 10d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Exposure Work",
+      "points": 40187,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Mindfulness": 20,
+        "Emotional Intelligence": 25,
+        "Resilience": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a19",
+      "title": "Therapy Block 10",
+      "description": "Complete a minimum of 6 structured therapy or CBT sessions and provide a clinician summary or certificate.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Acceptance",
+      "points": 47994,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Emotional Intelligence": 20,
+        "Resilience": 25,
+        "Focus": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "mental_r10_a20",
+      "title": "Focus Streak 70d",
+      "description": "Complete Focus Streak 70d practice consistently and submit logs and a reflective report.",
+      "domain": "Mental",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Mental Models",
+      "points": 38249,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Resilience": 20,
+        "Focus": 25,
+        "Self-Awareness": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "mental_r9_a20",
+        "mental_r8_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    }
+  ],
+  "hiddenAchievements": [
+    {
+      "id": "mental_hidden_1",
+      "title": "Hidden Mental Mastery 1",
+      "description": "Secret-level Mental achievement requiring peer review and multiple evidences.",
+      "domain": "Mental",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "mental_hidden_2",
+      "title": "Hidden Mental Mastery 2",
+      "description": "Secret-level Mental achievement requiring peer review and multiple evidences.",
+      "domain": "Mental",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "mental_hidden_3",
+      "title": "Hidden Mental Mastery 3",
+      "description": "Secret-level Mental achievement requiring peer review and multiple evidences.",
+      "domain": "Mental",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "mental_hidden_4",
+      "title": "Hidden Mental Mastery 4",
+      "description": "Secret-level Mental achievement requiring peer review and multiple evidences.",
+      "domain": "Mental",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "mental_hidden_5",
+      "title": "Hidden Mental Mastery 5",
+      "description": "Secret-level Mental achievement requiring peer review and multiple evidences.",
+      "domain": "Mental",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "mental_hidden_6",
+      "title": "Hidden Mental Mastery 6",
+      "description": "Secret-level Mental achievement requiring peer review and multiple evidences.",
+      "domain": "Mental",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "mental_hidden_7",
+      "title": "Hidden Mental Mastery 7",
+      "description": "Secret-level Mental achievement requiring peer review and multiple evidences.",
+      "domain": "Mental",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "mental_hidden_8",
+      "title": "Hidden Mental Mastery 8",
+      "description": "Secret-level Mental achievement requiring peer review and multiple evidences.",
+      "domain": "Mental",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "mental_hidden_9",
+      "title": "Hidden Mental Mastery 9",
+      "description": "Secret-level Mental achievement requiring peer review and multiple evidences.",
+      "domain": "Mental",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "mental_hidden_10",
+      "title": "Hidden Mental Mastery 10",
+      "description": "Secret-level Mental achievement requiring peer review and multiple evidences.",
+      "domain": "Mental",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    }
+  ],
+  "systemOverview": {
+    "domains": [
+      "Physical",
+      "Mental",
+      "Intellectual",
+      "Social",
+      "Creative",
+      "Financial",
+      "Spiritual"
+    ],
+    "statsPerDomain": [
+      "Emotional Intelligence",
+      "Resilience",
+      "Focus",
+      "Self-Awareness",
+      "Stress Management",
+      "Mindfulness"
+    ],
+    "ranks": {
+      "1": "Novice",
+      "2": "Apprentice",
+      "3": "Adept",
+      "4": "Expert",
+      "5": "Master",
+      "6": "Grandmaster",
+      "7": "Legend",
+      "8": "Mythic",
+      "9": "Transcendent",
+      "10": "Ultimate Completionist"
+    },
+    "rankPercentileMapping": {
+      "1": 95.0,
+      "2": 80.0,
+      "3": 55.0,
+      "4": 25.0,
+      "5": 5.0,
+      "6": 0.5,
+      "7": 0.05,
+      "8": 0.005,
+      "9": 0.0005,
+      "10": 0.0001
+    },
+    "globalPercentileFormula": "overallPercentile = 100 - (averageDomainRank / 10 * 100) + achievementVarianceAdjustment",
+    "leaderboardDisplayFormat": {
+      "title": "ULTIMATE COMPLETIONIST PROFILE",
+      "fields": [
+        "Overall Rank",
+        "Global Percentile",
+        "Estimated Position",
+        "Next Milestone",
+        "Achievements Needed",
+        "Points Earned",
+        "Domain Breakdown"
+      ]
+    },
+    "pathToUltimate": "Complete all achievements (200 per domain), focus on high-point rare achievements, consistency over years."
+  }
+}

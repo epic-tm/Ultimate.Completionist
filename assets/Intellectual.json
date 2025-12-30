@@ -1,0 +1,4615 @@
+{
+  "domain": "Intellectual",
+  "stats": [
+    "General Knowledge",
+    "Technical Skills",
+    "Critical Thinking",
+    "Creativity",
+    "Memory",
+    "Learning Ability"
+  ],
+  "categories": [
+    "Mathematics",
+    "Physics",
+    "Biology",
+    "Computer Science",
+    "Data Science",
+    "Economics",
+    "History",
+    "Languages",
+    "Literature",
+    "Philosophy",
+    "Research Methods",
+    "Statistics",
+    "Machine Learning",
+    "Engineering",
+    "Medicine",
+    "Law",
+    "Astronomy",
+    "Logic",
+    "Quantum Computing",
+    "Neuroscience",
+    "Design Thinking"
+  ],
+  "ranks": {
+    "1": "Novice",
+    "2": "Apprentice",
+    "3": "Adept",
+    "4": "Expert",
+    "5": "Master",
+    "6": "Grandmaster",
+    "7": "Legend",
+    "8": "Mythic",
+    "9": "Transcendent",
+    "10": "Ultimate Completionist"
+  },
+  "achievements": [
+    {
+      "id": "intellectual_r1_a1",
+      "title": "Finish Intro CS",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Mathematics",
+      "points": 30,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "General Knowledge": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a2",
+      "title": "Read 12 Books",
+      "description": "Read 12 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Physics",
+      "points": 35,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Technical Skills": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a3",
+      "title": "Complete Calculus",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Biology",
+      "points": 39,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Critical Thinking": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a4",
+      "title": "Publish Essay",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Computer Science",
+      "points": 15,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Creativity": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a5",
+      "title": "Learn SQL",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Data Science",
+      "points": 18,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Memory": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a6",
+      "title": "Lang 1000 Words",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Economics",
+      "points": 44,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Learning Ability": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a7",
+      "title": "Statistics Intro",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "History",
+      "points": 25,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "General Knowledge": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a8",
+      "title": "Build Portfolio",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Languages",
+      "points": 16,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Technical Skills": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a9",
+      "title": "Research Note",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Literature",
+      "points": 14,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Critical Thinking": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a10",
+      "title": "Online Course",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Philosophy",
+      "points": 24,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Creativity": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a11",
+      "title": "Finish Intro CS",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Research Methods",
+      "points": 16,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Memory": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a12",
+      "title": "Read 12 Books",
+      "description": "Read 12 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Statistics",
+      "points": 13,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Learning Ability": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a13",
+      "title": "Complete Calculus",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Machine Learning",
+      "points": 29,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "General Knowledge": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a14",
+      "title": "Publish Essay",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Engineering",
+      "points": 46,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Technical Skills": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a15",
+      "title": "Learn SQL",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Medicine",
+      "points": 36,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Critical Thinking": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a16",
+      "title": "Lang 1000 Words",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Law",
+      "points": 23,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Creativity": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a17",
+      "title": "Statistics Intro",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Astronomy",
+      "points": 47,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Memory": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a18",
+      "title": "Build Portfolio",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Logic",
+      "points": 21,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Learning Ability": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a19",
+      "title": "Research Note",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Quantum Computing",
+      "points": 47,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "General Knowledge": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r1_a20",
+      "title": "Online Course",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Neuroscience",
+      "points": 15,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Technical Skills": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a1",
+      "title": "Finish Intro CS",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Mathematics",
+      "points": 61,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "General Knowledge": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a2",
+      "title": "Read 12 Books",
+      "description": "Read 12 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Physics",
+      "points": 85,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Technical Skills": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a3",
+      "title": "Complete Calculus",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Biology",
+      "points": 56,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Critical Thinking": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a4",
+      "title": "Publish Essay",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Computer Science",
+      "points": 82,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Creativity": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a5",
+      "title": "Learn SQL",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Data Science",
+      "points": 84,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Memory": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a5"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a6",
+      "title": "Lang 1000 Words",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Economics",
+      "points": 53,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Learning Ability": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a7",
+      "title": "Statistics Intro",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "History",
+      "points": 99,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "General Knowledge": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a8",
+      "title": "Build Portfolio",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Languages",
+      "points": 70,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Technical Skills": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a9",
+      "title": "Research Note",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Literature",
+      "points": 97,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Critical Thinking": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a10",
+      "title": "Online Course",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Philosophy",
+      "points": 84,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Creativity": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a10"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a11",
+      "title": "Finish Intro CS",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Research Methods",
+      "points": 97,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Memory": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a12",
+      "title": "Read 12 Books",
+      "description": "Read 12 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Statistics",
+      "points": 53,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Learning Ability": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a13",
+      "title": "Complete Calculus",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Machine Learning",
+      "points": 96,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "General Knowledge": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a14",
+      "title": "Publish Essay",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Engineering",
+      "points": 78,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Technical Skills": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a15",
+      "title": "Learn SQL",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Medicine",
+      "points": 88,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Critical Thinking": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a15"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a16",
+      "title": "Lang 1000 Words",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Law",
+      "points": 58,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Creativity": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a17",
+      "title": "Statistics Intro",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Astronomy",
+      "points": 52,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Memory": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a18",
+      "title": "Build Portfolio",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Logic",
+      "points": 59,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Learning Ability": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a19",
+      "title": "Research Note",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Quantum Computing",
+      "points": 71,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "General Knowledge": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r2_a20",
+      "title": "Online Course",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Neuroscience",
+      "points": 87,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Technical Skills": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "intellectual_r1_a20"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a1",
+      "title": "Finish Intro CS",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Mathematics",
+      "points": 210,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "General Knowledge": 6,
+        "Technical Skills": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a2",
+      "title": "Read 12 Books",
+      "description": "Read 12 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Physics",
+      "points": 189,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Technical Skills": 6,
+        "Critical Thinking": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a3",
+      "title": "Complete Calculus",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Biology",
+      "points": 218,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Critical Thinking": 6,
+        "Creativity": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a4",
+      "title": "Publish Essay",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Computer Science",
+      "points": 171,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Creativity": 6,
+        "Memory": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a5",
+      "title": "Learn SQL",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Data Science",
+      "points": 225,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Memory": 6,
+        "Learning Ability": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a5"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a6",
+      "title": "Lang 1000 Words",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Economics",
+      "points": 117,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Learning Ability": 6,
+        "General Knowledge": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a7",
+      "title": "Statistics Intro",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "History",
+      "points": 183,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "General Knowledge": 6,
+        "Technical Skills": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a8",
+      "title": "Build Portfolio",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Languages",
+      "points": 223,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Technical Skills": 6,
+        "Critical Thinking": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a9",
+      "title": "Research Note",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Literature",
+      "points": 217,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Critical Thinking": 6,
+        "Creativity": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a10",
+      "title": "Online Course",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Philosophy",
+      "points": 117,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Creativity": 6,
+        "Memory": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a10"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a11",
+      "title": "Finish Intro CS",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Research Methods",
+      "points": 114,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Memory": 6,
+        "Learning Ability": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a12",
+      "title": "Read 12 Books",
+      "description": "Read 12 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Statistics",
+      "points": 108,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Learning Ability": 6,
+        "General Knowledge": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a13",
+      "title": "Complete Calculus",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Machine Learning",
+      "points": 249,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "General Knowledge": 6,
+        "Technical Skills": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a14",
+      "title": "Publish Essay",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Engineering",
+      "points": 130,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Technical Skills": 6,
+        "Critical Thinking": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a15",
+      "title": "Learn SQL",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Medicine",
+      "points": 126,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Critical Thinking": 6,
+        "Creativity": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a15"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a16",
+      "title": "Lang 1000 Words",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Law",
+      "points": 125,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Creativity": 6,
+        "Memory": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a17",
+      "title": "Statistics Intro",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Astronomy",
+      "points": 172,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Memory": 6,
+        "Learning Ability": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a18",
+      "title": "Build Portfolio",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Logic",
+      "points": 197,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Learning Ability": 6,
+        "General Knowledge": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a19",
+      "title": "Research Note",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Quantum Computing",
+      "points": 174,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "General Knowledge": 6,
+        "Technical Skills": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r3_a20",
+      "title": "Online Course",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Neuroscience",
+      "points": 152,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Technical Skills": 6,
+        "Critical Thinking": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "intellectual_r2_a20"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a1",
+      "title": "Finish 4 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Mathematics",
+      "points": 449,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "General Knowledge": 8,
+        "Technical Skills": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a2",
+      "title": "Read 200 Books",
+      "description": "Read 200 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Physics",
+      "points": 364,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Technical Skills": 8,
+        "Critical Thinking": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a3",
+      "title": "Publish 4 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Biology",
+      "points": 338,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Critical Thinking": 8,
+        "Creativity": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a4",
+      "title": "Ship 4 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Computer Science",
+      "points": 373,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Creativity": 8,
+        "Memory": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a5",
+      "title": "Complete Thesis 4",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Data Science",
+      "points": 446,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Memory": 8,
+        "Learning Ability": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a5",
+        "intellectual_r2_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a6",
+      "title": "Finish 4 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Economics",
+      "points": 456,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Learning Ability": 8,
+        "General Knowledge": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a7",
+      "title": "Read 200 Books",
+      "description": "Read 200 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "History",
+      "points": 295,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "General Knowledge": 8,
+        "Technical Skills": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a8",
+      "title": "Publish 4 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Languages",
+      "points": 337,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Technical Skills": 8,
+        "Critical Thinking": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a9",
+      "title": "Ship 4 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Literature",
+      "points": 489,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Critical Thinking": 8,
+        "Creativity": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a10",
+      "title": "Complete Thesis 4",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Philosophy",
+      "points": 290,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Creativity": 8,
+        "Memory": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a10",
+        "intellectual_r2_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a11",
+      "title": "Finish 4 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Research Methods",
+      "points": 261,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Memory": 8,
+        "Learning Ability": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a12",
+      "title": "Read 200 Books",
+      "description": "Read 200 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Statistics",
+      "points": 311,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Learning Ability": 8,
+        "General Knowledge": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a13",
+      "title": "Publish 4 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Machine Learning",
+      "points": 351,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "General Knowledge": 8,
+        "Technical Skills": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a14",
+      "title": "Ship 4 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Engineering",
+      "points": 408,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Technical Skills": 8,
+        "Critical Thinking": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a15",
+      "title": "Complete Thesis 4",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Medicine",
+      "points": 365,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Critical Thinking": 8,
+        "Creativity": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a15",
+        "intellectual_r2_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a16",
+      "title": "Finish 4 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Law",
+      "points": 265,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Creativity": 8,
+        "Memory": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a17",
+      "title": "Read 200 Books",
+      "description": "Read 200 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Astronomy",
+      "points": 473,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Memory": 8,
+        "Learning Ability": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a18",
+      "title": "Publish 4 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Logic",
+      "points": 271,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Learning Ability": 8,
+        "General Knowledge": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a19",
+      "title": "Ship 4 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Quantum Computing",
+      "points": 250,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "General Knowledge": 8,
+        "Technical Skills": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r4_a20",
+      "title": "Complete Thesis 4",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Neuroscience",
+      "points": 386,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Technical Skills": 8,
+        "Critical Thinking": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "intellectual_r3_a20",
+        "intellectual_r2_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a1",
+      "title": "Finish 5 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Mathematics",
+      "points": 888,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "General Knowledge": 10,
+        "Technical Skills": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a2",
+      "title": "Read 250 Books",
+      "description": "Read 250 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Physics",
+      "points": 932,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Technical Skills": 10,
+        "Critical Thinking": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a3",
+      "title": "Publish 5 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Biology",
+      "points": 687,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Critical Thinking": 10,
+        "Creativity": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a4",
+      "title": "Ship 5 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Computer Science",
+      "points": 622,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Creativity": 10,
+        "Memory": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a5",
+      "title": "Complete Thesis 5",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Data Science",
+      "points": 645,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Memory": 10,
+        "Learning Ability": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a5",
+        "intellectual_r3_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a6",
+      "title": "Finish 5 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Economics",
+      "points": 742,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Learning Ability": 10,
+        "General Knowledge": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a7",
+      "title": "Read 250 Books",
+      "description": "Read 250 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "History",
+      "points": 738,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "General Knowledge": 10,
+        "Technical Skills": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a8",
+      "title": "Publish 5 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Languages",
+      "points": 769,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Technical Skills": 10,
+        "Critical Thinking": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a9",
+      "title": "Ship 5 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Literature",
+      "points": 501,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Critical Thinking": 10,
+        "Creativity": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a10",
+      "title": "Complete Thesis 5",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Philosophy",
+      "points": 774,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Creativity": 10,
+        "Memory": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a10",
+        "intellectual_r3_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a11",
+      "title": "Finish 5 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Research Methods",
+      "points": 629,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Memory": 10,
+        "Learning Ability": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a12",
+      "title": "Read 250 Books",
+      "description": "Read 250 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Statistics",
+      "points": 602,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Learning Ability": 10,
+        "General Knowledge": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a13",
+      "title": "Publish 5 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Machine Learning",
+      "points": 756,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "General Knowledge": 10,
+        "Technical Skills": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a14",
+      "title": "Ship 5 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Engineering",
+      "points": 983,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Technical Skills": 10,
+        "Critical Thinking": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a15",
+      "title": "Complete Thesis 5",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Medicine",
+      "points": 812,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Critical Thinking": 10,
+        "Creativity": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a15",
+        "intellectual_r3_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a16",
+      "title": "Finish 5 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Law",
+      "points": 754,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Creativity": 10,
+        "Memory": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a17",
+      "title": "Read 250 Books",
+      "description": "Read 250 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Astronomy",
+      "points": 634,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Memory": 10,
+        "Learning Ability": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a18",
+      "title": "Publish 5 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Logic",
+      "points": 507,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Learning Ability": 10,
+        "General Knowledge": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a19",
+      "title": "Ship 5 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Quantum Computing",
+      "points": 781,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "General Knowledge": 10,
+        "Technical Skills": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r5_a20",
+      "title": "Complete Thesis 5",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Neuroscience",
+      "points": 564,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Technical Skills": 10,
+        "Critical Thinking": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "intellectual_r4_a20",
+        "intellectual_r3_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "intellectual_r6_a1",
+      "title": "Finish 6 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Mathematics",
+      "points": 1861,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "General Knowledge": 12,
+        "Technical Skills": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a2",
+      "title": "Read 300 Books",
+      "description": "Read 300 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Physics",
+      "points": 1269,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Technical Skills": 12,
+        "Critical Thinking": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a3",
+      "title": "Publish 6 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Biology",
+      "points": 2373,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Critical Thinking": 12,
+        "Creativity": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a4",
+      "title": "Ship 6 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Computer Science",
+      "points": 1352,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Creativity": 12,
+        "Memory": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a5",
+      "title": "Complete Thesis 6",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Data Science",
+      "points": 1097,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Memory": 12,
+        "Learning Ability": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a5",
+        "intellectual_r4_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a6",
+      "title": "Finish 6 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Economics",
+      "points": 2093,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Learning Ability": 12,
+        "General Knowledge": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a7",
+      "title": "Read 300 Books",
+      "description": "Read 300 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "History",
+      "points": 1660,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "General Knowledge": 12,
+        "Technical Skills": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a8",
+      "title": "Publish 6 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Languages",
+      "points": 1405,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Technical Skills": 12,
+        "Critical Thinking": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a9",
+      "title": "Ship 6 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Literature",
+      "points": 1802,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Critical Thinking": 12,
+        "Creativity": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a10",
+      "title": "Complete Thesis 6",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Philosophy",
+      "points": 1048,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Creativity": 12,
+        "Memory": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a10",
+        "intellectual_r4_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a11",
+      "title": "Finish 6 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Research Methods",
+      "points": 1002,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Memory": 12,
+        "Learning Ability": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a12",
+      "title": "Read 300 Books",
+      "description": "Read 300 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Statistics",
+      "points": 1112,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Learning Ability": 12,
+        "General Knowledge": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a13",
+      "title": "Publish 6 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Machine Learning",
+      "points": 2069,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "General Knowledge": 12,
+        "Technical Skills": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a14",
+      "title": "Ship 6 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Engineering",
+      "points": 2087,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Technical Skills": 12,
+        "Critical Thinking": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a15",
+      "title": "Complete Thesis 6",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Medicine",
+      "points": 1098,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Critical Thinking": 12,
+        "Creativity": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a15",
+        "intellectual_r4_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a16",
+      "title": "Finish 6 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Law",
+      "points": 1867,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Creativity": 12,
+        "Memory": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a17",
+      "title": "Read 300 Books",
+      "description": "Read 300 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Astronomy",
+      "points": 1265,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Memory": 12,
+        "Learning Ability": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a18",
+      "title": "Publish 6 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Logic",
+      "points": 2176,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Learning Ability": 12,
+        "General Knowledge": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a19",
+      "title": "Ship 6 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Quantum Computing",
+      "points": 1199,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "General Knowledge": 12,
+        "Technical Skills": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r6_a20",
+      "title": "Complete Thesis 6",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Neuroscience",
+      "points": 1382,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Technical Skills": 12,
+        "Critical Thinking": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "intellectual_r5_a20",
+        "intellectual_r4_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a1",
+      "title": "Finish 7 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Mathematics",
+      "points": 3740,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "General Knowledge": 14,
+        "Technical Skills": 17,
+        "Critical Thinking": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a2",
+      "title": "Read 350 Books",
+      "description": "Read 350 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Physics",
+      "points": 3119,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Technical Skills": 14,
+        "Critical Thinking": 17,
+        "Creativity": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a3",
+      "title": "Publish 7 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Biology",
+      "points": 2855,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Critical Thinking": 14,
+        "Creativity": 17,
+        "Memory": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a4",
+      "title": "Ship 7 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Computer Science",
+      "points": 3065,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Creativity": 14,
+        "Memory": 17,
+        "Learning Ability": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a5",
+      "title": "Complete Thesis 7",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Data Science",
+      "points": 2904,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Memory": 14,
+        "Learning Ability": 17,
+        "General Knowledge": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a5",
+        "intellectual_r5_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a6",
+      "title": "Finish 7 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Economics",
+      "points": 3215,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Learning Ability": 14,
+        "General Knowledge": 17,
+        "Technical Skills": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a7",
+      "title": "Read 350 Books",
+      "description": "Read 350 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "History",
+      "points": 4861,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "General Knowledge": 14,
+        "Technical Skills": 17,
+        "Critical Thinking": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a8",
+      "title": "Publish 7 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Languages",
+      "points": 3925,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Technical Skills": 14,
+        "Critical Thinking": 17,
+        "Creativity": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a9",
+      "title": "Ship 7 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Literature",
+      "points": 3961,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Critical Thinking": 14,
+        "Creativity": 17,
+        "Memory": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a10",
+      "title": "Complete Thesis 7",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Philosophy",
+      "points": 4663,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Creativity": 14,
+        "Memory": 17,
+        "Learning Ability": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a10",
+        "intellectual_r5_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a11",
+      "title": "Finish 7 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Research Methods",
+      "points": 4534,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Memory": 14,
+        "Learning Ability": 17,
+        "General Knowledge": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a12",
+      "title": "Read 350 Books",
+      "description": "Read 350 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Statistics",
+      "points": 3459,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Learning Ability": 14,
+        "General Knowledge": 17,
+        "Technical Skills": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a13",
+      "title": "Publish 7 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Machine Learning",
+      "points": 3899,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "General Knowledge": 14,
+        "Technical Skills": 17,
+        "Critical Thinking": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a14",
+      "title": "Ship 7 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Engineering",
+      "points": 2943,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Technical Skills": 14,
+        "Critical Thinking": 17,
+        "Creativity": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a15",
+      "title": "Complete Thesis 7",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Medicine",
+      "points": 3962,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Critical Thinking": 14,
+        "Creativity": 17,
+        "Memory": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a15",
+        "intellectual_r5_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a16",
+      "title": "Finish 7 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Law",
+      "points": 4377,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Creativity": 14,
+        "Memory": 17,
+        "Learning Ability": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a17",
+      "title": "Read 350 Books",
+      "description": "Read 350 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Astronomy",
+      "points": 4781,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Memory": 14,
+        "Learning Ability": 17,
+        "General Knowledge": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a18",
+      "title": "Publish 7 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Logic",
+      "points": 4002,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Learning Ability": 14,
+        "General Knowledge": 17,
+        "Technical Skills": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a19",
+      "title": "Ship 7 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Quantum Computing",
+      "points": 4229,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "General Knowledge": 14,
+        "Technical Skills": 17,
+        "Critical Thinking": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r7_a20",
+      "title": "Complete Thesis 7",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Neuroscience",
+      "points": 4287,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Technical Skills": 14,
+        "Critical Thinking": 17,
+        "Creativity": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "intellectual_r6_a20",
+        "intellectual_r5_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a1",
+      "title": "Finish 8 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Mathematics",
+      "points": 6708,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "General Knowledge": 16,
+        "Technical Skills": 20,
+        "Critical Thinking": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a2",
+      "title": "Read 400 Books",
+      "description": "Read 400 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Physics",
+      "points": 7140,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Technical Skills": 16,
+        "Critical Thinking": 20,
+        "Creativity": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a3",
+      "title": "Publish 8 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Biology",
+      "points": 8497,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Critical Thinking": 16,
+        "Creativity": 20,
+        "Memory": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a4",
+      "title": "Ship 8 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Computer Science",
+      "points": 9718,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Creativity": 16,
+        "Memory": 20,
+        "Learning Ability": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a5",
+      "title": "Complete Thesis 8",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Data Science",
+      "points": 7438,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Memory": 16,
+        "Learning Ability": 20,
+        "General Knowledge": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a5",
+        "intellectual_r6_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a6",
+      "title": "Finish 8 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Economics",
+      "points": 9944,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Learning Ability": 16,
+        "General Knowledge": 20,
+        "Technical Skills": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a7",
+      "title": "Read 400 Books",
+      "description": "Read 400 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "History",
+      "points": 7506,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "General Knowledge": 16,
+        "Technical Skills": 20,
+        "Critical Thinking": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a8",
+      "title": "Publish 8 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Languages",
+      "points": 8978,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Technical Skills": 16,
+        "Critical Thinking": 20,
+        "Creativity": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a9",
+      "title": "Ship 8 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Literature",
+      "points": 9382,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Critical Thinking": 16,
+        "Creativity": 20,
+        "Memory": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a10",
+      "title": "Complete Thesis 8",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Philosophy",
+      "points": 9338,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Creativity": 16,
+        "Memory": 20,
+        "Learning Ability": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a10",
+        "intellectual_r6_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a11",
+      "title": "Finish 8 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Research Methods",
+      "points": 6505,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Memory": 16,
+        "Learning Ability": 20,
+        "General Knowledge": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a12",
+      "title": "Read 400 Books",
+      "description": "Read 400 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Statistics",
+      "points": 6903,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Learning Ability": 16,
+        "General Knowledge": 20,
+        "Technical Skills": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a13",
+      "title": "Publish 8 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Machine Learning",
+      "points": 9090,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "General Knowledge": 16,
+        "Technical Skills": 20,
+        "Critical Thinking": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a14",
+      "title": "Ship 8 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Engineering",
+      "points": 6195,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Technical Skills": 16,
+        "Critical Thinking": 20,
+        "Creativity": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a15",
+      "title": "Complete Thesis 8",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Medicine",
+      "points": 9460,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Critical Thinking": 16,
+        "Creativity": 20,
+        "Memory": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a15",
+        "intellectual_r6_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a16",
+      "title": "Finish 8 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Law",
+      "points": 5479,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Creativity": 16,
+        "Memory": 20,
+        "Learning Ability": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a17",
+      "title": "Read 400 Books",
+      "description": "Read 400 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Astronomy",
+      "points": 6596,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Memory": 16,
+        "Learning Ability": 20,
+        "General Knowledge": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a18",
+      "title": "Publish 8 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Logic",
+      "points": 5259,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Learning Ability": 16,
+        "General Knowledge": 20,
+        "Technical Skills": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a19",
+      "title": "Ship 8 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Quantum Computing",
+      "points": 5811,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "General Knowledge": 16,
+        "Technical Skills": 20,
+        "Critical Thinking": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r8_a20",
+      "title": "Complete Thesis 8",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Neuroscience",
+      "points": 7032,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Technical Skills": 16,
+        "Critical Thinking": 20,
+        "Creativity": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "intellectual_r7_a20",
+        "intellectual_r6_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a1",
+      "title": "Finish 9 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Mathematics",
+      "points": 14048,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "General Knowledge": 18,
+        "Technical Skills": 22,
+        "Critical Thinking": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a2",
+      "title": "Read 450 Books",
+      "description": "Read 450 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Physics",
+      "points": 21086,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Technical Skills": 18,
+        "Critical Thinking": 22,
+        "Creativity": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a3",
+      "title": "Publish 9 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Biology",
+      "points": 24146,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Critical Thinking": 18,
+        "Creativity": 22,
+        "Memory": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a4",
+      "title": "Ship 9 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Computer Science",
+      "points": 13783,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Creativity": 18,
+        "Memory": 22,
+        "Learning Ability": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a5",
+      "title": "Complete Thesis 9",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Data Science",
+      "points": 10894,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Memory": 18,
+        "Learning Ability": 22,
+        "General Knowledge": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a5",
+        "intellectual_r7_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a6",
+      "title": "Finish 9 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Economics",
+      "points": 21773,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Learning Ability": 18,
+        "General Knowledge": 22,
+        "Technical Skills": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a7",
+      "title": "Read 450 Books",
+      "description": "Read 450 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "History",
+      "points": 13294,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "General Knowledge": 18,
+        "Technical Skills": 22,
+        "Critical Thinking": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a8",
+      "title": "Publish 9 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Languages",
+      "points": 17051,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Technical Skills": 18,
+        "Critical Thinking": 22,
+        "Creativity": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a9",
+      "title": "Ship 9 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Literature",
+      "points": 14711,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Critical Thinking": 18,
+        "Creativity": 22,
+        "Memory": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a10",
+      "title": "Complete Thesis 9",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Philosophy",
+      "points": 18644,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Creativity": 18,
+        "Memory": 22,
+        "Learning Ability": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a10",
+        "intellectual_r7_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a11",
+      "title": "Finish 9 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Research Methods",
+      "points": 16447,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Memory": 18,
+        "Learning Ability": 22,
+        "General Knowledge": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a12",
+      "title": "Read 450 Books",
+      "description": "Read 450 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Statistics",
+      "points": 24640,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Learning Ability": 18,
+        "General Knowledge": 22,
+        "Technical Skills": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a13",
+      "title": "Publish 9 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Machine Learning",
+      "points": 18188,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "General Knowledge": 18,
+        "Technical Skills": 22,
+        "Critical Thinking": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a14",
+      "title": "Ship 9 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Engineering",
+      "points": 12654,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Technical Skills": 18,
+        "Critical Thinking": 22,
+        "Creativity": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a15",
+      "title": "Complete Thesis 9",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Medicine",
+      "points": 22260,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Critical Thinking": 18,
+        "Creativity": 22,
+        "Memory": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a15",
+        "intellectual_r7_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a16",
+      "title": "Finish 9 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Law",
+      "points": 12646,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Creativity": 18,
+        "Memory": 22,
+        "Learning Ability": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a17",
+      "title": "Read 450 Books",
+      "description": "Read 450 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Astronomy",
+      "points": 24750,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Memory": 18,
+        "Learning Ability": 22,
+        "General Knowledge": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a18",
+      "title": "Publish 9 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Logic",
+      "points": 12621,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Learning Ability": 18,
+        "General Knowledge": 22,
+        "Technical Skills": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a19",
+      "title": "Ship 9 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Quantum Computing",
+      "points": 20197,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "General Knowledge": 18,
+        "Technical Skills": 22,
+        "Critical Thinking": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r9_a20",
+      "title": "Complete Thesis 9",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Neuroscience",
+      "points": 12641,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Technical Skills": 18,
+        "Critical Thinking": 22,
+        "Creativity": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "intellectual_r8_a20",
+        "intellectual_r7_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a1",
+      "title": "Finish 10 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Mathematics",
+      "points": 91195,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "General Knowledge": 20,
+        "Technical Skills": 25,
+        "Critical Thinking": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a2",
+      "title": "Read 500 Books",
+      "description": "Read 500 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Physics",
+      "points": 86705,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Technical Skills": 20,
+        "Critical Thinking": 25,
+        "Creativity": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a3",
+      "title": "Publish 10 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Biology",
+      "points": 38763,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Critical Thinking": 20,
+        "Creativity": 25,
+        "Memory": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a4",
+      "title": "Ship 10 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Computer Science",
+      "points": 47523,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Creativity": 20,
+        "Memory": 25,
+        "Learning Ability": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a5",
+      "title": "Complete Thesis 10",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Data Science",
+      "points": 26147,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Memory": 20,
+        "Learning Ability": 25,
+        "General Knowledge": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a5",
+        "intellectual_r8_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a6",
+      "title": "Finish 10 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Economics",
+      "points": 73920,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Learning Ability": 20,
+        "General Knowledge": 25,
+        "Technical Skills": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a7",
+      "title": "Read 500 Books",
+      "description": "Read 500 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "History",
+      "points": 67577,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "General Knowledge": 20,
+        "Technical Skills": 25,
+        "Critical Thinking": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a8",
+      "title": "Publish 10 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Languages",
+      "points": 25613,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Technical Skills": 20,
+        "Critical Thinking": 25,
+        "Creativity": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a9",
+      "title": "Ship 10 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Literature",
+      "points": 26351,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Critical Thinking": 20,
+        "Creativity": 25,
+        "Memory": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a10",
+      "title": "Complete Thesis 10",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Philosophy",
+      "points": 38057,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Creativity": 20,
+        "Memory": 25,
+        "Learning Ability": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a10",
+        "intellectual_r8_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a11",
+      "title": "Finish 10 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Research Methods",
+      "points": 48009,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Memory": 20,
+        "Learning Ability": 25,
+        "General Knowledge": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a12",
+      "title": "Read 500 Books",
+      "description": "Read 500 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Statistics",
+      "points": 68251,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Learning Ability": 20,
+        "General Knowledge": 25,
+        "Technical Skills": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a13",
+      "title": "Publish 10 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Machine Learning",
+      "points": 41221,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "General Knowledge": 20,
+        "Technical Skills": 25,
+        "Critical Thinking": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a14",
+      "title": "Ship 10 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Engineering",
+      "points": 33281,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Technical Skills": 20,
+        "Critical Thinking": 25,
+        "Creativity": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a15",
+      "title": "Complete Thesis 10",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Medicine",
+      "points": 48240,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Critical Thinking": 20,
+        "Creativity": 25,
+        "Memory": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a15",
+        "intellectual_r8_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a16",
+      "title": "Finish 10 Courses",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Law",
+      "points": 84162,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Creativity": 20,
+        "Memory": 25,
+        "Learning Ability": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a17",
+      "title": "Read 500 Books",
+      "description": "Read 500 curated books in the topic and write a 300-word summary per book; provide timestamps or purchase proof.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Astronomy",
+      "points": 95160,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Memory": 20,
+        "Learning Ability": 25,
+        "General Knowledge": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a18",
+      "title": "Publish 10 Articles",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Logic",
+      "points": 39004,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Learning Ability": 20,
+        "General Knowledge": 25,
+        "Technical Skills": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a19",
+      "title": "Ship 10 Projects",
+      "description": "Deliver the specified intellectual output (project, article, or paper) with supporting links or files.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Quantum Computing",
+      "points": 67879,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "General Knowledge": 20,
+        "Technical Skills": 25,
+        "Critical Thinking": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "intellectual_r10_a20",
+      "title": "Complete Thesis 10",
+      "description": "Complete the course(s) with passing marks or certificates; submit completion screenshots or certificates.",
+      "domain": "Intellectual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Neuroscience",
+      "points": 71738,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Technical Skills": 20,
+        "Critical Thinking": 25,
+        "Creativity": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "intellectual_r9_a20",
+        "intellectual_r8_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    }
+  ],
+  "hiddenAchievements": [
+    {
+      "id": "intellectual_hidden_1",
+      "title": "Hidden Intellectual Mastery 1",
+      "description": "Secret-level Intellectual achievement requiring peer review and multiple evidences.",
+      "domain": "Intellectual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "intellectual_hidden_2",
+      "title": "Hidden Intellectual Mastery 2",
+      "description": "Secret-level Intellectual achievement requiring peer review and multiple evidences.",
+      "domain": "Intellectual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "intellectual_hidden_3",
+      "title": "Hidden Intellectual Mastery 3",
+      "description": "Secret-level Intellectual achievement requiring peer review and multiple evidences.",
+      "domain": "Intellectual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "intellectual_hidden_4",
+      "title": "Hidden Intellectual Mastery 4",
+      "description": "Secret-level Intellectual achievement requiring peer review and multiple evidences.",
+      "domain": "Intellectual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "intellectual_hidden_5",
+      "title": "Hidden Intellectual Mastery 5",
+      "description": "Secret-level Intellectual achievement requiring peer review and multiple evidences.",
+      "domain": "Intellectual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "intellectual_hidden_6",
+      "title": "Hidden Intellectual Mastery 6",
+      "description": "Secret-level Intellectual achievement requiring peer review and multiple evidences.",
+      "domain": "Intellectual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "intellectual_hidden_7",
+      "title": "Hidden Intellectual Mastery 7",
+      "description": "Secret-level Intellectual achievement requiring peer review and multiple evidences.",
+      "domain": "Intellectual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "intellectual_hidden_8",
+      "title": "Hidden Intellectual Mastery 8",
+      "description": "Secret-level Intellectual achievement requiring peer review and multiple evidences.",
+      "domain": "Intellectual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "intellectual_hidden_9",
+      "title": "Hidden Intellectual Mastery 9",
+      "description": "Secret-level Intellectual achievement requiring peer review and multiple evidences.",
+      "domain": "Intellectual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "intellectual_hidden_10",
+      "title": "Hidden Intellectual Mastery 10",
+      "description": "Secret-level Intellectual achievement requiring peer review and multiple evidences.",
+      "domain": "Intellectual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    }
+  ],
+  "systemOverview": {
+    "domains": [
+      "Physical",
+      "Mental",
+      "Intellectual",
+      "Social",
+      "Creative",
+      "Financial",
+      "Spiritual"
+    ],
+    "statsPerDomain": [
+      "General Knowledge",
+      "Technical Skills",
+      "Critical Thinking",
+      "Creativity",
+      "Memory",
+      "Learning Ability"
+    ],
+    "ranks": {
+      "1": "Novice",
+      "2": "Apprentice",
+      "3": "Adept",
+      "4": "Expert",
+      "5": "Master",
+      "6": "Grandmaster",
+      "7": "Legend",
+      "8": "Mythic",
+      "9": "Transcendent",
+      "10": "Ultimate Completionist"
+    },
+    "rankPercentileMapping": {
+      "1": 95.0,
+      "2": 80.0,
+      "3": 55.0,
+      "4": 25.0,
+      "5": 5.0,
+      "6": 0.5,
+      "7": 0.05,
+      "8": 0.005,
+      "9": 0.0005,
+      "10": 0.0001
+    },
+    "globalPercentileFormula": "overallPercentile = 100 - (averageDomainRank / 10 * 100) + achievementVarianceAdjustment",
+    "leaderboardDisplayFormat": {
+      "title": "ULTIMATE COMPLETIONIST PROFILE",
+      "fields": [
+        "Overall Rank",
+        "Global Percentile",
+        "Estimated Position",
+        "Next Milestone",
+        "Achievements Needed",
+        "Points Earned",
+        "Domain Breakdown"
+      ]
+    },
+    "pathToUltimate": "Complete all achievements (200 per domain), focus on high-point rare achievements, consistency over years."
+  }
+}

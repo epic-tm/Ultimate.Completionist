@@ -1,0 +1,4616 @@
+{
+  "domain": "Physical",
+  "stats": [
+    "Strength",
+    "Endurance",
+    "Flexibility",
+    "Speed",
+    "Coordination",
+    "Health"
+  ],
+  "categories": [
+    "Running",
+    "Cycling",
+    "Swimming",
+    "Weightlifting",
+    "Powerlifting",
+    "Calisthenics",
+    "Gymnastics",
+    "Martial Arts",
+    "Climbing",
+    "Yoga",
+    "Pilates",
+    "Dance",
+    "Team Sports",
+    "Endurance Sports",
+    "Flexibility Training",
+    "Nutrition",
+    "Sleep Optimization",
+    "Recovery",
+    "Mobility",
+    "HIIT",
+    "Boxing",
+    "Rowing"
+  ],
+  "ranks": {
+    "1": "Novice",
+    "2": "Apprentice",
+    "3": "Adept",
+    "4": "Expert",
+    "5": "Master",
+    "6": "Grandmaster",
+    "7": "Legend",
+    "8": "Mythic",
+    "9": "Transcendent",
+    "10": "Ultimate Completionist"
+  },
+  "achievements": [
+    {
+      "id": "physical_r1_a1",
+      "title": "Walk 5K",
+      "description": "Complete the Walk 5K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Running",
+      "points": 25,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Strength": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a2",
+      "title": "Do 50 Pushups",
+      "description": "Complete the Do 50 Pushups with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Cycling",
+      "points": 35,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Endurance": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a3",
+      "title": "Complete 5K Run",
+      "description": "Complete a road run of 5K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Swimming",
+      "points": 39,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Flexibility": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a4",
+      "title": "Bench 100lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Weightlifting",
+      "points": 34,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Speed": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a5",
+      "title": "Deadlift 1xBW",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Powerlifting",
+      "points": 35,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Coordination": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a6",
+      "title": "Swim 1km",
+      "description": "Complete the Swim 1km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Calisthenics",
+      "points": 22,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Health": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a7",
+      "title": "Cycle 25K",
+      "description": "Complete the Cycle 25K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Gymnastics",
+      "points": 46,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Strength": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a8",
+      "title": "Climb 10m",
+      "description": "Complete the Climb 10m and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Martial Arts",
+      "points": 46,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Endurance": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a9",
+      "title": "Yoga 30 Days",
+      "description": "Complete the Yoga 30 Days with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Climbing",
+      "points": 50,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Flexibility": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a10",
+      "title": "Sleep 7 Nights",
+      "description": "Complete the Sleep 7 Nights with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Yoga",
+      "points": 42,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Speed": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a11",
+      "title": "Walk 5K",
+      "description": "Complete the Walk 5K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Pilates",
+      "points": 10,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Coordination": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a12",
+      "title": "Do 50 Pushups",
+      "description": "Complete the Do 50 Pushups with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Dance",
+      "points": 34,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Health": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a13",
+      "title": "Complete 5K Run",
+      "description": "Complete a road run of 5K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Team Sports",
+      "points": 31,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Strength": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a14",
+      "title": "Bench 100lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Endurance Sports",
+      "points": 42,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Endurance": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a15",
+      "title": "Deadlift 1xBW",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Flexibility Training",
+      "points": 40,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Flexibility": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a16",
+      "title": "Swim 1km",
+      "description": "Complete the Swim 1km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Nutrition",
+      "points": 24,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Speed": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a17",
+      "title": "Cycle 25K",
+      "description": "Complete the Cycle 25K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Sleep Optimization",
+      "points": 25,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Coordination": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a18",
+      "title": "Climb 10m",
+      "description": "Complete the Climb 10m and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Recovery",
+      "points": 13,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Health": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a19",
+      "title": "Yoga 30 Days",
+      "description": "Complete the Yoga 30 Days with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Mobility",
+      "points": 41,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Strength": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r1_a20",
+      "title": "Sleep 7 Nights",
+      "description": "Complete the Sleep 7 Nights with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "HIIT",
+      "points": 13,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Endurance": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a1",
+      "title": "Walk 5K",
+      "description": "Complete the Walk 5K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Running",
+      "points": 98,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Strength": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a2",
+      "title": "Do 50 Pushups",
+      "description": "Complete the Do 50 Pushups with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Cycling",
+      "points": 78,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Endurance": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a3",
+      "title": "Complete 5K Run",
+      "description": "Complete a road run of 5K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Swimming",
+      "points": 84,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Flexibility": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a4",
+      "title": "Bench 100lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Weightlifting",
+      "points": 97,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Speed": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a5",
+      "title": "Deadlift 1xBW",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Powerlifting",
+      "points": 68,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Coordination": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a5"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a6",
+      "title": "Swim 1km",
+      "description": "Complete the Swim 1km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Calisthenics",
+      "points": 100,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Health": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a7",
+      "title": "Cycle 25K",
+      "description": "Complete the Cycle 25K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Gymnastics",
+      "points": 55,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Strength": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a8",
+      "title": "Climb 10m",
+      "description": "Complete the Climb 10m and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Martial Arts",
+      "points": 66,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Endurance": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a9",
+      "title": "Yoga 30 Days",
+      "description": "Complete the Yoga 30 Days with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Climbing",
+      "points": 96,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Flexibility": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a10",
+      "title": "Sleep 7 Nights",
+      "description": "Complete the Sleep 7 Nights with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Yoga",
+      "points": 65,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Speed": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a10"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a11",
+      "title": "Walk 5K",
+      "description": "Complete the Walk 5K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Pilates",
+      "points": 91,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Coordination": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a12",
+      "title": "Do 50 Pushups",
+      "description": "Complete the Do 50 Pushups with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Dance",
+      "points": 83,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Health": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a13",
+      "title": "Complete 5K Run",
+      "description": "Complete a road run of 5K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Team Sports",
+      "points": 95,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Strength": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a14",
+      "title": "Bench 100lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Endurance Sports",
+      "points": 85,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Endurance": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a15",
+      "title": "Deadlift 1xBW",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Flexibility Training",
+      "points": 87,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Flexibility": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a15"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a16",
+      "title": "Swim 1km",
+      "description": "Complete the Swim 1km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Nutrition",
+      "points": 52,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Speed": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a17",
+      "title": "Cycle 25K",
+      "description": "Complete the Cycle 25K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Sleep Optimization",
+      "points": 50,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Coordination": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a18",
+      "title": "Climb 10m",
+      "description": "Complete the Climb 10m and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Recovery",
+      "points": 62,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Health": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a19",
+      "title": "Yoga 30 Days",
+      "description": "Complete the Yoga 30 Days with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Mobility",
+      "points": 76,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Strength": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r2_a20",
+      "title": "Sleep 7 Nights",
+      "description": "Complete the Sleep 7 Nights with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "HIIT",
+      "points": 89,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Endurance": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "physical_r1_a20"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a1",
+      "title": "Walk 5K",
+      "description": "Complete the Walk 5K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Running",
+      "points": 104,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Strength": 6,
+        "Endurance": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a2",
+      "title": "Do 50 Pushups",
+      "description": "Complete the Do 50 Pushups with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Cycling",
+      "points": 197,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Endurance": 6,
+        "Flexibility": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a3",
+      "title": "Complete 5K Run",
+      "description": "Complete a road run of 5K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Swimming",
+      "points": 115,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Flexibility": 6,
+        "Speed": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a4",
+      "title": "Bench 100lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Weightlifting",
+      "points": 213,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Speed": 6,
+        "Coordination": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a5",
+      "title": "Deadlift 1xBW",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Powerlifting",
+      "points": 227,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Coordination": 6,
+        "Health": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a5"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a6",
+      "title": "Swim 1km",
+      "description": "Complete the Swim 1km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Calisthenics",
+      "points": 158,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Health": 6,
+        "Strength": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a7",
+      "title": "Cycle 25K",
+      "description": "Complete the Cycle 25K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Gymnastics",
+      "points": 180,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Strength": 6,
+        "Endurance": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a8",
+      "title": "Climb 10m",
+      "description": "Complete the Climb 10m and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Martial Arts",
+      "points": 239,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Endurance": 6,
+        "Flexibility": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a9",
+      "title": "Yoga 30 Days",
+      "description": "Complete the Yoga 30 Days with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Climbing",
+      "points": 204,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Flexibility": 6,
+        "Speed": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a10",
+      "title": "Sleep 7 Nights",
+      "description": "Complete the Sleep 7 Nights with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Yoga",
+      "points": 157,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Speed": 6,
+        "Coordination": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a10"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a11",
+      "title": "Walk 5K",
+      "description": "Complete the Walk 5K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Pilates",
+      "points": 102,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Coordination": 6,
+        "Health": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a12",
+      "title": "Do 50 Pushups",
+      "description": "Complete the Do 50 Pushups with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Dance",
+      "points": 205,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Health": 6,
+        "Strength": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a13",
+      "title": "Complete 5K Run",
+      "description": "Complete a road run of 5K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Team Sports",
+      "points": 229,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Strength": 6,
+        "Endurance": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a14",
+      "title": "Bench 100lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Endurance Sports",
+      "points": 191,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Endurance": 6,
+        "Flexibility": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a15",
+      "title": "Deadlift 1xBW",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Flexibility Training",
+      "points": 179,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Flexibility": 6,
+        "Speed": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a15"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a16",
+      "title": "Swim 1km",
+      "description": "Complete the Swim 1km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Nutrition",
+      "points": 196,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Speed": 6,
+        "Coordination": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a17",
+      "title": "Cycle 25K",
+      "description": "Complete the Cycle 25K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Sleep Optimization",
+      "points": 104,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Coordination": 6,
+        "Health": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a18",
+      "title": "Climb 10m",
+      "description": "Complete the Climb 10m and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Recovery",
+      "points": 199,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Health": 6,
+        "Strength": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a19",
+      "title": "Yoga 30 Days",
+      "description": "Complete the Yoga 30 Days with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Mobility",
+      "points": 211,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Strength": 6,
+        "Endurance": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r3_a20",
+      "title": "Sleep 7 Nights",
+      "description": "Complete the Sleep 7 Nights with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "HIIT",
+      "points": 215,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Endurance": 6,
+        "Flexibility": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "physical_r2_a20"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a1",
+      "title": "Run 20K",
+      "description": "Complete a road run of 20K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Running",
+      "points": 268,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Strength": 8,
+        "Endurance": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a2",
+      "title": "Complete 8x100m Sprints",
+      "description": "Complete the Complete 8x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Cycling",
+      "points": 293,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Endurance": 8,
+        "Flexibility": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a3",
+      "title": "Bench 200lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Swimming",
+      "points": 387,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Flexibility": 8,
+        "Speed": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a4",
+      "title": "Cycle 80K",
+      "description": "Complete the Cycle 80K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Weightlifting",
+      "points": 352,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Speed": 8,
+        "Coordination": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a5",
+      "title": "Swim 2.0km",
+      "description": "Complete the Swim 2.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Powerlifting",
+      "points": 285,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Coordination": 8,
+        "Health": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a5",
+        "physical_r2_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a6",
+      "title": "Run 20K",
+      "description": "Complete a road run of 20K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Calisthenics",
+      "points": 281,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Health": 8,
+        "Strength": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a7",
+      "title": "Complete 8x100m Sprints",
+      "description": "Complete the Complete 8x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Gymnastics",
+      "points": 367,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Strength": 8,
+        "Endurance": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a8",
+      "title": "Bench 200lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Martial Arts",
+      "points": 331,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Endurance": 8,
+        "Flexibility": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a9",
+      "title": "Cycle 80K",
+      "description": "Complete the Cycle 80K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Climbing",
+      "points": 345,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Flexibility": 8,
+        "Speed": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a10",
+      "title": "Swim 2.0km",
+      "description": "Complete the Swim 2.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Yoga",
+      "points": 473,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Speed": 8,
+        "Coordination": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a10",
+        "physical_r2_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a11",
+      "title": "Run 20K",
+      "description": "Complete a road run of 20K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Pilates",
+      "points": 442,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Coordination": 8,
+        "Health": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a12",
+      "title": "Complete 8x100m Sprints",
+      "description": "Complete the Complete 8x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Dance",
+      "points": 453,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Health": 8,
+        "Strength": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a13",
+      "title": "Bench 200lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Team Sports",
+      "points": 294,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Strength": 8,
+        "Endurance": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a14",
+      "title": "Cycle 80K",
+      "description": "Complete the Cycle 80K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Endurance Sports",
+      "points": 484,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Endurance": 8,
+        "Flexibility": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a15",
+      "title": "Swim 2.0km",
+      "description": "Complete the Swim 2.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Flexibility Training",
+      "points": 321,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Flexibility": 8,
+        "Speed": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a15",
+        "physical_r2_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a16",
+      "title": "Run 20K",
+      "description": "Complete a road run of 20K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Nutrition",
+      "points": 459,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Speed": 8,
+        "Coordination": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a17",
+      "title": "Complete 8x100m Sprints",
+      "description": "Complete the Complete 8x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Sleep Optimization",
+      "points": 258,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Coordination": 8,
+        "Health": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a18",
+      "title": "Bench 200lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Recovery",
+      "points": 456,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Health": 8,
+        "Strength": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a19",
+      "title": "Cycle 80K",
+      "description": "Complete the Cycle 80K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Mobility",
+      "points": 265,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Strength": 8,
+        "Endurance": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r4_a20",
+      "title": "Swim 2.0km",
+      "description": "Complete the Swim 2.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "HIIT",
+      "points": 437,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Endurance": 8,
+        "Flexibility": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "physical_r3_a20",
+        "physical_r2_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a1",
+      "title": "Run 25K",
+      "description": "Complete a road run of 25K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Running",
+      "points": 889,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Strength": 10,
+        "Endurance": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a2",
+      "title": "Complete 10x100m Sprints",
+      "description": "Complete the Complete 10x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Cycling",
+      "points": 500,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Endurance": 10,
+        "Flexibility": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a3",
+      "title": "Bench 250lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Swimming",
+      "points": 950,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Flexibility": 10,
+        "Speed": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a4",
+      "title": "Cycle 100K",
+      "description": "Complete the Cycle 100K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Weightlifting",
+      "points": 873,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Speed": 10,
+        "Coordination": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a5",
+      "title": "Swim 2.5km",
+      "description": "Complete the Swim 2.5km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Powerlifting",
+      "points": 664,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Coordination": 10,
+        "Health": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a5",
+        "physical_r3_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a6",
+      "title": "Run 25K",
+      "description": "Complete a road run of 25K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Calisthenics",
+      "points": 960,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Health": 10,
+        "Strength": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a7",
+      "title": "Complete 10x100m Sprints",
+      "description": "Complete the Complete 10x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Gymnastics",
+      "points": 973,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Strength": 10,
+        "Endurance": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a8",
+      "title": "Bench 250lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Martial Arts",
+      "points": 558,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Endurance": 10,
+        "Flexibility": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a9",
+      "title": "Cycle 100K",
+      "description": "Complete the Cycle 100K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Climbing",
+      "points": 539,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Flexibility": 10,
+        "Speed": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a10",
+      "title": "Swim 2.5km",
+      "description": "Complete the Swim 2.5km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Yoga",
+      "points": 982,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Speed": 10,
+        "Coordination": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a10",
+        "physical_r3_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a11",
+      "title": "Run 25K",
+      "description": "Complete a road run of 25K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Pilates",
+      "points": 987,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Coordination": 10,
+        "Health": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a12",
+      "title": "Complete 10x100m Sprints",
+      "description": "Complete the Complete 10x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Dance",
+      "points": 673,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Health": 10,
+        "Strength": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a13",
+      "title": "Bench 250lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Team Sports",
+      "points": 545,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Strength": 10,
+        "Endurance": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a14",
+      "title": "Cycle 100K",
+      "description": "Complete the Cycle 100K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Endurance Sports",
+      "points": 845,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Endurance": 10,
+        "Flexibility": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a15",
+      "title": "Swim 2.5km",
+      "description": "Complete the Swim 2.5km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Flexibility Training",
+      "points": 855,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Flexibility": 10,
+        "Speed": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a15",
+        "physical_r3_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a16",
+      "title": "Run 25K",
+      "description": "Complete a road run of 25K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Nutrition",
+      "points": 864,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Speed": 10,
+        "Coordination": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a17",
+      "title": "Complete 10x100m Sprints",
+      "description": "Complete the Complete 10x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Sleep Optimization",
+      "points": 958,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Coordination": 10,
+        "Health": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a18",
+      "title": "Bench 250lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Recovery",
+      "points": 533,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Health": 10,
+        "Strength": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a19",
+      "title": "Cycle 100K",
+      "description": "Complete the Cycle 100K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Mobility",
+      "points": 847,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Strength": 10,
+        "Endurance": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r5_a20",
+      "title": "Swim 2.5km",
+      "description": "Complete the Swim 2.5km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "HIIT",
+      "points": 804,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Endurance": 10,
+        "Flexibility": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "physical_r4_a20",
+        "physical_r3_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "physical_r6_a1",
+      "title": "Run 30K",
+      "description": "Complete a road run of 30K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Running",
+      "points": 1021,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Strength": 12,
+        "Endurance": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a2",
+      "title": "Complete 12x100m Sprints",
+      "description": "Complete the Complete 12x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Cycling",
+      "points": 1230,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Endurance": 12,
+        "Flexibility": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a3",
+      "title": "Bench 300lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Swimming",
+      "points": 2124,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Flexibility": 12,
+        "Speed": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a4",
+      "title": "Cycle 120K",
+      "description": "Complete the Cycle 120K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Weightlifting",
+      "points": 2052,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Speed": 12,
+        "Coordination": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a5",
+      "title": "Swim 3.0km",
+      "description": "Complete the Swim 3.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Powerlifting",
+      "points": 1208,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Coordination": 12,
+        "Health": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a5",
+        "physical_r4_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a6",
+      "title": "Run 30K",
+      "description": "Complete a road run of 30K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Calisthenics",
+      "points": 2347,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Health": 12,
+        "Strength": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a7",
+      "title": "Complete 12x100m Sprints",
+      "description": "Complete the Complete 12x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Gymnastics",
+      "points": 1235,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Strength": 12,
+        "Endurance": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a8",
+      "title": "Bench 300lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Martial Arts",
+      "points": 2091,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Endurance": 12,
+        "Flexibility": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a9",
+      "title": "Cycle 120K",
+      "description": "Complete the Cycle 120K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Climbing",
+      "points": 1571,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Flexibility": 12,
+        "Speed": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a10",
+      "title": "Swim 3.0km",
+      "description": "Complete the Swim 3.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Yoga",
+      "points": 2290,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Speed": 12,
+        "Coordination": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a10",
+        "physical_r4_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a11",
+      "title": "Run 30K",
+      "description": "Complete a road run of 30K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Pilates",
+      "points": 2124,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Coordination": 12,
+        "Health": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a12",
+      "title": "Complete 12x100m Sprints",
+      "description": "Complete the Complete 12x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Dance",
+      "points": 1491,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Health": 12,
+        "Strength": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a13",
+      "title": "Bench 300lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Team Sports",
+      "points": 1683,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Strength": 12,
+        "Endurance": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a14",
+      "title": "Cycle 120K",
+      "description": "Complete the Cycle 120K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Endurance Sports",
+      "points": 2078,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Endurance": 12,
+        "Flexibility": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a15",
+      "title": "Swim 3.0km",
+      "description": "Complete the Swim 3.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Flexibility Training",
+      "points": 2404,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Flexibility": 12,
+        "Speed": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a15",
+        "physical_r4_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a16",
+      "title": "Run 30K",
+      "description": "Complete a road run of 30K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Nutrition",
+      "points": 1812,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Speed": 12,
+        "Coordination": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a17",
+      "title": "Complete 12x100m Sprints",
+      "description": "Complete the Complete 12x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Sleep Optimization",
+      "points": 1795,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Coordination": 12,
+        "Health": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a18",
+      "title": "Bench 300lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Recovery",
+      "points": 1659,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Health": 12,
+        "Strength": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a19",
+      "title": "Cycle 120K",
+      "description": "Complete the Cycle 120K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Mobility",
+      "points": 2185,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Strength": 12,
+        "Endurance": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r6_a20",
+      "title": "Swim 3.0km",
+      "description": "Complete the Swim 3.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "HIIT",
+      "points": 1939,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Endurance": 12,
+        "Flexibility": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "physical_r5_a20",
+        "physical_r4_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a1",
+      "title": "Run 35K",
+      "description": "Complete a road run of 35K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Running",
+      "points": 3128,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Strength": 14,
+        "Endurance": 17,
+        "Flexibility": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a2",
+      "title": "Complete 14x100m Sprints",
+      "description": "Complete the Complete 14x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Cycling",
+      "points": 2894,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Endurance": 14,
+        "Flexibility": 17,
+        "Speed": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a3",
+      "title": "Bench 350lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Swimming",
+      "points": 3506,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Flexibility": 14,
+        "Speed": 17,
+        "Coordination": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a4",
+      "title": "Cycle 140K",
+      "description": "Complete the Cycle 140K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Weightlifting",
+      "points": 3197,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Speed": 14,
+        "Coordination": 17,
+        "Health": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a5",
+      "title": "Swim 3.5km",
+      "description": "Complete the Swim 3.5km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Powerlifting",
+      "points": 2539,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Coordination": 14,
+        "Health": 17,
+        "Strength": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a5",
+        "physical_r5_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a6",
+      "title": "Run 35K",
+      "description": "Complete a road run of 35K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Calisthenics",
+      "points": 3805,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Health": 14,
+        "Strength": 17,
+        "Endurance": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a7",
+      "title": "Complete 14x100m Sprints",
+      "description": "Complete the Complete 14x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Gymnastics",
+      "points": 3221,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Strength": 14,
+        "Endurance": 17,
+        "Flexibility": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a8",
+      "title": "Bench 350lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Martial Arts",
+      "points": 4516,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Endurance": 14,
+        "Flexibility": 17,
+        "Speed": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a9",
+      "title": "Cycle 140K",
+      "description": "Complete the Cycle 140K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Climbing",
+      "points": 4921,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Flexibility": 14,
+        "Speed": 17,
+        "Coordination": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a10",
+      "title": "Swim 3.5km",
+      "description": "Complete the Swim 3.5km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Yoga",
+      "points": 4961,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Speed": 14,
+        "Coordination": 17,
+        "Health": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a10",
+        "physical_r5_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a11",
+      "title": "Run 35K",
+      "description": "Complete a road run of 35K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Pilates",
+      "points": 2843,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Coordination": 14,
+        "Health": 17,
+        "Strength": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a12",
+      "title": "Complete 14x100m Sprints",
+      "description": "Complete the Complete 14x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Dance",
+      "points": 3712,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Health": 14,
+        "Strength": 17,
+        "Endurance": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a13",
+      "title": "Bench 350lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Team Sports",
+      "points": 4096,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Strength": 14,
+        "Endurance": 17,
+        "Flexibility": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a14",
+      "title": "Cycle 140K",
+      "description": "Complete the Cycle 140K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Endurance Sports",
+      "points": 4761,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Endurance": 14,
+        "Flexibility": 17,
+        "Speed": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a15",
+      "title": "Swim 3.5km",
+      "description": "Complete the Swim 3.5km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Flexibility Training",
+      "points": 2650,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Flexibility": 14,
+        "Speed": 17,
+        "Coordination": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a15",
+        "physical_r5_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a16",
+      "title": "Run 35K",
+      "description": "Complete a road run of 35K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Nutrition",
+      "points": 2543,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Speed": 14,
+        "Coordination": 17,
+        "Health": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a17",
+      "title": "Complete 14x100m Sprints",
+      "description": "Complete the Complete 14x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Sleep Optimization",
+      "points": 2535,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Coordination": 14,
+        "Health": 17,
+        "Strength": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a18",
+      "title": "Bench 350lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Recovery",
+      "points": 4549,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Health": 14,
+        "Strength": 17,
+        "Endurance": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a19",
+      "title": "Cycle 140K",
+      "description": "Complete the Cycle 140K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Mobility",
+      "points": 4369,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Strength": 14,
+        "Endurance": 17,
+        "Flexibility": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r7_a20",
+      "title": "Swim 3.5km",
+      "description": "Complete the Swim 3.5km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "HIIT",
+      "points": 3500,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Endurance": 14,
+        "Flexibility": 17,
+        "Speed": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "physical_r6_a20",
+        "physical_r5_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a1",
+      "title": "Run 40K",
+      "description": "Complete a road run of 40K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Running",
+      "points": 6444,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Strength": 16,
+        "Endurance": 20,
+        "Flexibility": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a2",
+      "title": "Complete 16x100m Sprints",
+      "description": "Complete the Complete 16x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Cycling",
+      "points": 5644,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Endurance": 16,
+        "Flexibility": 20,
+        "Speed": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a3",
+      "title": "Bench 400lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Swimming",
+      "points": 9359,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Flexibility": 16,
+        "Speed": 20,
+        "Coordination": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a4",
+      "title": "Cycle 160K",
+      "description": "Complete the Cycle 160K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Weightlifting",
+      "points": 5167,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Speed": 16,
+        "Coordination": 20,
+        "Health": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a5",
+      "title": "Swim 4.0km",
+      "description": "Complete the Swim 4.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Powerlifting",
+      "points": 8598,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Coordination": 16,
+        "Health": 20,
+        "Strength": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a5",
+        "physical_r6_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a6",
+      "title": "Run 40K",
+      "description": "Complete a road run of 40K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Calisthenics",
+      "points": 6829,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Health": 16,
+        "Strength": 20,
+        "Endurance": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a7",
+      "title": "Complete 16x100m Sprints",
+      "description": "Complete the Complete 16x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Gymnastics",
+      "points": 6731,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Strength": 16,
+        "Endurance": 20,
+        "Flexibility": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a8",
+      "title": "Bench 400lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Martial Arts",
+      "points": 7236,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Endurance": 16,
+        "Flexibility": 20,
+        "Speed": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a9",
+      "title": "Cycle 160K",
+      "description": "Complete the Cycle 160K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Climbing",
+      "points": 5254,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Flexibility": 16,
+        "Speed": 20,
+        "Coordination": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a10",
+      "title": "Swim 4.0km",
+      "description": "Complete the Swim 4.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Yoga",
+      "points": 8559,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Speed": 16,
+        "Coordination": 20,
+        "Health": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a10",
+        "physical_r6_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a11",
+      "title": "Run 40K",
+      "description": "Complete a road run of 40K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Pilates",
+      "points": 8100,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Coordination": 16,
+        "Health": 20,
+        "Strength": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a12",
+      "title": "Complete 16x100m Sprints",
+      "description": "Complete the Complete 16x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Dance",
+      "points": 8328,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Health": 16,
+        "Strength": 20,
+        "Endurance": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a13",
+      "title": "Bench 400lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Team Sports",
+      "points": 7626,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Strength": 16,
+        "Endurance": 20,
+        "Flexibility": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a14",
+      "title": "Cycle 160K",
+      "description": "Complete the Cycle 160K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Endurance Sports",
+      "points": 5696,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Endurance": 16,
+        "Flexibility": 20,
+        "Speed": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a15",
+      "title": "Swim 4.0km",
+      "description": "Complete the Swim 4.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Flexibility Training",
+      "points": 8203,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Flexibility": 16,
+        "Speed": 20,
+        "Coordination": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a15",
+        "physical_r6_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a16",
+      "title": "Run 40K",
+      "description": "Complete a road run of 40K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Nutrition",
+      "points": 5347,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Speed": 16,
+        "Coordination": 20,
+        "Health": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a17",
+      "title": "Complete 16x100m Sprints",
+      "description": "Complete the Complete 16x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Sleep Optimization",
+      "points": 6503,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Coordination": 16,
+        "Health": 20,
+        "Strength": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a18",
+      "title": "Bench 400lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Recovery",
+      "points": 6961,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Health": 16,
+        "Strength": 20,
+        "Endurance": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a19",
+      "title": "Cycle 160K",
+      "description": "Complete the Cycle 160K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Mobility",
+      "points": 7262,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Strength": 16,
+        "Endurance": 20,
+        "Flexibility": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r8_a20",
+      "title": "Swim 4.0km",
+      "description": "Complete the Swim 4.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "HIIT",
+      "points": 6020,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Endurance": 16,
+        "Flexibility": 20,
+        "Speed": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "physical_r7_a20",
+        "physical_r6_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a1",
+      "title": "Run 45K",
+      "description": "Complete a road run of 45K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Running",
+      "points": 22781,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Strength": 18,
+        "Endurance": 22,
+        "Flexibility": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a2",
+      "title": "Complete 18x100m Sprints",
+      "description": "Complete the Complete 18x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Cycling",
+      "points": 24741,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Endurance": 18,
+        "Flexibility": 22,
+        "Speed": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a3",
+      "title": "Bench 450lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Swimming",
+      "points": 23443,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Flexibility": 18,
+        "Speed": 22,
+        "Coordination": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a4",
+      "title": "Cycle 180K",
+      "description": "Complete the Cycle 180K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Weightlifting",
+      "points": 12856,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Speed": 18,
+        "Coordination": 22,
+        "Health": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a5",
+      "title": "Swim 4.5km",
+      "description": "Complete the Swim 4.5km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Powerlifting",
+      "points": 10526,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Coordination": 18,
+        "Health": 22,
+        "Strength": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a5",
+        "physical_r7_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a6",
+      "title": "Run 45K",
+      "description": "Complete a road run of 45K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Calisthenics",
+      "points": 15271,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Health": 18,
+        "Strength": 22,
+        "Endurance": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a7",
+      "title": "Complete 18x100m Sprints",
+      "description": "Complete the Complete 18x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Gymnastics",
+      "points": 24330,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Strength": 18,
+        "Endurance": 22,
+        "Flexibility": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a8",
+      "title": "Bench 450lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Martial Arts",
+      "points": 15213,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Endurance": 18,
+        "Flexibility": 22,
+        "Speed": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a9",
+      "title": "Cycle 180K",
+      "description": "Complete the Cycle 180K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Climbing",
+      "points": 15501,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Flexibility": 18,
+        "Speed": 22,
+        "Coordination": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a10",
+      "title": "Swim 4.5km",
+      "description": "Complete the Swim 4.5km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Yoga",
+      "points": 22108,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Speed": 18,
+        "Coordination": 22,
+        "Health": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a10",
+        "physical_r7_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a11",
+      "title": "Run 45K",
+      "description": "Complete a road run of 45K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Pilates",
+      "points": 21608,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Coordination": 18,
+        "Health": 22,
+        "Strength": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a12",
+      "title": "Complete 18x100m Sprints",
+      "description": "Complete the Complete 18x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Dance",
+      "points": 16168,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Health": 18,
+        "Strength": 22,
+        "Endurance": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a13",
+      "title": "Bench 450lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Team Sports",
+      "points": 22390,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Strength": 18,
+        "Endurance": 22,
+        "Flexibility": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a14",
+      "title": "Cycle 180K",
+      "description": "Complete the Cycle 180K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Endurance Sports",
+      "points": 23011,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Endurance": 18,
+        "Flexibility": 22,
+        "Speed": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a15",
+      "title": "Swim 4.5km",
+      "description": "Complete the Swim 4.5km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Flexibility Training",
+      "points": 18359,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Flexibility": 18,
+        "Speed": 22,
+        "Coordination": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a15",
+        "physical_r7_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a16",
+      "title": "Run 45K",
+      "description": "Complete a road run of 45K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Nutrition",
+      "points": 10864,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Speed": 18,
+        "Coordination": 22,
+        "Health": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a17",
+      "title": "Complete 18x100m Sprints",
+      "description": "Complete the Complete 18x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Sleep Optimization",
+      "points": 15619,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Coordination": 18,
+        "Health": 22,
+        "Strength": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a18",
+      "title": "Bench 450lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Recovery",
+      "points": 22786,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Health": 18,
+        "Strength": 22,
+        "Endurance": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a19",
+      "title": "Cycle 180K",
+      "description": "Complete the Cycle 180K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Mobility",
+      "points": 20698,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Strength": 18,
+        "Endurance": 22,
+        "Flexibility": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r9_a20",
+      "title": "Swim 4.5km",
+      "description": "Complete the Swim 4.5km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "HIIT",
+      "points": 17189,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Endurance": 18,
+        "Flexibility": 22,
+        "Speed": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "physical_r8_a20",
+        "physical_r7_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a1",
+      "title": "Run 50K",
+      "description": "Complete a road run of 50K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Running",
+      "points": 29353,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Strength": 20,
+        "Endurance": 25,
+        "Flexibility": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a2",
+      "title": "Complete 20x100m Sprints",
+      "description": "Complete the Complete 20x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Cycling",
+      "points": 26659,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Endurance": 20,
+        "Flexibility": 25,
+        "Speed": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a3",
+      "title": "Bench 500lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Swimming",
+      "points": 72300,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Flexibility": 20,
+        "Speed": 25,
+        "Coordination": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a4",
+      "title": "Cycle 200K",
+      "description": "Complete the Cycle 200K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Weightlifting",
+      "points": 32832,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Speed": 20,
+        "Coordination": 25,
+        "Health": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a5",
+      "title": "Swim 5.0km",
+      "description": "Complete the Swim 5.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Powerlifting",
+      "points": 43439,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Coordination": 20,
+        "Health": 25,
+        "Strength": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a5",
+        "physical_r8_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a6",
+      "title": "Run 50K",
+      "description": "Complete a road run of 50K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Calisthenics",
+      "points": 27065,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Health": 20,
+        "Strength": 25,
+        "Endurance": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a7",
+      "title": "Complete 20x100m Sprints",
+      "description": "Complete the Complete 20x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Gymnastics",
+      "points": 42457,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Strength": 20,
+        "Endurance": 25,
+        "Flexibility": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a8",
+      "title": "Bench 500lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Martial Arts",
+      "points": 91162,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Endurance": 20,
+        "Flexibility": 25,
+        "Speed": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a9",
+      "title": "Cycle 200K",
+      "description": "Complete the Cycle 200K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Climbing",
+      "points": 25285,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Flexibility": 20,
+        "Speed": 25,
+        "Coordination": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a10",
+      "title": "Swim 5.0km",
+      "description": "Complete the Swim 5.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Yoga",
+      "points": 49176,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Speed": 20,
+        "Coordination": 25,
+        "Health": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a10",
+        "physical_r8_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a11",
+      "title": "Run 50K",
+      "description": "Complete a road run of 50K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Pilates",
+      "points": 34268,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Coordination": 20,
+        "Health": 25,
+        "Strength": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a12",
+      "title": "Complete 20x100m Sprints",
+      "description": "Complete the Complete 20x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Dance",
+      "points": 43205,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Health": 20,
+        "Strength": 25,
+        "Endurance": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a13",
+      "title": "Bench 500lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Team Sports",
+      "points": 80413,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Strength": 20,
+        "Endurance": 25,
+        "Flexibility": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a14",
+      "title": "Cycle 200K",
+      "description": "Complete the Cycle 200K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Endurance Sports",
+      "points": 64876,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Endurance": 20,
+        "Flexibility": 25,
+        "Speed": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a15",
+      "title": "Swim 5.0km",
+      "description": "Complete the Swim 5.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Flexibility Training",
+      "points": 33582,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Flexibility": 20,
+        "Speed": 25,
+        "Coordination": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a15",
+        "physical_r8_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a16",
+      "title": "Run 50K",
+      "description": "Complete a road run of 50K continuously without walking; verify with GPS track and time.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Nutrition",
+      "points": 32683,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Speed": 20,
+        "Coordination": 25,
+        "Health": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a17",
+      "title": "Complete 20x100m Sprints",
+      "description": "Complete the Complete 20x100m Sprints with documented evidence (GPS, photo, or witness).",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Sleep Optimization",
+      "points": 59564,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Coordination": 20,
+        "Health": 25,
+        "Strength": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a18",
+      "title": "Bench 500lb",
+      "description": "Execute the specified lift with correct technique and recorded video showing weight plates and full lift.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Recovery",
+      "points": 78684,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Health": 20,
+        "Strength": 25,
+        "Endurance": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a19",
+      "title": "Cycle 200K",
+      "description": "Complete the Cycle 200K and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Mobility",
+      "points": 90879,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Strength": 20,
+        "Endurance": 25,
+        "Flexibility": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "physical_r10_a20",
+      "title": "Swim 5.0km",
+      "description": "Complete the Swim 5.0km and provide GPS/time or official event proof.",
+      "domain": "Physical",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "HIIT",
+      "points": 77586,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Endurance": 20,
+        "Flexibility": 25,
+        "Speed": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "physical_r9_a20",
+        "physical_r8_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    }
+  ],
+  "hiddenAchievements": [
+    {
+      "id": "physical_hidden_1",
+      "title": "Hidden Physical Mastery 1",
+      "description": "Secret-level Physical achievement requiring peer review and multiple evidences.",
+      "domain": "Physical",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "physical_hidden_2",
+      "title": "Hidden Physical Mastery 2",
+      "description": "Secret-level Physical achievement requiring peer review and multiple evidences.",
+      "domain": "Physical",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "physical_hidden_3",
+      "title": "Hidden Physical Mastery 3",
+      "description": "Secret-level Physical achievement requiring peer review and multiple evidences.",
+      "domain": "Physical",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "physical_hidden_4",
+      "title": "Hidden Physical Mastery 4",
+      "description": "Secret-level Physical achievement requiring peer review and multiple evidences.",
+      "domain": "Physical",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "physical_hidden_5",
+      "title": "Hidden Physical Mastery 5",
+      "description": "Secret-level Physical achievement requiring peer review and multiple evidences.",
+      "domain": "Physical",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "physical_hidden_6",
+      "title": "Hidden Physical Mastery 6",
+      "description": "Secret-level Physical achievement requiring peer review and multiple evidences.",
+      "domain": "Physical",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "physical_hidden_7",
+      "title": "Hidden Physical Mastery 7",
+      "description": "Secret-level Physical achievement requiring peer review and multiple evidences.",
+      "domain": "Physical",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "physical_hidden_8",
+      "title": "Hidden Physical Mastery 8",
+      "description": "Secret-level Physical achievement requiring peer review and multiple evidences.",
+      "domain": "Physical",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "physical_hidden_9",
+      "title": "Hidden Physical Mastery 9",
+      "description": "Secret-level Physical achievement requiring peer review and multiple evidences.",
+      "domain": "Physical",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "physical_hidden_10",
+      "title": "Hidden Physical Mastery 10",
+      "description": "Secret-level Physical achievement requiring peer review and multiple evidences.",
+      "domain": "Physical",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    }
+  ],
+  "systemOverview": {
+    "domains": [
+      "Physical",
+      "Mental",
+      "Intellectual",
+      "Social",
+      "Creative",
+      "Financial",
+      "Spiritual"
+    ],
+    "statsPerDomain": [
+      "Strength",
+      "Endurance",
+      "Flexibility",
+      "Speed",
+      "Coordination",
+      "Health"
+    ],
+    "ranks": {
+      "1": "Novice",
+      "2": "Apprentice",
+      "3": "Adept",
+      "4": "Expert",
+      "5": "Master",
+      "6": "Grandmaster",
+      "7": "Legend",
+      "8": "Mythic",
+      "9": "Transcendent",
+      "10": "Ultimate Completionist"
+    },
+    "rankPercentileMapping": {
+      "1": 95.0,
+      "2": 80.0,
+      "3": 55.0,
+      "4": 25.0,
+      "5": 5.0,
+      "6": 0.5,
+      "7": 0.05,
+      "8": 0.005,
+      "9": 0.0005,
+      "10": 0.0001
+    },
+    "globalPercentileFormula": "overallPercentile = 100 - (averageDomainRank / 10 * 100) + achievementVarianceAdjustment",
+    "leaderboardDisplayFormat": {
+      "title": "ULTIMATE COMPLETIONIST PROFILE",
+      "fields": [
+        "Overall Rank",
+        "Global Percentile",
+        "Estimated Position",
+        "Next Milestone",
+        "Achievements Needed",
+        "Points Earned",
+        "Domain Breakdown"
+      ]
+    },
+    "pathToUltimate": "Complete all achievements (200 per domain), focus on high-point rare achievements, consistency over years."
+  }
+}

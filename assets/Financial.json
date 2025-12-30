@@ -1,0 +1,4615 @@
+{
+  "domain": "Financial",
+  "stats": [
+    "Earning Power",
+    "Wealth Building",
+    "Business Acumen",
+    "Economic Literacy",
+    "Resource Management",
+    "Value Creation"
+  ],
+  "categories": [
+    "Income Generation",
+    "Salary Negotiation",
+    "Entrepreneurship",
+    "Investing",
+    "Real Estate",
+    "Tax Optimization",
+    "Wealth Management",
+    "Sales",
+    "Marketing",
+    "Business Strategy",
+    "Finance Basics",
+    "Budgeting",
+    "Passive Income",
+    "Startup Building",
+    "Venture Capital",
+    "Freelancing",
+    "Consulting",
+    "Monetization",
+    "Crowdfunding",
+    "Asset Allocation",
+    "Retirement Planning"
+  ],
+  "ranks": {
+    "1": "Novice",
+    "2": "Apprentice",
+    "3": "Adept",
+    "4": "Expert",
+    "5": "Master",
+    "6": "Grandmaster",
+    "7": "Legend",
+    "8": "Mythic",
+    "9": "Transcendent",
+    "10": "Ultimate Completionist"
+  },
+  "achievements": [
+    {
+      "id": "financial_r1_a1",
+      "title": "Create Budget",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Income Generation",
+      "points": 20,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Earning Power": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a2",
+      "title": "Save 3 Months",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Salary Negotiation",
+      "points": 13,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Wealth Building": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a3",
+      "title": "Negotiate Raise",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Entrepreneurship",
+      "points": 44,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Business Acumen": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a4",
+      "title": "Launch Side Hustle",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Investing",
+      "points": 38,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Economic Literacy": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a5",
+      "title": "Buy First Asset",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Real Estate",
+      "points": 46,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Resource Management": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a6",
+      "title": "Invest Index Fund",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Tax Optimization",
+      "points": 42,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Value Creation": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a7",
+      "title": "Build Emergency Fund",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Wealth Management",
+      "points": 30,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Earning Power": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a8",
+      "title": "Reduce Debt 50",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Sales",
+      "points": 19,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Wealth Building": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a9",
+      "title": "Close First Sale",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Marketing",
+      "points": 13,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Business Acumen": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a10",
+      "title": "Profit Project",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Business Strategy",
+      "points": 36,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Economic Literacy": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a11",
+      "title": "Create Budget",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Finance Basics",
+      "points": 37,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Resource Management": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a12",
+      "title": "Save 3 Months",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Budgeting",
+      "points": 23,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Value Creation": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a13",
+      "title": "Negotiate Raise",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Passive Income",
+      "points": 21,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Earning Power": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a14",
+      "title": "Launch Side Hustle",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Startup Building",
+      "points": 18,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Wealth Building": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a15",
+      "title": "Buy First Asset",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Venture Capital",
+      "points": 21,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Business Acumen": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a16",
+      "title": "Invest Index Fund",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Freelancing",
+      "points": 26,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Economic Literacy": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a17",
+      "title": "Build Emergency Fund",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Consulting",
+      "points": 28,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Resource Management": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a18",
+      "title": "Reduce Debt 50",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Monetization",
+      "points": 41,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Value Creation": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a19",
+      "title": "Close First Sale",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Crowdfunding",
+      "points": 49,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Earning Power": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r1_a20",
+      "title": "Profit Project",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Asset Allocation",
+      "points": 27,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Wealth Building": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a1",
+      "title": "Create Budget",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Income Generation",
+      "points": 98,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Earning Power": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a2",
+      "title": "Save 3 Months",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Salary Negotiation",
+      "points": 57,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Wealth Building": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a3",
+      "title": "Negotiate Raise",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Entrepreneurship",
+      "points": 59,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Business Acumen": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a4",
+      "title": "Launch Side Hustle",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Investing",
+      "points": 62,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Economic Literacy": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a5",
+      "title": "Buy First Asset",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Real Estate",
+      "points": 92,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Resource Management": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a5"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a6",
+      "title": "Invest Index Fund",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Tax Optimization",
+      "points": 67,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Value Creation": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a7",
+      "title": "Build Emergency Fund",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Wealth Management",
+      "points": 76,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Earning Power": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a8",
+      "title": "Reduce Debt 50",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Sales",
+      "points": 62,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Wealth Building": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a9",
+      "title": "Close First Sale",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Marketing",
+      "points": 83,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Business Acumen": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a10",
+      "title": "Profit Project",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Business Strategy",
+      "points": 57,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Economic Literacy": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a10"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a11",
+      "title": "Create Budget",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Finance Basics",
+      "points": 66,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Resource Management": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a12",
+      "title": "Save 3 Months",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Budgeting",
+      "points": 67,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Value Creation": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a13",
+      "title": "Negotiate Raise",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Passive Income",
+      "points": 98,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Earning Power": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a14",
+      "title": "Launch Side Hustle",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Startup Building",
+      "points": 76,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Wealth Building": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a15",
+      "title": "Buy First Asset",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Venture Capital",
+      "points": 66,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Business Acumen": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a15"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a16",
+      "title": "Invest Index Fund",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Freelancing",
+      "points": 63,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Economic Literacy": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a17",
+      "title": "Build Emergency Fund",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Consulting",
+      "points": 70,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Resource Management": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a18",
+      "title": "Reduce Debt 50",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Monetization",
+      "points": 93,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Value Creation": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a19",
+      "title": "Close First Sale",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Crowdfunding",
+      "points": 81,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Earning Power": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r2_a20",
+      "title": "Profit Project",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Asset Allocation",
+      "points": 67,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Wealth Building": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "financial_r1_a20"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a1",
+      "title": "Create Budget",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Income Generation",
+      "points": 215,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Earning Power": 6,
+        "Wealth Building": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a2",
+      "title": "Save 3 Months",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Salary Negotiation",
+      "points": 113,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Wealth Building": 6,
+        "Business Acumen": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a3",
+      "title": "Negotiate Raise",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Entrepreneurship",
+      "points": 160,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Business Acumen": 6,
+        "Economic Literacy": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a4",
+      "title": "Launch Side Hustle",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Investing",
+      "points": 235,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Economic Literacy": 6,
+        "Resource Management": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a5",
+      "title": "Buy First Asset",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Real Estate",
+      "points": 124,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Resource Management": 6,
+        "Value Creation": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a5"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a6",
+      "title": "Invest Index Fund",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Tax Optimization",
+      "points": 250,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Value Creation": 6,
+        "Earning Power": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a7",
+      "title": "Build Emergency Fund",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Wealth Management",
+      "points": 167,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Earning Power": 6,
+        "Wealth Building": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a8",
+      "title": "Reduce Debt 50",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Sales",
+      "points": 118,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Wealth Building": 6,
+        "Business Acumen": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a9",
+      "title": "Close First Sale",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Marketing",
+      "points": 166,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Business Acumen": 6,
+        "Economic Literacy": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a10",
+      "title": "Profit Project",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Business Strategy",
+      "points": 191,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Economic Literacy": 6,
+        "Resource Management": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a10"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a11",
+      "title": "Create Budget",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Finance Basics",
+      "points": 206,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Resource Management": 6,
+        "Value Creation": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a12",
+      "title": "Save 3 Months",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Budgeting",
+      "points": 155,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Value Creation": 6,
+        "Earning Power": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a13",
+      "title": "Negotiate Raise",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Passive Income",
+      "points": 160,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Earning Power": 6,
+        "Wealth Building": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a14",
+      "title": "Launch Side Hustle",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Startup Building",
+      "points": 156,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Wealth Building": 6,
+        "Business Acumen": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a15",
+      "title": "Buy First Asset",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Venture Capital",
+      "points": 176,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Business Acumen": 6,
+        "Economic Literacy": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a15"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a16",
+      "title": "Invest Index Fund",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Freelancing",
+      "points": 214,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Economic Literacy": 6,
+        "Resource Management": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a17",
+      "title": "Build Emergency Fund",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Consulting",
+      "points": 230,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Resource Management": 6,
+        "Value Creation": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a18",
+      "title": "Reduce Debt 50",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Monetization",
+      "points": 230,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Value Creation": 6,
+        "Earning Power": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a19",
+      "title": "Close First Sale",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Crowdfunding",
+      "points": 111,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Earning Power": 6,
+        "Wealth Building": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r3_a20",
+      "title": "Profit Project",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Asset Allocation",
+      "points": 198,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Wealth Building": 6,
+        "Business Acumen": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "financial_r2_a20"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a1",
+      "title": "Reach 4x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Income Generation",
+      "points": 397,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Earning Power": 8,
+        "Wealth Building": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a2",
+      "title": "Build 4 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Salary Negotiation",
+      "points": 372,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Wealth Building": 8,
+        "Business Acumen": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a3",
+      "title": "Invest $40k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Entrepreneurship",
+      "points": 469,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Business Acumen": 8,
+        "Economic Literacy": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a4",
+      "title": "Acquire 4 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Investing",
+      "points": 262,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Economic Literacy": 8,
+        "Resource Management": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a5",
+      "title": "Exit 4 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Real Estate",
+      "points": 420,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Resource Management": 8,
+        "Value Creation": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a5",
+        "financial_r2_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a6",
+      "title": "Reach 4x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Tax Optimization",
+      "points": 348,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Value Creation": 8,
+        "Earning Power": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a7",
+      "title": "Build 4 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Wealth Management",
+      "points": 287,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Earning Power": 8,
+        "Wealth Building": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a8",
+      "title": "Invest $40k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Sales",
+      "points": 394,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Wealth Building": 8,
+        "Business Acumen": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a9",
+      "title": "Acquire 4 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Marketing",
+      "points": 331,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Business Acumen": 8,
+        "Economic Literacy": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a10",
+      "title": "Exit 4 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Business Strategy",
+      "points": 489,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Economic Literacy": 8,
+        "Resource Management": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a10",
+        "financial_r2_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a11",
+      "title": "Reach 4x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Finance Basics",
+      "points": 348,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Resource Management": 8,
+        "Value Creation": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a12",
+      "title": "Build 4 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Budgeting",
+      "points": 429,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Value Creation": 8,
+        "Earning Power": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a13",
+      "title": "Invest $40k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Passive Income",
+      "points": 369,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Earning Power": 8,
+        "Wealth Building": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a14",
+      "title": "Acquire 4 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Startup Building",
+      "points": 348,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Wealth Building": 8,
+        "Business Acumen": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a15",
+      "title": "Exit 4 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Venture Capital",
+      "points": 408,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Business Acumen": 8,
+        "Economic Literacy": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a15",
+        "financial_r2_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a16",
+      "title": "Reach 4x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Freelancing",
+      "points": 298,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Economic Literacy": 8,
+        "Resource Management": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a17",
+      "title": "Build 4 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Consulting",
+      "points": 489,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Resource Management": 8,
+        "Value Creation": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a18",
+      "title": "Invest $40k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Monetization",
+      "points": 410,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Value Creation": 8,
+        "Earning Power": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a19",
+      "title": "Acquire 4 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Crowdfunding",
+      "points": 449,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Earning Power": 8,
+        "Wealth Building": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r4_a20",
+      "title": "Exit 4 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Asset Allocation",
+      "points": 314,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Wealth Building": 8,
+        "Business Acumen": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "financial_r3_a20",
+        "financial_r2_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a1",
+      "title": "Reach 5x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Income Generation",
+      "points": 803,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Earning Power": 10,
+        "Wealth Building": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a2",
+      "title": "Build 5 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Salary Negotiation",
+      "points": 644,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Wealth Building": 10,
+        "Business Acumen": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a3",
+      "title": "Invest $50k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Entrepreneurship",
+      "points": 540,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Business Acumen": 10,
+        "Economic Literacy": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a4",
+      "title": "Acquire 5 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Investing",
+      "points": 883,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Economic Literacy": 10,
+        "Resource Management": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a5",
+      "title": "Exit 5 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Real Estate",
+      "points": 951,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Resource Management": 10,
+        "Value Creation": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a5",
+        "financial_r3_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a6",
+      "title": "Reach 5x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Tax Optimization",
+      "points": 543,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Value Creation": 10,
+        "Earning Power": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a7",
+      "title": "Build 5 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Wealth Management",
+      "points": 538,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Earning Power": 10,
+        "Wealth Building": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a8",
+      "title": "Invest $50k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Sales",
+      "points": 578,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Wealth Building": 10,
+        "Business Acumen": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a9",
+      "title": "Acquire 5 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Marketing",
+      "points": 820,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Business Acumen": 10,
+        "Economic Literacy": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a10",
+      "title": "Exit 5 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Business Strategy",
+      "points": 988,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Economic Literacy": 10,
+        "Resource Management": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a10",
+        "financial_r3_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a11",
+      "title": "Reach 5x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Finance Basics",
+      "points": 724,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Resource Management": 10,
+        "Value Creation": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a12",
+      "title": "Build 5 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Budgeting",
+      "points": 729,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Value Creation": 10,
+        "Earning Power": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a13",
+      "title": "Invest $50k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Passive Income",
+      "points": 859,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Earning Power": 10,
+        "Wealth Building": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a14",
+      "title": "Acquire 5 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Startup Building",
+      "points": 777,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Wealth Building": 10,
+        "Business Acumen": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a15",
+      "title": "Exit 5 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Venture Capital",
+      "points": 646,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Business Acumen": 10,
+        "Economic Literacy": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a15",
+        "financial_r3_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a16",
+      "title": "Reach 5x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Freelancing",
+      "points": 883,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Economic Literacy": 10,
+        "Resource Management": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a17",
+      "title": "Build 5 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Consulting",
+      "points": 600,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Resource Management": 10,
+        "Value Creation": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a18",
+      "title": "Invest $50k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Monetization",
+      "points": 643,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Value Creation": 10,
+        "Earning Power": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a19",
+      "title": "Acquire 5 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Crowdfunding",
+      "points": 961,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Earning Power": 10,
+        "Wealth Building": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r5_a20",
+      "title": "Exit 5 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Asset Allocation",
+      "points": 522,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Wealth Building": 10,
+        "Business Acumen": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "financial_r4_a20",
+        "financial_r3_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "financial_r6_a1",
+      "title": "Reach 6x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Income Generation",
+      "points": 1288,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Earning Power": 12,
+        "Wealth Building": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a2",
+      "title": "Build 6 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Salary Negotiation",
+      "points": 2417,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Wealth Building": 12,
+        "Business Acumen": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a3",
+      "title": "Invest $60k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Entrepreneurship",
+      "points": 1085,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Business Acumen": 12,
+        "Economic Literacy": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a4",
+      "title": "Acquire 6 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Investing",
+      "points": 1156,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Economic Literacy": 12,
+        "Resource Management": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a5",
+      "title": "Exit 6 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Real Estate",
+      "points": 1926,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Resource Management": 12,
+        "Value Creation": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a5",
+        "financial_r4_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a6",
+      "title": "Reach 6x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Tax Optimization",
+      "points": 2411,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Value Creation": 12,
+        "Earning Power": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a7",
+      "title": "Build 6 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Wealth Management",
+      "points": 1204,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Earning Power": 12,
+        "Wealth Building": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a8",
+      "title": "Invest $60k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Sales",
+      "points": 2220,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Wealth Building": 12,
+        "Business Acumen": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a9",
+      "title": "Acquire 6 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Marketing",
+      "points": 2059,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Business Acumen": 12,
+        "Economic Literacy": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a10",
+      "title": "Exit 6 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Business Strategy",
+      "points": 1157,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Economic Literacy": 12,
+        "Resource Management": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a10",
+        "financial_r4_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a11",
+      "title": "Reach 6x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Finance Basics",
+      "points": 2207,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Resource Management": 12,
+        "Value Creation": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a12",
+      "title": "Build 6 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Budgeting",
+      "points": 1899,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Value Creation": 12,
+        "Earning Power": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a13",
+      "title": "Invest $60k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Passive Income",
+      "points": 1896,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Earning Power": 12,
+        "Wealth Building": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a14",
+      "title": "Acquire 6 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Startup Building",
+      "points": 1627,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Wealth Building": 12,
+        "Business Acumen": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a15",
+      "title": "Exit 6 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Venture Capital",
+      "points": 2287,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Business Acumen": 12,
+        "Economic Literacy": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a15",
+        "financial_r4_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a16",
+      "title": "Reach 6x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Freelancing",
+      "points": 2181,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Economic Literacy": 12,
+        "Resource Management": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a17",
+      "title": "Build 6 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Consulting",
+      "points": 2250,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Resource Management": 12,
+        "Value Creation": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a18",
+      "title": "Invest $60k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Monetization",
+      "points": 2086,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Value Creation": 12,
+        "Earning Power": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a19",
+      "title": "Acquire 6 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Crowdfunding",
+      "points": 2138,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Earning Power": 12,
+        "Wealth Building": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r6_a20",
+      "title": "Exit 6 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Asset Allocation",
+      "points": 2403,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Wealth Building": 12,
+        "Business Acumen": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "financial_r5_a20",
+        "financial_r4_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a1",
+      "title": "Reach 7x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Income Generation",
+      "points": 4706,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Earning Power": 14,
+        "Wealth Building": 17,
+        "Business Acumen": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a2",
+      "title": "Build 7 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Salary Negotiation",
+      "points": 4235,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Wealth Building": 14,
+        "Business Acumen": 17,
+        "Economic Literacy": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a3",
+      "title": "Invest $70k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Entrepreneurship",
+      "points": 2543,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Business Acumen": 14,
+        "Economic Literacy": 17,
+        "Resource Management": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a4",
+      "title": "Acquire 7 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Investing",
+      "points": 2847,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Economic Literacy": 14,
+        "Resource Management": 17,
+        "Value Creation": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a5",
+      "title": "Exit 7 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Real Estate",
+      "points": 4584,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Resource Management": 14,
+        "Value Creation": 17,
+        "Earning Power": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a5",
+        "financial_r5_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a6",
+      "title": "Reach 7x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Tax Optimization",
+      "points": 4681,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Value Creation": 14,
+        "Earning Power": 17,
+        "Wealth Building": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a7",
+      "title": "Build 7 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Wealth Management",
+      "points": 2992,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Earning Power": 14,
+        "Wealth Building": 17,
+        "Business Acumen": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a8",
+      "title": "Invest $70k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Sales",
+      "points": 2623,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Wealth Building": 14,
+        "Business Acumen": 17,
+        "Economic Literacy": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a9",
+      "title": "Acquire 7 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Marketing",
+      "points": 3394,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Business Acumen": 14,
+        "Economic Literacy": 17,
+        "Resource Management": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a10",
+      "title": "Exit 7 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Business Strategy",
+      "points": 4902,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Economic Literacy": 14,
+        "Resource Management": 17,
+        "Value Creation": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a10",
+        "financial_r5_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a11",
+      "title": "Reach 7x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Finance Basics",
+      "points": 3433,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Resource Management": 14,
+        "Value Creation": 17,
+        "Earning Power": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a12",
+      "title": "Build 7 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Budgeting",
+      "points": 4667,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Value Creation": 14,
+        "Earning Power": 17,
+        "Wealth Building": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a13",
+      "title": "Invest $70k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Passive Income",
+      "points": 3388,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Earning Power": 14,
+        "Wealth Building": 17,
+        "Business Acumen": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a14",
+      "title": "Acquire 7 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Startup Building",
+      "points": 4519,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Wealth Building": 14,
+        "Business Acumen": 17,
+        "Economic Literacy": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a15",
+      "title": "Exit 7 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Venture Capital",
+      "points": 3037,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Business Acumen": 14,
+        "Economic Literacy": 17,
+        "Resource Management": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a15",
+        "financial_r5_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a16",
+      "title": "Reach 7x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Freelancing",
+      "points": 2595,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Economic Literacy": 14,
+        "Resource Management": 17,
+        "Value Creation": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a17",
+      "title": "Build 7 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Consulting",
+      "points": 2615,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Resource Management": 14,
+        "Value Creation": 17,
+        "Earning Power": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a18",
+      "title": "Invest $70k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Monetization",
+      "points": 3133,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Value Creation": 14,
+        "Earning Power": 17,
+        "Wealth Building": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a19",
+      "title": "Acquire 7 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Crowdfunding",
+      "points": 2868,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Earning Power": 14,
+        "Wealth Building": 17,
+        "Business Acumen": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r7_a20",
+      "title": "Exit 7 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Asset Allocation",
+      "points": 4769,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Wealth Building": 14,
+        "Business Acumen": 17,
+        "Economic Literacy": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "financial_r6_a20",
+        "financial_r5_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a1",
+      "title": "Reach 8x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Income Generation",
+      "points": 5273,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Earning Power": 16,
+        "Wealth Building": 20,
+        "Business Acumen": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a2",
+      "title": "Build 8 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Salary Negotiation",
+      "points": 6642,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Wealth Building": 16,
+        "Business Acumen": 20,
+        "Economic Literacy": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a3",
+      "title": "Invest $80k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Entrepreneurship",
+      "points": 9881,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Business Acumen": 16,
+        "Economic Literacy": 20,
+        "Resource Management": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a4",
+      "title": "Acquire 8 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Investing",
+      "points": 6726,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Economic Literacy": 16,
+        "Resource Management": 20,
+        "Value Creation": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a5",
+      "title": "Exit 8 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Real Estate",
+      "points": 7291,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Resource Management": 16,
+        "Value Creation": 20,
+        "Earning Power": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a5",
+        "financial_r6_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a6",
+      "title": "Reach 8x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Tax Optimization",
+      "points": 9411,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Value Creation": 16,
+        "Earning Power": 20,
+        "Wealth Building": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a7",
+      "title": "Build 8 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Wealth Management",
+      "points": 6392,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Earning Power": 16,
+        "Wealth Building": 20,
+        "Business Acumen": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a8",
+      "title": "Invest $80k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Sales",
+      "points": 5253,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Wealth Building": 16,
+        "Business Acumen": 20,
+        "Economic Literacy": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a9",
+      "title": "Acquire 8 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Marketing",
+      "points": 8786,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Business Acumen": 16,
+        "Economic Literacy": 20,
+        "Resource Management": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a10",
+      "title": "Exit 8 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Business Strategy",
+      "points": 9735,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Economic Literacy": 16,
+        "Resource Management": 20,
+        "Value Creation": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a10",
+        "financial_r6_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a11",
+      "title": "Reach 8x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Finance Basics",
+      "points": 6438,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Resource Management": 16,
+        "Value Creation": 20,
+        "Earning Power": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a12",
+      "title": "Build 8 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Budgeting",
+      "points": 9659,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Value Creation": 16,
+        "Earning Power": 20,
+        "Wealth Building": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a13",
+      "title": "Invest $80k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Passive Income",
+      "points": 5234,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Earning Power": 16,
+        "Wealth Building": 20,
+        "Business Acumen": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a14",
+      "title": "Acquire 8 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Startup Building",
+      "points": 9076,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Wealth Building": 16,
+        "Business Acumen": 20,
+        "Economic Literacy": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a15",
+      "title": "Exit 8 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Venture Capital",
+      "points": 9637,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Business Acumen": 16,
+        "Economic Literacy": 20,
+        "Resource Management": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a15",
+        "financial_r6_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a16",
+      "title": "Reach 8x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Freelancing",
+      "points": 6447,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Economic Literacy": 16,
+        "Resource Management": 20,
+        "Value Creation": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a17",
+      "title": "Build 8 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Consulting",
+      "points": 6071,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Resource Management": 16,
+        "Value Creation": 20,
+        "Earning Power": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a18",
+      "title": "Invest $80k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Monetization",
+      "points": 8305,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Value Creation": 16,
+        "Earning Power": 20,
+        "Wealth Building": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a19",
+      "title": "Acquire 8 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Crowdfunding",
+      "points": 8754,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Earning Power": 16,
+        "Wealth Building": 20,
+        "Business Acumen": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r8_a20",
+      "title": "Exit 8 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Asset Allocation",
+      "points": 5016,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Wealth Building": 16,
+        "Business Acumen": 20,
+        "Economic Literacy": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "financial_r7_a20",
+        "financial_r6_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a1",
+      "title": "Reach 9x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Income Generation",
+      "points": 16986,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Earning Power": 18,
+        "Wealth Building": 22,
+        "Business Acumen": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a2",
+      "title": "Build 9 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Salary Negotiation",
+      "points": 23515,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Wealth Building": 18,
+        "Business Acumen": 22,
+        "Economic Literacy": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a3",
+      "title": "Invest $90k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Entrepreneurship",
+      "points": 20438,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Business Acumen": 18,
+        "Economic Literacy": 22,
+        "Resource Management": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a4",
+      "title": "Acquire 9 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Investing",
+      "points": 21487,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Economic Literacy": 18,
+        "Resource Management": 22,
+        "Value Creation": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a5",
+      "title": "Exit 9 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Real Estate",
+      "points": 13581,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Resource Management": 18,
+        "Value Creation": 22,
+        "Earning Power": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a5",
+        "financial_r7_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a6",
+      "title": "Reach 9x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Tax Optimization",
+      "points": 24015,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Value Creation": 18,
+        "Earning Power": 22,
+        "Wealth Building": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a7",
+      "title": "Build 9 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Wealth Management",
+      "points": 15605,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Earning Power": 18,
+        "Wealth Building": 22,
+        "Business Acumen": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a8",
+      "title": "Invest $90k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Sales",
+      "points": 20641,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Wealth Building": 18,
+        "Business Acumen": 22,
+        "Economic Literacy": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a9",
+      "title": "Acquire 9 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Marketing",
+      "points": 12519,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Business Acumen": 18,
+        "Economic Literacy": 22,
+        "Resource Management": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a10",
+      "title": "Exit 9 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Business Strategy",
+      "points": 11360,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Economic Literacy": 18,
+        "Resource Management": 22,
+        "Value Creation": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a10",
+        "financial_r7_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a11",
+      "title": "Reach 9x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Finance Basics",
+      "points": 11283,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Resource Management": 18,
+        "Value Creation": 22,
+        "Earning Power": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a12",
+      "title": "Build 9 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Budgeting",
+      "points": 16885,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Value Creation": 18,
+        "Earning Power": 22,
+        "Wealth Building": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a13",
+      "title": "Invest $90k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Passive Income",
+      "points": 14455,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Earning Power": 18,
+        "Wealth Building": 22,
+        "Business Acumen": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a14",
+      "title": "Acquire 9 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Startup Building",
+      "points": 17375,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Wealth Building": 18,
+        "Business Acumen": 22,
+        "Economic Literacy": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a15",
+      "title": "Exit 9 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Venture Capital",
+      "points": 21728,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Business Acumen": 18,
+        "Economic Literacy": 22,
+        "Resource Management": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a15",
+        "financial_r7_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a16",
+      "title": "Reach 9x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Freelancing",
+      "points": 12104,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Economic Literacy": 18,
+        "Resource Management": 22,
+        "Value Creation": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a17",
+      "title": "Build 9 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Consulting",
+      "points": 20613,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Resource Management": 18,
+        "Value Creation": 22,
+        "Earning Power": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a18",
+      "title": "Invest $90k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Monetization",
+      "points": 20166,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Value Creation": 18,
+        "Earning Power": 22,
+        "Wealth Building": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a19",
+      "title": "Acquire 9 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Crowdfunding",
+      "points": 20870,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Earning Power": 18,
+        "Wealth Building": 22,
+        "Business Acumen": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r9_a20",
+      "title": "Exit 9 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Asset Allocation",
+      "points": 21138,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Wealth Building": 18,
+        "Business Acumen": 22,
+        "Economic Literacy": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "financial_r8_a20",
+        "financial_r7_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a1",
+      "title": "Reach 10x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Income Generation",
+      "points": 88661,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Earning Power": 20,
+        "Wealth Building": 25,
+        "Business Acumen": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a2",
+      "title": "Build 10 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Salary Negotiation",
+      "points": 67944,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Wealth Building": 20,
+        "Business Acumen": 25,
+        "Economic Literacy": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a3",
+      "title": "Invest $100k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Entrepreneurship",
+      "points": 34458,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Business Acumen": 20,
+        "Economic Literacy": 25,
+        "Resource Management": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a4",
+      "title": "Acquire 10 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Investing",
+      "points": 89948,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Economic Literacy": 20,
+        "Resource Management": 25,
+        "Value Creation": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a5",
+      "title": "Exit 10 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Real Estate",
+      "points": 37968,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Resource Management": 20,
+        "Value Creation": 25,
+        "Earning Power": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a5",
+        "financial_r8_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a6",
+      "title": "Reach 10x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Tax Optimization",
+      "points": 35200,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Value Creation": 20,
+        "Earning Power": 25,
+        "Wealth Building": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a7",
+      "title": "Build 10 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Wealth Management",
+      "points": 43952,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Earning Power": 20,
+        "Wealth Building": 25,
+        "Business Acumen": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a8",
+      "title": "Invest $100k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Sales",
+      "points": 79975,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Wealth Building": 20,
+        "Business Acumen": 25,
+        "Economic Literacy": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a9",
+      "title": "Acquire 10 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Marketing",
+      "points": 70853,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Business Acumen": 20,
+        "Economic Literacy": 25,
+        "Resource Management": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a10",
+      "title": "Exit 10 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Business Strategy",
+      "points": 81113,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Economic Literacy": 20,
+        "Resource Management": 25,
+        "Value Creation": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a10",
+        "financial_r8_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a11",
+      "title": "Reach 10x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Finance Basics",
+      "points": 72256,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Resource Management": 20,
+        "Value Creation": 25,
+        "Earning Power": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a12",
+      "title": "Build 10 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Budgeting",
+      "points": 37333,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Value Creation": 20,
+        "Earning Power": 25,
+        "Wealth Building": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a13",
+      "title": "Invest $100k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Passive Income",
+      "points": 32459,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Earning Power": 20,
+        "Wealth Building": 25,
+        "Business Acumen": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a14",
+      "title": "Acquire 10 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Startup Building",
+      "points": 58778,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Wealth Building": 20,
+        "Business Acumen": 25,
+        "Economic Literacy": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a15",
+      "title": "Exit 10 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Venture Capital",
+      "points": 59673,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Business Acumen": 20,
+        "Economic Literacy": 25,
+        "Resource Management": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a15",
+        "financial_r8_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a16",
+      "title": "Reach 10x Savings Goal",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Freelancing",
+      "points": 60521,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Economic Literacy": 20,
+        "Resource Management": 25,
+        "Value Creation": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a17",
+      "title": "Build 10 Revenue Streams",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Consulting",
+      "points": 98797,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Resource Management": 20,
+        "Value Creation": 25,
+        "Earning Power": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a18",
+      "title": "Invest $100k",
+      "description": "Achieve the financial milestone and provide statements or screenshots verifying balances and transactions.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Monetization",
+      "points": 38250,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Value Creation": 20,
+        "Earning Power": 25,
+        "Wealth Building": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a19",
+      "title": "Acquire 10 Rental Units",
+      "description": "Launch or acquire the target with financial records (invoices, bank statements) and a short performance report.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Crowdfunding",
+      "points": 44709,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Earning Power": 20,
+        "Wealth Building": 25,
+        "Business Acumen": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "financial_r10_a20",
+      "title": "Exit 10 Ventures",
+      "description": "Reach the stated financial goal and provide documentary proof as appropriate.",
+      "domain": "Financial",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Asset Allocation",
+      "points": 39890,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Wealth Building": 20,
+        "Business Acumen": 25,
+        "Economic Literacy": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "financial_r9_a20",
+        "financial_r8_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    }
+  ],
+  "hiddenAchievements": [
+    {
+      "id": "financial_hidden_1",
+      "title": "Hidden Financial Mastery 1",
+      "description": "Secret-level Financial achievement requiring peer review and multiple evidences.",
+      "domain": "Financial",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "financial_hidden_2",
+      "title": "Hidden Financial Mastery 2",
+      "description": "Secret-level Financial achievement requiring peer review and multiple evidences.",
+      "domain": "Financial",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "financial_hidden_3",
+      "title": "Hidden Financial Mastery 3",
+      "description": "Secret-level Financial achievement requiring peer review and multiple evidences.",
+      "domain": "Financial",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "financial_hidden_4",
+      "title": "Hidden Financial Mastery 4",
+      "description": "Secret-level Financial achievement requiring peer review and multiple evidences.",
+      "domain": "Financial",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "financial_hidden_5",
+      "title": "Hidden Financial Mastery 5",
+      "description": "Secret-level Financial achievement requiring peer review and multiple evidences.",
+      "domain": "Financial",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "financial_hidden_6",
+      "title": "Hidden Financial Mastery 6",
+      "description": "Secret-level Financial achievement requiring peer review and multiple evidences.",
+      "domain": "Financial",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "financial_hidden_7",
+      "title": "Hidden Financial Mastery 7",
+      "description": "Secret-level Financial achievement requiring peer review and multiple evidences.",
+      "domain": "Financial",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "financial_hidden_8",
+      "title": "Hidden Financial Mastery 8",
+      "description": "Secret-level Financial achievement requiring peer review and multiple evidences.",
+      "domain": "Financial",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "financial_hidden_9",
+      "title": "Hidden Financial Mastery 9",
+      "description": "Secret-level Financial achievement requiring peer review and multiple evidences.",
+      "domain": "Financial",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "financial_hidden_10",
+      "title": "Hidden Financial Mastery 10",
+      "description": "Secret-level Financial achievement requiring peer review and multiple evidences.",
+      "domain": "Financial",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    }
+  ],
+  "systemOverview": {
+    "domains": [
+      "Physical",
+      "Mental",
+      "Intellectual",
+      "Social",
+      "Creative",
+      "Financial",
+      "Spiritual"
+    ],
+    "statsPerDomain": [
+      "Earning Power",
+      "Wealth Building",
+      "Business Acumen",
+      "Economic Literacy",
+      "Resource Management",
+      "Value Creation"
+    ],
+    "ranks": {
+      "1": "Novice",
+      "2": "Apprentice",
+      "3": "Adept",
+      "4": "Expert",
+      "5": "Master",
+      "6": "Grandmaster",
+      "7": "Legend",
+      "8": "Mythic",
+      "9": "Transcendent",
+      "10": "Ultimate Completionist"
+    },
+    "rankPercentileMapping": {
+      "1": 95.0,
+      "2": 80.0,
+      "3": 55.0,
+      "4": 25.0,
+      "5": 5.0,
+      "6": 0.5,
+      "7": 0.05,
+      "8": 0.005,
+      "9": 0.0005,
+      "10": 0.0001
+    },
+    "globalPercentileFormula": "overallPercentile = 100 - (averageDomainRank / 10 * 100) + achievementVarianceAdjustment",
+    "leaderboardDisplayFormat": {
+      "title": "ULTIMATE COMPLETIONIST PROFILE",
+      "fields": [
+        "Overall Rank",
+        "Global Percentile",
+        "Estimated Position",
+        "Next Milestone",
+        "Achievements Needed",
+        "Points Earned",
+        "Domain Breakdown"
+      ]
+    },
+    "pathToUltimate": "Complete all achievements (200 per domain), focus on high-point rare achievements, consistency over years."
+  }
+}

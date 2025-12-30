@@ -1,0 +1,4615 @@
+{
+  "domain": "Social",
+  "stats": [
+    "Communication",
+    "Leadership",
+    "Empathy",
+    "Networking",
+    "Influence",
+    "Collaboration"
+  ],
+  "categories": [
+    "Public Speaking",
+    "Networking",
+    "Leadership",
+    "Coaching",
+    "Negotiation",
+    "Mediation",
+    "Diplomacy",
+    "Community Organizing",
+    "Event Planning",
+    "Relationship Building",
+    "Cross-Cultural Communication",
+    "Conflict Resolution",
+    "Team Building",
+    "Management",
+    "Mentorship",
+    "Teaching",
+    "Volunteering",
+    "Fundraising",
+    "Sales",
+    "Customer Success",
+    "Organizing"
+  ],
+  "ranks": {
+    "1": "Novice",
+    "2": "Apprentice",
+    "3": "Adept",
+    "4": "Expert",
+    "5": "Master",
+    "6": "Grandmaster",
+    "7": "Legend",
+    "8": "Mythic",
+    "9": "Transcendent",
+    "10": "Ultimate Completionist"
+  },
+  "achievements": [
+    {
+      "id": "social_r1_a1",
+      "title": "Give Talk 5min",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Public Speaking",
+      "points": 25,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Communication": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a2",
+      "title": "Host Network Meet",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Networking",
+      "points": 38,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Leadership": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a3",
+      "title": "Lead Small Team",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Leadership",
+      "points": 45,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Empathy": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a4",
+      "title": "Mentor 1 Person",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Coaching",
+      "points": 34,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Networking": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a5",
+      "title": "Resolve Conflict",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Negotiation",
+      "points": 13,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Influence": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a6",
+      "title": "Join Club",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Mediation",
+      "points": 12,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Collaboration": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a7",
+      "title": "Teach Workshop",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Diplomacy",
+      "points": 18,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Communication": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a8",
+      "title": "Plan Event",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Community Organizing",
+      "points": 19,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Leadership": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a9",
+      "title": "Volunteer 20H",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Event Planning",
+      "points": 17,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Empathy": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a10",
+      "title": "Outreach 50",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Relationship Building",
+      "points": 40,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Networking": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a11",
+      "title": "Give Talk 5min",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Cross-Cultural Communication",
+      "points": 48,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Influence": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a12",
+      "title": "Host Network Meet",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Conflict Resolution",
+      "points": 25,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Collaboration": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a13",
+      "title": "Lead Small Team",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Team Building",
+      "points": 13,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Communication": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a14",
+      "title": "Mentor 1 Person",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Management",
+      "points": 12,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Leadership": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a15",
+      "title": "Resolve Conflict",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Mentorship",
+      "points": 15,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Empathy": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a16",
+      "title": "Join Club",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Teaching",
+      "points": 50,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Networking": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a17",
+      "title": "Teach Workshop",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Volunteering",
+      "points": 34,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Influence": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a18",
+      "title": "Plan Event",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Fundraising",
+      "points": 32,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Collaboration": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a19",
+      "title": "Volunteer 20H",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Sales",
+      "points": 46,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Communication": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r1_a20",
+      "title": "Outreach 50",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Customer Success",
+      "points": 50,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Leadership": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a1",
+      "title": "Give Talk 5min",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Public Speaking",
+      "points": 97,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Communication": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a2",
+      "title": "Host Network Meet",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Networking",
+      "points": 81,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Leadership": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a3",
+      "title": "Lead Small Team",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Leadership",
+      "points": 73,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Empathy": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a4",
+      "title": "Mentor 1 Person",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Coaching",
+      "points": 75,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Networking": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a5",
+      "title": "Resolve Conflict",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Negotiation",
+      "points": 68,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Influence": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a5"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a6",
+      "title": "Join Club",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Mediation",
+      "points": 56,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Collaboration": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a7",
+      "title": "Teach Workshop",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Diplomacy",
+      "points": 59,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Communication": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a8",
+      "title": "Plan Event",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Community Organizing",
+      "points": 65,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Leadership": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a9",
+      "title": "Volunteer 20H",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Event Planning",
+      "points": 78,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Empathy": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a10",
+      "title": "Outreach 50",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Relationship Building",
+      "points": 71,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Networking": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a10"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a11",
+      "title": "Give Talk 5min",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Cross-Cultural Communication",
+      "points": 97,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Influence": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a12",
+      "title": "Host Network Meet",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Conflict Resolution",
+      "points": 98,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Collaboration": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a13",
+      "title": "Lead Small Team",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Team Building",
+      "points": 62,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Communication": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a14",
+      "title": "Mentor 1 Person",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Management",
+      "points": 77,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Leadership": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a15",
+      "title": "Resolve Conflict",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Mentorship",
+      "points": 92,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Empathy": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a15"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a16",
+      "title": "Join Club",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Teaching",
+      "points": 73,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Networking": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a17",
+      "title": "Teach Workshop",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Volunteering",
+      "points": 62,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Influence": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a18",
+      "title": "Plan Event",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Fundraising",
+      "points": 95,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Collaboration": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a19",
+      "title": "Volunteer 20H",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Sales",
+      "points": 60,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Communication": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r2_a20",
+      "title": "Outreach 50",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Customer Success",
+      "points": 93,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Leadership": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "social_r1_a20"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a1",
+      "title": "Give Talk 5min",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Public Speaking",
+      "points": 214,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Communication": 6,
+        "Leadership": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a2",
+      "title": "Host Network Meet",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Networking",
+      "points": 177,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Leadership": 6,
+        "Empathy": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a3",
+      "title": "Lead Small Team",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Leadership",
+      "points": 106,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Empathy": 6,
+        "Networking": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a4",
+      "title": "Mentor 1 Person",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Coaching",
+      "points": 249,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Networking": 6,
+        "Influence": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a5",
+      "title": "Resolve Conflict",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Negotiation",
+      "points": 130,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Influence": 6,
+        "Collaboration": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a5"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a6",
+      "title": "Join Club",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Mediation",
+      "points": 159,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Collaboration": 6,
+        "Communication": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a7",
+      "title": "Teach Workshop",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Diplomacy",
+      "points": 108,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Communication": 6,
+        "Leadership": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a8",
+      "title": "Plan Event",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Community Organizing",
+      "points": 103,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Leadership": 6,
+        "Empathy": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a9",
+      "title": "Volunteer 20H",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Event Planning",
+      "points": 138,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Empathy": 6,
+        "Networking": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a10",
+      "title": "Outreach 50",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Relationship Building",
+      "points": 244,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Networking": 6,
+        "Influence": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a10"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a11",
+      "title": "Give Talk 5min",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Cross-Cultural Communication",
+      "points": 129,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Influence": 6,
+        "Collaboration": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a12",
+      "title": "Host Network Meet",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Conflict Resolution",
+      "points": 223,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Collaboration": 6,
+        "Communication": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a13",
+      "title": "Lead Small Team",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Team Building",
+      "points": 107,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Communication": 6,
+        "Leadership": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a14",
+      "title": "Mentor 1 Person",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Management",
+      "points": 136,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Leadership": 6,
+        "Empathy": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a15",
+      "title": "Resolve Conflict",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Mentorship",
+      "points": 212,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Empathy": 6,
+        "Networking": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a15"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a16",
+      "title": "Join Club",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Teaching",
+      "points": 249,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Networking": 6,
+        "Influence": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a17",
+      "title": "Teach Workshop",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Volunteering",
+      "points": 156,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Influence": 6,
+        "Collaboration": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a18",
+      "title": "Plan Event",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Fundraising",
+      "points": 140,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Collaboration": 6,
+        "Communication": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a19",
+      "title": "Volunteer 20H",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Sales",
+      "points": 219,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Communication": 6,
+        "Leadership": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r3_a20",
+      "title": "Outreach 50",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Customer Success",
+      "points": 197,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Leadership": 6,
+        "Empathy": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "social_r2_a20"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a1",
+      "title": "Lead 4 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Public Speaking",
+      "points": 280,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Communication": 8,
+        "Leadership": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a2",
+      "title": "Speak 4 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Networking",
+      "points": 337,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Leadership": 8,
+        "Empathy": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a3",
+      "title": "Mentor 20 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Leadership",
+      "points": 462,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Empathy": 8,
+        "Networking": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a4",
+      "title": "Organize 4 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Coaching",
+      "points": 457,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Networking": 8,
+        "Influence": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a5",
+      "title": "Negotiate 4 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Negotiation",
+      "points": 367,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Influence": 8,
+        "Collaboration": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a5",
+        "social_r2_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a6",
+      "title": "Lead 4 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Mediation",
+      "points": 379,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Collaboration": 8,
+        "Communication": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a7",
+      "title": "Speak 4 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Diplomacy",
+      "points": 275,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Communication": 8,
+        "Leadership": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a8",
+      "title": "Mentor 20 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Community Organizing",
+      "points": 353,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Leadership": 8,
+        "Empathy": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a9",
+      "title": "Organize 4 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Event Planning",
+      "points": 343,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Empathy": 8,
+        "Networking": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a10",
+      "title": "Negotiate 4 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Relationship Building",
+      "points": 334,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Networking": 8,
+        "Influence": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a10",
+        "social_r2_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a11",
+      "title": "Lead 4 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Cross-Cultural Communication",
+      "points": 391,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Influence": 8,
+        "Collaboration": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a12",
+      "title": "Speak 4 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Conflict Resolution",
+      "points": 423,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Collaboration": 8,
+        "Communication": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a13",
+      "title": "Mentor 20 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Team Building",
+      "points": 405,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Communication": 8,
+        "Leadership": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a14",
+      "title": "Organize 4 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Management",
+      "points": 308,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Leadership": 8,
+        "Empathy": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a15",
+      "title": "Negotiate 4 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Mentorship",
+      "points": 494,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Empathy": 8,
+        "Networking": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a15",
+        "social_r2_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a16",
+      "title": "Lead 4 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Teaching",
+      "points": 439,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Networking": 8,
+        "Influence": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a17",
+      "title": "Speak 4 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Volunteering",
+      "points": 354,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Influence": 8,
+        "Collaboration": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a18",
+      "title": "Mentor 20 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Fundraising",
+      "points": 319,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Collaboration": 8,
+        "Communication": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a19",
+      "title": "Organize 4 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Sales",
+      "points": 302,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Communication": 8,
+        "Leadership": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r4_a20",
+      "title": "Negotiate 4 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Customer Success",
+      "points": 344,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Leadership": 8,
+        "Empathy": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "social_r3_a20",
+        "social_r2_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a1",
+      "title": "Lead 5 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Public Speaking",
+      "points": 975,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Communication": 10,
+        "Leadership": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a2",
+      "title": "Speak 5 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Networking",
+      "points": 692,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Leadership": 10,
+        "Empathy": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a3",
+      "title": "Mentor 25 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Leadership",
+      "points": 993,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Empathy": 10,
+        "Networking": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a4",
+      "title": "Organize 5 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Coaching",
+      "points": 536,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Networking": 10,
+        "Influence": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a5",
+      "title": "Negotiate 5 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Negotiation",
+      "points": 578,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Influence": 10,
+        "Collaboration": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a5",
+        "social_r3_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a6",
+      "title": "Lead 5 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Mediation",
+      "points": 860,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Collaboration": 10,
+        "Communication": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a7",
+      "title": "Speak 5 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Diplomacy",
+      "points": 867,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Communication": 10,
+        "Leadership": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a8",
+      "title": "Mentor 25 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Community Organizing",
+      "points": 732,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Leadership": 10,
+        "Empathy": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a9",
+      "title": "Organize 5 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Event Planning",
+      "points": 711,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Empathy": 10,
+        "Networking": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a10",
+      "title": "Negotiate 5 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Relationship Building",
+      "points": 878,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Networking": 10,
+        "Influence": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a10",
+        "social_r3_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a11",
+      "title": "Lead 5 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Cross-Cultural Communication",
+      "points": 823,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Influence": 10,
+        "Collaboration": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a12",
+      "title": "Speak 5 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Conflict Resolution",
+      "points": 887,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Collaboration": 10,
+        "Communication": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a13",
+      "title": "Mentor 25 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Team Building",
+      "points": 663,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Communication": 10,
+        "Leadership": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a14",
+      "title": "Organize 5 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Management",
+      "points": 537,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Leadership": 10,
+        "Empathy": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a15",
+      "title": "Negotiate 5 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Mentorship",
+      "points": 949,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Empathy": 10,
+        "Networking": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a15",
+        "social_r3_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a16",
+      "title": "Lead 5 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Teaching",
+      "points": 501,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Networking": 10,
+        "Influence": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a17",
+      "title": "Speak 5 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Volunteering",
+      "points": 767,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Influence": 10,
+        "Collaboration": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a18",
+      "title": "Mentor 25 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Fundraising",
+      "points": 847,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Collaboration": 10,
+        "Communication": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a19",
+      "title": "Organize 5 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Sales",
+      "points": 937,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Communication": 10,
+        "Leadership": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r5_a20",
+      "title": "Negotiate 5 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Customer Success",
+      "points": 514,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Leadership": 10,
+        "Empathy": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "social_r4_a20",
+        "social_r3_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "social_r6_a1",
+      "title": "Lead 6 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Public Speaking",
+      "points": 1538,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Communication": 12,
+        "Leadership": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a2",
+      "title": "Speak 6 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Networking",
+      "points": 1589,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Leadership": 12,
+        "Empathy": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a3",
+      "title": "Mentor 30 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Leadership",
+      "points": 2284,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Empathy": 12,
+        "Networking": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a4",
+      "title": "Organize 6 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Coaching",
+      "points": 2445,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Networking": 12,
+        "Influence": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a5",
+      "title": "Negotiate 6 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Negotiation",
+      "points": 1356,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Influence": 12,
+        "Collaboration": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a5",
+        "social_r4_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a6",
+      "title": "Lead 6 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Mediation",
+      "points": 1024,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Collaboration": 12,
+        "Communication": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a7",
+      "title": "Speak 6 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Diplomacy",
+      "points": 1404,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Communication": 12,
+        "Leadership": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a8",
+      "title": "Mentor 30 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Community Organizing",
+      "points": 2072,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Leadership": 12,
+        "Empathy": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a9",
+      "title": "Organize 6 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Event Planning",
+      "points": 2439,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Empathy": 12,
+        "Networking": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a10",
+      "title": "Negotiate 6 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Relationship Building",
+      "points": 1046,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Networking": 12,
+        "Influence": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a10",
+        "social_r4_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a11",
+      "title": "Lead 6 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Cross-Cultural Communication",
+      "points": 1508,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Influence": 12,
+        "Collaboration": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a12",
+      "title": "Speak 6 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Conflict Resolution",
+      "points": 2037,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Collaboration": 12,
+        "Communication": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a13",
+      "title": "Mentor 30 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Team Building",
+      "points": 1251,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Communication": 12,
+        "Leadership": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a14",
+      "title": "Organize 6 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Management",
+      "points": 1149,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Leadership": 12,
+        "Empathy": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a15",
+      "title": "Negotiate 6 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Mentorship",
+      "points": 2153,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Empathy": 12,
+        "Networking": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a15",
+        "social_r4_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a16",
+      "title": "Lead 6 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Teaching",
+      "points": 2227,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Networking": 12,
+        "Influence": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a17",
+      "title": "Speak 6 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Volunteering",
+      "points": 1284,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Influence": 12,
+        "Collaboration": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a18",
+      "title": "Mentor 30 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Fundraising",
+      "points": 1967,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Collaboration": 12,
+        "Communication": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a19",
+      "title": "Organize 6 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Sales",
+      "points": 2490,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Communication": 12,
+        "Leadership": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r6_a20",
+      "title": "Negotiate 6 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Customer Success",
+      "points": 1308,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Leadership": 12,
+        "Empathy": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "social_r5_a20",
+        "social_r4_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a1",
+      "title": "Lead 7 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Public Speaking",
+      "points": 3808,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Communication": 14,
+        "Leadership": 17,
+        "Empathy": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a2",
+      "title": "Speak 7 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Networking",
+      "points": 4413,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Leadership": 14,
+        "Empathy": 17,
+        "Networking": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a3",
+      "title": "Mentor 35 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Leadership",
+      "points": 3763,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Empathy": 14,
+        "Networking": 17,
+        "Influence": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a4",
+      "title": "Organize 7 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Coaching",
+      "points": 3532,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Networking": 14,
+        "Influence": 17,
+        "Collaboration": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a5",
+      "title": "Negotiate 7 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Negotiation",
+      "points": 3359,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Influence": 14,
+        "Collaboration": 17,
+        "Communication": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a5",
+        "social_r5_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a6",
+      "title": "Lead 7 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Mediation",
+      "points": 3987,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Collaboration": 14,
+        "Communication": 17,
+        "Leadership": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a7",
+      "title": "Speak 7 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Diplomacy",
+      "points": 4851,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Communication": 14,
+        "Leadership": 17,
+        "Empathy": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a8",
+      "title": "Mentor 35 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Community Organizing",
+      "points": 3778,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Leadership": 14,
+        "Empathy": 17,
+        "Networking": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a9",
+      "title": "Organize 7 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Event Planning",
+      "points": 3439,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Empathy": 14,
+        "Networking": 17,
+        "Influence": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a10",
+      "title": "Negotiate 7 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Relationship Building",
+      "points": 4056,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Networking": 14,
+        "Influence": 17,
+        "Collaboration": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a10",
+        "social_r5_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a11",
+      "title": "Lead 7 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Cross-Cultural Communication",
+      "points": 3419,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Influence": 14,
+        "Collaboration": 17,
+        "Communication": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a12",
+      "title": "Speak 7 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Conflict Resolution",
+      "points": 3425,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Collaboration": 14,
+        "Communication": 17,
+        "Leadership": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a13",
+      "title": "Mentor 35 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Team Building",
+      "points": 4702,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Communication": 14,
+        "Leadership": 17,
+        "Empathy": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a14",
+      "title": "Organize 7 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Management",
+      "points": 4357,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Leadership": 14,
+        "Empathy": 17,
+        "Networking": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a15",
+      "title": "Negotiate 7 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Mentorship",
+      "points": 3242,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Empathy": 14,
+        "Networking": 17,
+        "Influence": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a15",
+        "social_r5_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a16",
+      "title": "Lead 7 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Teaching",
+      "points": 3264,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Networking": 14,
+        "Influence": 17,
+        "Collaboration": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a17",
+      "title": "Speak 7 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Volunteering",
+      "points": 3734,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Influence": 14,
+        "Collaboration": 17,
+        "Communication": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a18",
+      "title": "Mentor 35 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Fundraising",
+      "points": 3118,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Collaboration": 14,
+        "Communication": 17,
+        "Leadership": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a19",
+      "title": "Organize 7 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Sales",
+      "points": 3618,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Communication": 14,
+        "Leadership": 17,
+        "Empathy": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r7_a20",
+      "title": "Negotiate 7 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Customer Success",
+      "points": 3862,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Leadership": 14,
+        "Empathy": 17,
+        "Networking": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "social_r6_a20",
+        "social_r5_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a1",
+      "title": "Lead 8 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Public Speaking",
+      "points": 8615,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Communication": 16,
+        "Leadership": 20,
+        "Empathy": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a2",
+      "title": "Speak 8 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Networking",
+      "points": 8745,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Leadership": 16,
+        "Empathy": 20,
+        "Networking": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a3",
+      "title": "Mentor 40 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Leadership",
+      "points": 5789,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Empathy": 16,
+        "Networking": 20,
+        "Influence": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a4",
+      "title": "Organize 8 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Coaching",
+      "points": 9837,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Networking": 16,
+        "Influence": 20,
+        "Collaboration": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a5",
+      "title": "Negotiate 8 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Negotiation",
+      "points": 7884,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Influence": 16,
+        "Collaboration": 20,
+        "Communication": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a5",
+        "social_r6_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a6",
+      "title": "Lead 8 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Mediation",
+      "points": 9286,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Collaboration": 16,
+        "Communication": 20,
+        "Leadership": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a7",
+      "title": "Speak 8 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Diplomacy",
+      "points": 5705,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Communication": 16,
+        "Leadership": 20,
+        "Empathy": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a8",
+      "title": "Mentor 40 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Community Organizing",
+      "points": 7002,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Leadership": 16,
+        "Empathy": 20,
+        "Networking": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a9",
+      "title": "Organize 8 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Event Planning",
+      "points": 8290,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Empathy": 16,
+        "Networking": 20,
+        "Influence": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a10",
+      "title": "Negotiate 8 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Relationship Building",
+      "points": 5282,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Networking": 16,
+        "Influence": 20,
+        "Collaboration": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a10",
+        "social_r6_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a11",
+      "title": "Lead 8 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Cross-Cultural Communication",
+      "points": 8331,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Influence": 16,
+        "Collaboration": 20,
+        "Communication": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a12",
+      "title": "Speak 8 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Conflict Resolution",
+      "points": 9518,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Collaboration": 16,
+        "Communication": 20,
+        "Leadership": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a13",
+      "title": "Mentor 40 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Team Building",
+      "points": 6302,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Communication": 16,
+        "Leadership": 20,
+        "Empathy": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a14",
+      "title": "Organize 8 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Management",
+      "points": 7912,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Leadership": 16,
+        "Empathy": 20,
+        "Networking": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a15",
+      "title": "Negotiate 8 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Mentorship",
+      "points": 9617,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Empathy": 16,
+        "Networking": 20,
+        "Influence": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a15",
+        "social_r6_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a16",
+      "title": "Lead 8 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Teaching",
+      "points": 5128,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Networking": 16,
+        "Influence": 20,
+        "Collaboration": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a17",
+      "title": "Speak 8 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Volunteering",
+      "points": 5082,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Influence": 16,
+        "Collaboration": 20,
+        "Communication": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a18",
+      "title": "Mentor 40 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Fundraising",
+      "points": 9169,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Collaboration": 16,
+        "Communication": 20,
+        "Leadership": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a19",
+      "title": "Organize 8 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Sales",
+      "points": 9760,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Communication": 16,
+        "Leadership": 20,
+        "Empathy": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r8_a20",
+      "title": "Negotiate 8 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Customer Success",
+      "points": 7737,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Leadership": 16,
+        "Empathy": 20,
+        "Networking": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "social_r7_a20",
+        "social_r6_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a1",
+      "title": "Lead 9 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Public Speaking",
+      "points": 19387,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Communication": 18,
+        "Leadership": 22,
+        "Empathy": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a2",
+      "title": "Speak 9 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Networking",
+      "points": 12435,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Leadership": 18,
+        "Empathy": 22,
+        "Networking": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a3",
+      "title": "Mentor 45 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Leadership",
+      "points": 22023,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Empathy": 18,
+        "Networking": 22,
+        "Influence": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a4",
+      "title": "Organize 9 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Coaching",
+      "points": 13963,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Networking": 18,
+        "Influence": 22,
+        "Collaboration": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a5",
+      "title": "Negotiate 9 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Negotiation",
+      "points": 16129,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Influence": 18,
+        "Collaboration": 22,
+        "Communication": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a5",
+        "social_r7_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a6",
+      "title": "Lead 9 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Mediation",
+      "points": 14789,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Collaboration": 18,
+        "Communication": 22,
+        "Leadership": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a7",
+      "title": "Speak 9 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Diplomacy",
+      "points": 18472,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Communication": 18,
+        "Leadership": 22,
+        "Empathy": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a8",
+      "title": "Mentor 45 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Community Organizing",
+      "points": 13098,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Leadership": 18,
+        "Empathy": 22,
+        "Networking": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a9",
+      "title": "Organize 9 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Event Planning",
+      "points": 14652,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Empathy": 18,
+        "Networking": 22,
+        "Influence": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a10",
+      "title": "Negotiate 9 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Relationship Building",
+      "points": 10188,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Networking": 18,
+        "Influence": 22,
+        "Collaboration": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a10",
+        "social_r7_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a11",
+      "title": "Lead 9 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Cross-Cultural Communication",
+      "points": 16146,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Influence": 18,
+        "Collaboration": 22,
+        "Communication": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a12",
+      "title": "Speak 9 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Conflict Resolution",
+      "points": 22830,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Collaboration": 18,
+        "Communication": 22,
+        "Leadership": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a13",
+      "title": "Mentor 45 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Team Building",
+      "points": 10216,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Communication": 18,
+        "Leadership": 22,
+        "Empathy": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a14",
+      "title": "Organize 9 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Management",
+      "points": 14640,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Leadership": 18,
+        "Empathy": 22,
+        "Networking": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a15",
+      "title": "Negotiate 9 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Mentorship",
+      "points": 18224,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Empathy": 18,
+        "Networking": 22,
+        "Influence": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a15",
+        "social_r7_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a16",
+      "title": "Lead 9 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Teaching",
+      "points": 17187,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Networking": 18,
+        "Influence": 22,
+        "Collaboration": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a17",
+      "title": "Speak 9 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Volunteering",
+      "points": 21767,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Influence": 18,
+        "Collaboration": 22,
+        "Communication": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a18",
+      "title": "Mentor 45 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Fundraising",
+      "points": 24075,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Collaboration": 18,
+        "Communication": 22,
+        "Leadership": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a19",
+      "title": "Organize 9 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Sales",
+      "points": 22950,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Communication": 18,
+        "Leadership": 22,
+        "Empathy": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r9_a20",
+      "title": "Negotiate 9 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Customer Success",
+      "points": 23361,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Leadership": 18,
+        "Empathy": 22,
+        "Networking": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "social_r8_a20",
+        "social_r7_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a1",
+      "title": "Lead 10 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Public Speaking",
+      "points": 49821,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Communication": 20,
+        "Leadership": 25,
+        "Empathy": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a2",
+      "title": "Speak 10 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Networking",
+      "points": 57467,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Leadership": 20,
+        "Empathy": 25,
+        "Networking": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a3",
+      "title": "Mentor 50 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Leadership",
+      "points": 43579,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Empathy": 20,
+        "Networking": 25,
+        "Influence": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a4",
+      "title": "Organize 10 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Coaching",
+      "points": 75953,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Networking": 20,
+        "Influence": 25,
+        "Collaboration": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a5",
+      "title": "Negotiate 10 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Negotiation",
+      "points": 28184,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Influence": 20,
+        "Collaboration": 25,
+        "Communication": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a5",
+        "social_r8_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a6",
+      "title": "Lead 10 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Mediation",
+      "points": 69658,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Collaboration": 20,
+        "Communication": 25,
+        "Leadership": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a7",
+      "title": "Speak 10 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Diplomacy",
+      "points": 35867,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Communication": 20,
+        "Leadership": 25,
+        "Empathy": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a8",
+      "title": "Mentor 50 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Community Organizing",
+      "points": 25686,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Leadership": 20,
+        "Empathy": 25,
+        "Networking": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a9",
+      "title": "Organize 10 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Event Planning",
+      "points": 31321,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Empathy": 20,
+        "Networking": 25,
+        "Influence": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a10",
+      "title": "Negotiate 10 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Relationship Building",
+      "points": 43518,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Networking": 20,
+        "Influence": 25,
+        "Collaboration": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a10",
+        "social_r8_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a11",
+      "title": "Lead 10 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Cross-Cultural Communication",
+      "points": 80219,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Influence": 20,
+        "Collaboration": 25,
+        "Communication": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a12",
+      "title": "Speak 10 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Conflict Resolution",
+      "points": 68307,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Collaboration": 20,
+        "Communication": 25,
+        "Leadership": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a13",
+      "title": "Mentor 50 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Team Building",
+      "points": 87942,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Communication": 20,
+        "Leadership": 25,
+        "Empathy": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a14",
+      "title": "Organize 10 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Management",
+      "points": 32664,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Leadership": 20,
+        "Empathy": 25,
+        "Networking": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a15",
+      "title": "Negotiate 10 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Mentorship",
+      "points": 64675,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Empathy": 20,
+        "Networking": 25,
+        "Influence": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a15",
+        "social_r8_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a16",
+      "title": "Lead 10 Projects",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Teaching",
+      "points": 88662,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Networking": 20,
+        "Influence": 25,
+        "Collaboration": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a17",
+      "title": "Speak 10 Conferences",
+      "description": "Deliver a public presentation (>=5 minutes) and provide video or event listing as verification.",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Volunteering",
+      "points": 43012,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Influence": 20,
+        "Collaboration": 25,
+        "Communication": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a18",
+      "title": "Mentor 50 People",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Fundraising",
+      "points": 25298,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Collaboration": 20,
+        "Communication": 25,
+        "Leadership": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a19",
+      "title": "Organize 10 Events",
+      "description": "Organize and execute the event with attendee evidence and a post-event report.",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Sales",
+      "points": 70265,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Communication": 20,
+        "Leadership": 25,
+        "Empathy": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "social_r10_a20",
+      "title": "Negotiate 10 Deals",
+      "description": "Complete the social achievement with verifiable outputs (testimonials, recordings, or attendee lists).",
+      "domain": "Social",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Customer Success",
+      "points": 42726,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Leadership": 20,
+        "Empathy": 25,
+        "Networking": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "social_r9_a20",
+        "social_r8_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    }
+  ],
+  "hiddenAchievements": [
+    {
+      "id": "social_hidden_1",
+      "title": "Hidden Social Mastery 1",
+      "description": "Secret-level Social achievement requiring peer review and multiple evidences.",
+      "domain": "Social",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "social_hidden_2",
+      "title": "Hidden Social Mastery 2",
+      "description": "Secret-level Social achievement requiring peer review and multiple evidences.",
+      "domain": "Social",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "social_hidden_3",
+      "title": "Hidden Social Mastery 3",
+      "description": "Secret-level Social achievement requiring peer review and multiple evidences.",
+      "domain": "Social",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "social_hidden_4",
+      "title": "Hidden Social Mastery 4",
+      "description": "Secret-level Social achievement requiring peer review and multiple evidences.",
+      "domain": "Social",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "social_hidden_5",
+      "title": "Hidden Social Mastery 5",
+      "description": "Secret-level Social achievement requiring peer review and multiple evidences.",
+      "domain": "Social",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "social_hidden_6",
+      "title": "Hidden Social Mastery 6",
+      "description": "Secret-level Social achievement requiring peer review and multiple evidences.",
+      "domain": "Social",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "social_hidden_7",
+      "title": "Hidden Social Mastery 7",
+      "description": "Secret-level Social achievement requiring peer review and multiple evidences.",
+      "domain": "Social",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "social_hidden_8",
+      "title": "Hidden Social Mastery 8",
+      "description": "Secret-level Social achievement requiring peer review and multiple evidences.",
+      "domain": "Social",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "social_hidden_9",
+      "title": "Hidden Social Mastery 9",
+      "description": "Secret-level Social achievement requiring peer review and multiple evidences.",
+      "domain": "Social",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "social_hidden_10",
+      "title": "Hidden Social Mastery 10",
+      "description": "Secret-level Social achievement requiring peer review and multiple evidences.",
+      "domain": "Social",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    }
+  ],
+  "systemOverview": {
+    "domains": [
+      "Physical",
+      "Mental",
+      "Intellectual",
+      "Social",
+      "Creative",
+      "Financial",
+      "Spiritual"
+    ],
+    "statsPerDomain": [
+      "Communication",
+      "Leadership",
+      "Empathy",
+      "Networking",
+      "Influence",
+      "Collaboration"
+    ],
+    "ranks": {
+      "1": "Novice",
+      "2": "Apprentice",
+      "3": "Adept",
+      "4": "Expert",
+      "5": "Master",
+      "6": "Grandmaster",
+      "7": "Legend",
+      "8": "Mythic",
+      "9": "Transcendent",
+      "10": "Ultimate Completionist"
+    },
+    "rankPercentileMapping": {
+      "1": 95.0,
+      "2": 80.0,
+      "3": 55.0,
+      "4": 25.0,
+      "5": 5.0,
+      "6": 0.5,
+      "7": 0.05,
+      "8": 0.005,
+      "9": 0.0005,
+      "10": 0.0001
+    },
+    "globalPercentileFormula": "overallPercentile = 100 - (averageDomainRank / 10 * 100) + achievementVarianceAdjustment",
+    "leaderboardDisplayFormat": {
+      "title": "ULTIMATE COMPLETIONIST PROFILE",
+      "fields": [
+        "Overall Rank",
+        "Global Percentile",
+        "Estimated Position",
+        "Next Milestone",
+        "Achievements Needed",
+        "Points Earned",
+        "Domain Breakdown"
+      ]
+    },
+    "pathToUltimate": "Complete all achievements (200 per domain), focus on high-point rare achievements, consistency over years."
+  }
+}

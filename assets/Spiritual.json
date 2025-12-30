@@ -1,0 +1,4615 @@
+{
+  "domain": "Spiritual",
+  "stats": [
+    "Purpose",
+    "Meaning",
+    "Consciousness",
+    "Contribution",
+    "Connection",
+    "Transcendence"
+  ],
+  "categories": [
+    "Meditation Mastery",
+    "Purpose Finding",
+    "Service",
+    "Altruism",
+    "Religious Practice",
+    "Retreats",
+    "Mindfulness Retreat",
+    "Psychedelic Integration",
+    "Nature Immersion",
+    "Ego Work",
+    "Compassion Training",
+    "Gratitude Practice",
+    "Death Acceptance",
+    "Non-Duality",
+    "Mystical Study",
+    "Pilgrimage",
+    "Rituals",
+    "Community Service",
+    "Pilgrimage",
+    "Sacred Study",
+    "Contemplative Practice"
+  ],
+  "ranks": {
+    "1": "Novice",
+    "2": "Apprentice",
+    "3": "Adept",
+    "4": "Expert",
+    "5": "Master",
+    "6": "Grandmaster",
+    "7": "Legend",
+    "8": "Mythic",
+    "9": "Transcendent",
+    "10": "Ultimate Completionist"
+  },
+  "achievements": [
+    {
+      "id": "spiritual_r1_a1",
+      "title": "Daily Gratitude",
+      "description": "Maintain a daily spiritual practice log for the duration and submit entries with reflections.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Meditation Mastery",
+      "points": 45,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Purpose": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a2",
+      "title": "Attend Retreat",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Purpose Finding",
+      "points": 35,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Meaning": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a3",
+      "title": "Volunteer Service",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Service",
+      "points": 15,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Consciousness": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a4",
+      "title": "Find Purpose Draft",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Altruism",
+      "points": 46,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Contribution": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a5",
+      "title": "30-Day Contemplation",
+      "description": "Maintain a daily spiritual practice log for the duration and submit entries with reflections.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Religious Practice",
+      "points": 13,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Connection": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a6",
+      "title": "Pilgrimage Day",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Retreats",
+      "points": 15,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Transcendence": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a7",
+      "title": "Practice Non-Attachment",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Mindfulness Retreat",
+      "points": 29,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Purpose": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a8",
+      "title": "Nature Solo Day",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Psychedelic Integration",
+      "points": 27,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Meaning": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a9",
+      "title": "Host Ceremony",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Nature Immersion",
+      "points": 48,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Consciousness": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a10",
+      "title": "Teach Value",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Ego Work",
+      "points": 30,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Contribution": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a11",
+      "title": "Daily Gratitude",
+      "description": "Maintain a daily spiritual practice log for the duration and submit entries with reflections.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Compassion Training",
+      "points": 50,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Connection": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a12",
+      "title": "Attend Retreat",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Gratitude Practice",
+      "points": 19,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Transcendence": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a13",
+      "title": "Volunteer Service",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Death Acceptance",
+      "points": 17,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Purpose": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a14",
+      "title": "Find Purpose Draft",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Non-Duality",
+      "points": 28,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Meaning": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a15",
+      "title": "30-Day Contemplation",
+      "description": "Maintain a daily spiritual practice log for the duration and submit entries with reflections.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Mystical Study",
+      "points": 39,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Consciousness": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a16",
+      "title": "Pilgrimage Day",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Pilgrimage",
+      "points": 14,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Contribution": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a17",
+      "title": "Practice Non-Attachment",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Rituals",
+      "points": 10,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Connection": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a18",
+      "title": "Nature Solo Day",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Community Service",
+      "points": 12,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Transcendence": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a19",
+      "title": "Host Ceremony",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Pilgrimage",
+      "points": 45,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Purpose": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r1_a20",
+      "title": "Teach Value",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Sacred Study",
+      "points": 12,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Meaning": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a1",
+      "title": "Daily Gratitude",
+      "description": "Maintain a daily spiritual practice log for the duration and submit entries with reflections.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Meditation Mastery",
+      "points": 94,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Purpose": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a2",
+      "title": "Attend Retreat",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Purpose Finding",
+      "points": 91,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Meaning": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a3",
+      "title": "Volunteer Service",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Service",
+      "points": 60,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Consciousness": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a4",
+      "title": "Find Purpose Draft",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Altruism",
+      "points": 92,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Contribution": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a5",
+      "title": "30-Day Contemplation",
+      "description": "Maintain a daily spiritual practice log for the duration and submit entries with reflections.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Religious Practice",
+      "points": 85,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Connection": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a5"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a6",
+      "title": "Pilgrimage Day",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Retreats",
+      "points": 71,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Transcendence": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a7",
+      "title": "Practice Non-Attachment",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Mindfulness Retreat",
+      "points": 54,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Purpose": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a8",
+      "title": "Nature Solo Day",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Psychedelic Integration",
+      "points": 52,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Meaning": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a9",
+      "title": "Host Ceremony",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Nature Immersion",
+      "points": 67,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Consciousness": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a10",
+      "title": "Teach Value",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Ego Work",
+      "points": 66,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Contribution": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a10"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a11",
+      "title": "Daily Gratitude",
+      "description": "Maintain a daily spiritual practice log for the duration and submit entries with reflections.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Compassion Training",
+      "points": 66,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Connection": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a12",
+      "title": "Attend Retreat",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Gratitude Practice",
+      "points": 63,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Transcendence": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a13",
+      "title": "Volunteer Service",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Death Acceptance",
+      "points": 91,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Purpose": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a14",
+      "title": "Find Purpose Draft",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Non-Duality",
+      "points": 61,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Meaning": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a15",
+      "title": "30-Day Contemplation",
+      "description": "Maintain a daily spiritual practice log for the duration and submit entries with reflections.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Mystical Study",
+      "points": 92,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Consciousness": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a15"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a16",
+      "title": "Pilgrimage Day",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Pilgrimage",
+      "points": 64,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Contribution": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a17",
+      "title": "Practice Non-Attachment",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Rituals",
+      "points": 72,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Connection": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a18",
+      "title": "Nature Solo Day",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Community Service",
+      "points": 55,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Transcendence": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a19",
+      "title": "Host Ceremony",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Pilgrimage",
+      "points": 73,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Purpose": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r2_a20",
+      "title": "Teach Value",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Sacred Study",
+      "points": 91,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Meaning": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "spiritual_r1_a20"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a1",
+      "title": "Daily Gratitude",
+      "description": "Maintain a daily spiritual practice log for the duration and submit entries with reflections.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Meditation Mastery",
+      "points": 202,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Purpose": 6,
+        "Meaning": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a2",
+      "title": "Attend Retreat",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Purpose Finding",
+      "points": 114,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Meaning": 6,
+        "Consciousness": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a3",
+      "title": "Volunteer Service",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Service",
+      "points": 180,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Consciousness": 6,
+        "Contribution": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a4",
+      "title": "Find Purpose Draft",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Altruism",
+      "points": 141,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Contribution": 6,
+        "Connection": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a5",
+      "title": "30-Day Contemplation",
+      "description": "Maintain a daily spiritual practice log for the duration and submit entries with reflections.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Religious Practice",
+      "points": 133,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Connection": 6,
+        "Transcendence": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a5"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a6",
+      "title": "Pilgrimage Day",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Retreats",
+      "points": 203,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Transcendence": 6,
+        "Purpose": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a7",
+      "title": "Practice Non-Attachment",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Mindfulness Retreat",
+      "points": 173,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Purpose": 6,
+        "Meaning": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a8",
+      "title": "Nature Solo Day",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Psychedelic Integration",
+      "points": 196,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Meaning": 6,
+        "Consciousness": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a9",
+      "title": "Host Ceremony",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Nature Immersion",
+      "points": 167,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Consciousness": 6,
+        "Contribution": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a10",
+      "title": "Teach Value",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Ego Work",
+      "points": 161,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Contribution": 6,
+        "Connection": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a10"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a11",
+      "title": "Daily Gratitude",
+      "description": "Maintain a daily spiritual practice log for the duration and submit entries with reflections.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Compassion Training",
+      "points": 232,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Connection": 6,
+        "Transcendence": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a12",
+      "title": "Attend Retreat",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Gratitude Practice",
+      "points": 172,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Transcendence": 6,
+        "Purpose": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a13",
+      "title": "Volunteer Service",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Death Acceptance",
+      "points": 133,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Purpose": 6,
+        "Meaning": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a14",
+      "title": "Find Purpose Draft",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Non-Duality",
+      "points": 195,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Meaning": 6,
+        "Consciousness": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a15",
+      "title": "30-Day Contemplation",
+      "description": "Maintain a daily spiritual practice log for the duration and submit entries with reflections.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Mystical Study",
+      "points": 230,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Consciousness": 6,
+        "Contribution": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a15"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a16",
+      "title": "Pilgrimage Day",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Pilgrimage",
+      "points": 247,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Contribution": 6,
+        "Connection": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a17",
+      "title": "Practice Non-Attachment",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Rituals",
+      "points": 157,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Connection": 6,
+        "Transcendence": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a18",
+      "title": "Nature Solo Day",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Community Service",
+      "points": 183,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Transcendence": 6,
+        "Purpose": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a19",
+      "title": "Host Ceremony",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Pilgrimage",
+      "points": 227,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Purpose": 6,
+        "Meaning": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r3_a20",
+      "title": "Teach Value",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Sacred Study",
+      "points": 138,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Meaning": 6,
+        "Consciousness": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "spiritual_r2_a20"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a1",
+      "title": "Lead 4 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Meditation Mastery",
+      "points": 262,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Purpose": 8,
+        "Meaning": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a2",
+      "title": "Teach 4 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Purpose Finding",
+      "points": 422,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Meaning": 8,
+        "Consciousness": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a3",
+      "title": "Pilgrimage 4w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Service",
+      "points": 489,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Consciousness": 8,
+        "Contribution": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a4",
+      "title": "Donate 4% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Altruism",
+      "points": 455,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Contribution": 8,
+        "Connection": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a5",
+      "title": "Guide 4 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Religious Practice",
+      "points": 395,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Connection": 8,
+        "Transcendence": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a5",
+        "spiritual_r2_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a6",
+      "title": "Lead 4 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Retreats",
+      "points": 450,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Transcendence": 8,
+        "Purpose": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a7",
+      "title": "Teach 4 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Mindfulness Retreat",
+      "points": 321,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Purpose": 8,
+        "Meaning": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a8",
+      "title": "Pilgrimage 4w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Psychedelic Integration",
+      "points": 416,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Meaning": 8,
+        "Consciousness": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a9",
+      "title": "Donate 4% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Nature Immersion",
+      "points": 283,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Consciousness": 8,
+        "Contribution": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a10",
+      "title": "Guide 4 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Ego Work",
+      "points": 499,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Contribution": 8,
+        "Connection": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a10",
+        "spiritual_r2_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a11",
+      "title": "Lead 4 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Compassion Training",
+      "points": 325,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Connection": 8,
+        "Transcendence": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a12",
+      "title": "Teach 4 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Gratitude Practice",
+      "points": 417,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Transcendence": 8,
+        "Purpose": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a13",
+      "title": "Pilgrimage 4w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Death Acceptance",
+      "points": 359,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Purpose": 8,
+        "Meaning": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a14",
+      "title": "Donate 4% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Non-Duality",
+      "points": 429,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Meaning": 8,
+        "Consciousness": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a15",
+      "title": "Guide 4 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Mystical Study",
+      "points": 416,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Consciousness": 8,
+        "Contribution": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a15",
+        "spiritual_r2_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a16",
+      "title": "Lead 4 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Pilgrimage",
+      "points": 381,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Contribution": 8,
+        "Connection": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a17",
+      "title": "Teach 4 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Rituals",
+      "points": 406,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Connection": 8,
+        "Transcendence": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a18",
+      "title": "Pilgrimage 4w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Community Service",
+      "points": 498,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Transcendence": 8,
+        "Purpose": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a19",
+      "title": "Donate 4% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Pilgrimage",
+      "points": 405,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Purpose": 8,
+        "Meaning": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r4_a20",
+      "title": "Guide 4 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Sacred Study",
+      "points": 399,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Meaning": 8,
+        "Consciousness": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "spiritual_r3_a20",
+        "spiritual_r2_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a1",
+      "title": "Lead 5 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Meditation Mastery",
+      "points": 531,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Purpose": 10,
+        "Meaning": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a2",
+      "title": "Teach 5 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Purpose Finding",
+      "points": 659,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Meaning": 10,
+        "Consciousness": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a3",
+      "title": "Pilgrimage 5w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Service",
+      "points": 800,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Consciousness": 10,
+        "Contribution": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a4",
+      "title": "Donate 5% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Altruism",
+      "points": 565,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Contribution": 10,
+        "Connection": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a5",
+      "title": "Guide 5 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Religious Practice",
+      "points": 759,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Connection": 10,
+        "Transcendence": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a5",
+        "spiritual_r3_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a6",
+      "title": "Lead 5 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Retreats",
+      "points": 639,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Transcendence": 10,
+        "Purpose": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a7",
+      "title": "Teach 5 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Mindfulness Retreat",
+      "points": 636,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Purpose": 10,
+        "Meaning": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a8",
+      "title": "Pilgrimage 5w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Psychedelic Integration",
+      "points": 790,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Meaning": 10,
+        "Consciousness": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a9",
+      "title": "Donate 5% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Nature Immersion",
+      "points": 956,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Consciousness": 10,
+        "Contribution": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a10",
+      "title": "Guide 5 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Ego Work",
+      "points": 616,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Contribution": 10,
+        "Connection": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a10",
+        "spiritual_r3_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a11",
+      "title": "Lead 5 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Compassion Training",
+      "points": 939,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Connection": 10,
+        "Transcendence": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a12",
+      "title": "Teach 5 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Gratitude Practice",
+      "points": 561,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Transcendence": 10,
+        "Purpose": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a13",
+      "title": "Pilgrimage 5w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Death Acceptance",
+      "points": 934,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Purpose": 10,
+        "Meaning": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a14",
+      "title": "Donate 5% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Non-Duality",
+      "points": 993,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Meaning": 10,
+        "Consciousness": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a15",
+      "title": "Guide 5 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Mystical Study",
+      "points": 512,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Consciousness": 10,
+        "Contribution": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a15",
+        "spiritual_r3_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a16",
+      "title": "Lead 5 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Pilgrimage",
+      "points": 952,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Contribution": 10,
+        "Connection": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a17",
+      "title": "Teach 5 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Rituals",
+      "points": 989,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Connection": 10,
+        "Transcendence": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a18",
+      "title": "Pilgrimage 5w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Community Service",
+      "points": 619,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Transcendence": 10,
+        "Purpose": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a19",
+      "title": "Donate 5% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Pilgrimage",
+      "points": 622,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Purpose": 10,
+        "Meaning": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r5_a20",
+      "title": "Guide 5 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Sacred Study",
+      "points": 713,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Meaning": 10,
+        "Consciousness": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "spiritual_r4_a20",
+        "spiritual_r3_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "spiritual_r6_a1",
+      "title": "Lead 6 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Meditation Mastery",
+      "points": 2070,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Purpose": 12,
+        "Meaning": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a2",
+      "title": "Teach 6 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Purpose Finding",
+      "points": 1404,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Meaning": 12,
+        "Consciousness": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a3",
+      "title": "Pilgrimage 6w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Service",
+      "points": 2467,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Consciousness": 12,
+        "Contribution": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a4",
+      "title": "Donate 6% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Altruism",
+      "points": 1555,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Contribution": 12,
+        "Connection": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a5",
+      "title": "Guide 6 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Religious Practice",
+      "points": 1999,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Connection": 12,
+        "Transcendence": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a5",
+        "spiritual_r4_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a6",
+      "title": "Lead 6 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Retreats",
+      "points": 1743,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Transcendence": 12,
+        "Purpose": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a7",
+      "title": "Teach 6 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Mindfulness Retreat",
+      "points": 1892,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Purpose": 12,
+        "Meaning": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a8",
+      "title": "Pilgrimage 6w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Psychedelic Integration",
+      "points": 1565,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Meaning": 12,
+        "Consciousness": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a9",
+      "title": "Donate 6% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Nature Immersion",
+      "points": 1591,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Consciousness": 12,
+        "Contribution": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a10",
+      "title": "Guide 6 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Ego Work",
+      "points": 1391,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Contribution": 12,
+        "Connection": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a10",
+        "spiritual_r4_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a11",
+      "title": "Lead 6 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Compassion Training",
+      "points": 1263,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Connection": 12,
+        "Transcendence": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a12",
+      "title": "Teach 6 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Gratitude Practice",
+      "points": 2321,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Transcendence": 12,
+        "Purpose": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a13",
+      "title": "Pilgrimage 6w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Death Acceptance",
+      "points": 2312,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Purpose": 12,
+        "Meaning": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a14",
+      "title": "Donate 6% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Non-Duality",
+      "points": 2236,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Meaning": 12,
+        "Consciousness": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a15",
+      "title": "Guide 6 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Mystical Study",
+      "points": 1836,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Consciousness": 12,
+        "Contribution": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a15",
+        "spiritual_r4_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a16",
+      "title": "Lead 6 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Pilgrimage",
+      "points": 2044,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Contribution": 12,
+        "Connection": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a17",
+      "title": "Teach 6 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Rituals",
+      "points": 2324,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Connection": 12,
+        "Transcendence": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a18",
+      "title": "Pilgrimage 6w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Community Service",
+      "points": 2403,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Transcendence": 12,
+        "Purpose": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a19",
+      "title": "Donate 6% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Pilgrimage",
+      "points": 1393,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Purpose": 12,
+        "Meaning": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r6_a20",
+      "title": "Guide 6 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Sacred Study",
+      "points": 1523,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Meaning": 12,
+        "Consciousness": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "spiritual_r5_a20",
+        "spiritual_r4_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a1",
+      "title": "Lead 7 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Meditation Mastery",
+      "points": 4752,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Purpose": 14,
+        "Meaning": 17,
+        "Consciousness": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a2",
+      "title": "Teach 7 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Purpose Finding",
+      "points": 4417,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Meaning": 14,
+        "Consciousness": 17,
+        "Contribution": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a3",
+      "title": "Pilgrimage 7w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Service",
+      "points": 4001,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Consciousness": 14,
+        "Contribution": 17,
+        "Connection": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a4",
+      "title": "Donate 7% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Altruism",
+      "points": 4204,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Contribution": 14,
+        "Connection": 17,
+        "Transcendence": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a5",
+      "title": "Guide 7 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Religious Practice",
+      "points": 3399,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Connection": 14,
+        "Transcendence": 17,
+        "Purpose": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a5",
+        "spiritual_r5_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a6",
+      "title": "Lead 7 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Retreats",
+      "points": 4966,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Transcendence": 14,
+        "Purpose": 17,
+        "Meaning": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a7",
+      "title": "Teach 7 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Mindfulness Retreat",
+      "points": 4702,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Purpose": 14,
+        "Meaning": 17,
+        "Consciousness": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a8",
+      "title": "Pilgrimage 7w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Psychedelic Integration",
+      "points": 4633,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Meaning": 14,
+        "Consciousness": 17,
+        "Contribution": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a9",
+      "title": "Donate 7% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Nature Immersion",
+      "points": 4346,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Consciousness": 14,
+        "Contribution": 17,
+        "Connection": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a10",
+      "title": "Guide 7 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Ego Work",
+      "points": 2652,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Contribution": 14,
+        "Connection": 17,
+        "Transcendence": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a10",
+        "spiritual_r5_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a11",
+      "title": "Lead 7 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Compassion Training",
+      "points": 2700,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Connection": 14,
+        "Transcendence": 17,
+        "Purpose": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a12",
+      "title": "Teach 7 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Gratitude Practice",
+      "points": 3294,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Transcendence": 14,
+        "Purpose": 17,
+        "Meaning": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a13",
+      "title": "Pilgrimage 7w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Death Acceptance",
+      "points": 4317,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Purpose": 14,
+        "Meaning": 17,
+        "Consciousness": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a14",
+      "title": "Donate 7% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Non-Duality",
+      "points": 4586,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Meaning": 14,
+        "Consciousness": 17,
+        "Contribution": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a15",
+      "title": "Guide 7 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Mystical Study",
+      "points": 4295,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Consciousness": 14,
+        "Contribution": 17,
+        "Connection": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a15",
+        "spiritual_r5_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a16",
+      "title": "Lead 7 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Pilgrimage",
+      "points": 4014,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Contribution": 14,
+        "Connection": 17,
+        "Transcendence": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a17",
+      "title": "Teach 7 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Rituals",
+      "points": 2609,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Connection": 14,
+        "Transcendence": 17,
+        "Purpose": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a18",
+      "title": "Pilgrimage 7w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Community Service",
+      "points": 2895,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Transcendence": 14,
+        "Purpose": 17,
+        "Meaning": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a19",
+      "title": "Donate 7% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Pilgrimage",
+      "points": 3717,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Purpose": 14,
+        "Meaning": 17,
+        "Consciousness": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r7_a20",
+      "title": "Guide 7 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Sacred Study",
+      "points": 4449,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Meaning": 14,
+        "Consciousness": 17,
+        "Contribution": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "spiritual_r6_a20",
+        "spiritual_r5_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a1",
+      "title": "Lead 8 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Meditation Mastery",
+      "points": 9824,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Purpose": 16,
+        "Meaning": 20,
+        "Consciousness": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a2",
+      "title": "Teach 8 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Purpose Finding",
+      "points": 9905,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Meaning": 16,
+        "Consciousness": 20,
+        "Contribution": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a3",
+      "title": "Pilgrimage 8w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Service",
+      "points": 8921,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Consciousness": 16,
+        "Contribution": 20,
+        "Connection": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a4",
+      "title": "Donate 8% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Altruism",
+      "points": 5442,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Contribution": 16,
+        "Connection": 20,
+        "Transcendence": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a5",
+      "title": "Guide 8 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Religious Practice",
+      "points": 6828,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Connection": 16,
+        "Transcendence": 20,
+        "Purpose": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a5",
+        "spiritual_r6_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a6",
+      "title": "Lead 8 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Retreats",
+      "points": 6353,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Transcendence": 16,
+        "Purpose": 20,
+        "Meaning": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a7",
+      "title": "Teach 8 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Mindfulness Retreat",
+      "points": 5812,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Purpose": 16,
+        "Meaning": 20,
+        "Consciousness": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a8",
+      "title": "Pilgrimage 8w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Psychedelic Integration",
+      "points": 7277,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Meaning": 16,
+        "Consciousness": 20,
+        "Contribution": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a9",
+      "title": "Donate 8% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Nature Immersion",
+      "points": 8876,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Consciousness": 16,
+        "Contribution": 20,
+        "Connection": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a10",
+      "title": "Guide 8 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Ego Work",
+      "points": 7253,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Contribution": 16,
+        "Connection": 20,
+        "Transcendence": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a10",
+        "spiritual_r6_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a11",
+      "title": "Lead 8 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Compassion Training",
+      "points": 6034,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Connection": 16,
+        "Transcendence": 20,
+        "Purpose": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a12",
+      "title": "Teach 8 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Gratitude Practice",
+      "points": 5137,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Transcendence": 16,
+        "Purpose": 20,
+        "Meaning": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a13",
+      "title": "Pilgrimage 8w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Death Acceptance",
+      "points": 9632,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Purpose": 16,
+        "Meaning": 20,
+        "Consciousness": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a14",
+      "title": "Donate 8% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Non-Duality",
+      "points": 9723,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Meaning": 16,
+        "Consciousness": 20,
+        "Contribution": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a15",
+      "title": "Guide 8 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Mystical Study",
+      "points": 8369,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Consciousness": 16,
+        "Contribution": 20,
+        "Connection": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a15",
+        "spiritual_r6_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a16",
+      "title": "Lead 8 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Pilgrimage",
+      "points": 8448,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Contribution": 16,
+        "Connection": 20,
+        "Transcendence": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a17",
+      "title": "Teach 8 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Rituals",
+      "points": 8168,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Connection": 16,
+        "Transcendence": 20,
+        "Purpose": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a18",
+      "title": "Pilgrimage 8w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Community Service",
+      "points": 9976,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Transcendence": 16,
+        "Purpose": 20,
+        "Meaning": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a19",
+      "title": "Donate 8% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Pilgrimage",
+      "points": 9587,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Purpose": 16,
+        "Meaning": 20,
+        "Consciousness": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r8_a20",
+      "title": "Guide 8 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Sacred Study",
+      "points": 8822,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Meaning": 16,
+        "Consciousness": 20,
+        "Contribution": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "spiritual_r7_a20",
+        "spiritual_r6_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a1",
+      "title": "Lead 9 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Meditation Mastery",
+      "points": 12239,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Purpose": 18,
+        "Meaning": 22,
+        "Consciousness": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a2",
+      "title": "Teach 9 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Purpose Finding",
+      "points": 19712,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Meaning": 18,
+        "Consciousness": 22,
+        "Contribution": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a3",
+      "title": "Pilgrimage 9w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Service",
+      "points": 14598,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Consciousness": 18,
+        "Contribution": 22,
+        "Connection": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a4",
+      "title": "Donate 9% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Altruism",
+      "points": 13830,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Contribution": 18,
+        "Connection": 22,
+        "Transcendence": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a5",
+      "title": "Guide 9 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Religious Practice",
+      "points": 16148,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Connection": 18,
+        "Transcendence": 22,
+        "Purpose": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a5",
+        "spiritual_r7_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a6",
+      "title": "Lead 9 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Retreats",
+      "points": 22960,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Transcendence": 18,
+        "Purpose": 22,
+        "Meaning": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a7",
+      "title": "Teach 9 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Mindfulness Retreat",
+      "points": 15196,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Purpose": 18,
+        "Meaning": 22,
+        "Consciousness": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a8",
+      "title": "Pilgrimage 9w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Psychedelic Integration",
+      "points": 10078,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Meaning": 18,
+        "Consciousness": 22,
+        "Contribution": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a9",
+      "title": "Donate 9% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Nature Immersion",
+      "points": 23568,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Consciousness": 18,
+        "Contribution": 22,
+        "Connection": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a10",
+      "title": "Guide 9 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Ego Work",
+      "points": 14680,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Contribution": 18,
+        "Connection": 22,
+        "Transcendence": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a10",
+        "spiritual_r7_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a11",
+      "title": "Lead 9 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Compassion Training",
+      "points": 20144,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Connection": 18,
+        "Transcendence": 22,
+        "Purpose": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a12",
+      "title": "Teach 9 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Gratitude Practice",
+      "points": 13120,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Transcendence": 18,
+        "Purpose": 22,
+        "Meaning": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a13",
+      "title": "Pilgrimage 9w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Death Acceptance",
+      "points": 11403,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Purpose": 18,
+        "Meaning": 22,
+        "Consciousness": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a14",
+      "title": "Donate 9% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Non-Duality",
+      "points": 23064,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Meaning": 18,
+        "Consciousness": 22,
+        "Contribution": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a15",
+      "title": "Guide 9 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Mystical Study",
+      "points": 22849,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Consciousness": 18,
+        "Contribution": 22,
+        "Connection": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a15",
+        "spiritual_r7_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a16",
+      "title": "Lead 9 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Pilgrimage",
+      "points": 24157,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Contribution": 18,
+        "Connection": 22,
+        "Transcendence": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a17",
+      "title": "Teach 9 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Rituals",
+      "points": 21866,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Connection": 18,
+        "Transcendence": 22,
+        "Purpose": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a18",
+      "title": "Pilgrimage 9w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Community Service",
+      "points": 16220,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Transcendence": 18,
+        "Purpose": 22,
+        "Meaning": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a19",
+      "title": "Donate 9% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Pilgrimage",
+      "points": 23639,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Purpose": 18,
+        "Meaning": 22,
+        "Consciousness": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r9_a20",
+      "title": "Guide 9 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Sacred Study",
+      "points": 12996,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Meaning": 18,
+        "Consciousness": 22,
+        "Contribution": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "spiritual_r8_a20",
+        "spiritual_r7_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a1",
+      "title": "Lead 10 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Meditation Mastery",
+      "points": 93975,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Purpose": 20,
+        "Meaning": 25,
+        "Consciousness": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a2",
+      "title": "Teach 10 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Purpose Finding",
+      "points": 63139,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Meaning": 20,
+        "Consciousness": 25,
+        "Contribution": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a3",
+      "title": "Pilgrimage 10w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Service",
+      "points": 93899,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Consciousness": 20,
+        "Contribution": 25,
+        "Connection": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a4",
+      "title": "Donate 10% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Altruism",
+      "points": 45345,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Contribution": 20,
+        "Connection": 25,
+        "Transcendence": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a5",
+      "title": "Guide 10 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Religious Practice",
+      "points": 76347,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Connection": 20,
+        "Transcendence": 25,
+        "Purpose": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a5",
+        "spiritual_r8_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a6",
+      "title": "Lead 10 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Retreats",
+      "points": 63213,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Transcendence": 20,
+        "Purpose": 25,
+        "Meaning": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a7",
+      "title": "Teach 10 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Mindfulness Retreat",
+      "points": 88275,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Purpose": 20,
+        "Meaning": 25,
+        "Consciousness": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a8",
+      "title": "Pilgrimage 10w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Psychedelic Integration",
+      "points": 82455,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Meaning": 20,
+        "Consciousness": 25,
+        "Contribution": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a9",
+      "title": "Donate 10% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Nature Immersion",
+      "points": 73284,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Consciousness": 20,
+        "Contribution": 25,
+        "Connection": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a10",
+      "title": "Guide 10 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Ego Work",
+      "points": 62237,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Contribution": 20,
+        "Connection": 25,
+        "Transcendence": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a10",
+        "spiritual_r8_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a11",
+      "title": "Lead 10 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Compassion Training",
+      "points": 32993,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Connection": 20,
+        "Transcendence": 25,
+        "Purpose": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a12",
+      "title": "Teach 10 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Gratitude Practice",
+      "points": 67456,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Transcendence": 20,
+        "Purpose": 25,
+        "Meaning": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a13",
+      "title": "Pilgrimage 10w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Death Acceptance",
+      "points": 43901,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Purpose": 20,
+        "Meaning": 25,
+        "Consciousness": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a14",
+      "title": "Donate 10% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Non-Duality",
+      "points": 26274,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Meaning": 20,
+        "Consciousness": 25,
+        "Contribution": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a15",
+      "title": "Guide 10 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Mystical Study",
+      "points": 81982,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Consciousness": 20,
+        "Contribution": 25,
+        "Connection": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a15",
+        "spiritual_r8_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a16",
+      "title": "Lead 10 Retreats",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Pilgrimage",
+      "points": 67909,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Contribution": 20,
+        "Connection": 25,
+        "Transcendence": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a17",
+      "title": "Teach 10 Groups",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Rituals",
+      "points": 51669,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Connection": 20,
+        "Transcendence": 25,
+        "Purpose": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a18",
+      "title": "Pilgrimage 10w",
+      "description": "Attend the retreat/pilgrimage and provide program confirmation and a reflective essay.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Community Service",
+      "points": 71077,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Transcendence": 20,
+        "Purpose": 25,
+        "Meaning": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a19",
+      "title": "Donate 10% Income",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Pilgrimage",
+      "points": 58804,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Purpose": 20,
+        "Meaning": 25,
+        "Consciousness": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "spiritual_r10_a20",
+      "title": "Guide 10 Souls",
+      "description": "Complete the spiritual practice and submit a reflective report plus any facilitator confirmations.",
+      "domain": "Spiritual",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Sacred Study",
+      "points": 36144,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Meaning": 20,
+        "Consciousness": 25,
+        "Contribution": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "spiritual_r9_a20",
+        "spiritual_r8_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    }
+  ],
+  "hiddenAchievements": [
+    {
+      "id": "spiritual_hidden_1",
+      "title": "Hidden Spiritual Mastery 1",
+      "description": "Secret-level Spiritual achievement requiring peer review and multiple evidences.",
+      "domain": "Spiritual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "spiritual_hidden_2",
+      "title": "Hidden Spiritual Mastery 2",
+      "description": "Secret-level Spiritual achievement requiring peer review and multiple evidences.",
+      "domain": "Spiritual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "spiritual_hidden_3",
+      "title": "Hidden Spiritual Mastery 3",
+      "description": "Secret-level Spiritual achievement requiring peer review and multiple evidences.",
+      "domain": "Spiritual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "spiritual_hidden_4",
+      "title": "Hidden Spiritual Mastery 4",
+      "description": "Secret-level Spiritual achievement requiring peer review and multiple evidences.",
+      "domain": "Spiritual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "spiritual_hidden_5",
+      "title": "Hidden Spiritual Mastery 5",
+      "description": "Secret-level Spiritual achievement requiring peer review and multiple evidences.",
+      "domain": "Spiritual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "spiritual_hidden_6",
+      "title": "Hidden Spiritual Mastery 6",
+      "description": "Secret-level Spiritual achievement requiring peer review and multiple evidences.",
+      "domain": "Spiritual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "spiritual_hidden_7",
+      "title": "Hidden Spiritual Mastery 7",
+      "description": "Secret-level Spiritual achievement requiring peer review and multiple evidences.",
+      "domain": "Spiritual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "spiritual_hidden_8",
+      "title": "Hidden Spiritual Mastery 8",
+      "description": "Secret-level Spiritual achievement requiring peer review and multiple evidences.",
+      "domain": "Spiritual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "spiritual_hidden_9",
+      "title": "Hidden Spiritual Mastery 9",
+      "description": "Secret-level Spiritual achievement requiring peer review and multiple evidences.",
+      "domain": "Spiritual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "spiritual_hidden_10",
+      "title": "Hidden Spiritual Mastery 10",
+      "description": "Secret-level Spiritual achievement requiring peer review and multiple evidences.",
+      "domain": "Spiritual",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    }
+  ],
+  "systemOverview": {
+    "domains": [
+      "Physical",
+      "Mental",
+      "Intellectual",
+      "Social",
+      "Creative",
+      "Financial",
+      "Spiritual"
+    ],
+    "statsPerDomain": [
+      "Purpose",
+      "Meaning",
+      "Consciousness",
+      "Contribution",
+      "Connection",
+      "Transcendence"
+    ],
+    "ranks": {
+      "1": "Novice",
+      "2": "Apprentice",
+      "3": "Adept",
+      "4": "Expert",
+      "5": "Master",
+      "6": "Grandmaster",
+      "7": "Legend",
+      "8": "Mythic",
+      "9": "Transcendent",
+      "10": "Ultimate Completionist"
+    },
+    "rankPercentileMapping": {
+      "1": 95.0,
+      "2": 80.0,
+      "3": 55.0,
+      "4": 25.0,
+      "5": 5.0,
+      "6": 0.5,
+      "7": 0.05,
+      "8": 0.005,
+      "9": 0.0005,
+      "10": 0.0001
+    },
+    "globalPercentileFormula": "overallPercentile = 100 - (averageDomainRank / 10 * 100) + achievementVarianceAdjustment",
+    "leaderboardDisplayFormat": {
+      "title": "ULTIMATE COMPLETIONIST PROFILE",
+      "fields": [
+        "Overall Rank",
+        "Global Percentile",
+        "Estimated Position",
+        "Next Milestone",
+        "Achievements Needed",
+        "Points Earned",
+        "Domain Breakdown"
+      ]
+    },
+    "pathToUltimate": "Complete all achievements (200 per domain), focus on high-point rare achievements, consistency over years."
+  }
+}

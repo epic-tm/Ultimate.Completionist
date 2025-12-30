@@ -1,0 +1,4615 @@
+{
+  "domain": "Creative",
+  "stats": [
+    "Artistic Expression",
+    "Innovation",
+    "Craftsmanship",
+    "Performance",
+    "Design",
+    "Problem Solving"
+  ],
+  "categories": [
+    "Painting",
+    "Drawing",
+    "Photography",
+    "Filmmaking",
+    "Music Composition",
+    "Music Performance",
+    "Writing",
+    "Poetry",
+    "Screenwriting",
+    "Game Design",
+    "Product Design",
+    "Graphic Design",
+    "UI/UX",
+    "Architecture",
+    "Fashion",
+    "Sculpture",
+    "Animation",
+    "3D Modeling",
+    "Culinary Arts",
+    "Theater",
+    "Dance"
+  ],
+  "ranks": {
+    "1": "Novice",
+    "2": "Apprentice",
+    "3": "Adept",
+    "4": "Expert",
+    "5": "Master",
+    "6": "Grandmaster",
+    "7": "Legend",
+    "8": "Mythic",
+    "9": "Transcendent",
+    "10": "Ultimate Completionist"
+  },
+  "achievements": [
+    {
+      "id": "creative_r1_a1",
+      "title": "Write Short Story",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Painting",
+      "points": 24,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Artistic Expression": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a2",
+      "title": "Photo Series",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Drawing",
+      "points": 37,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Innovation": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a3",
+      "title": "Paint 10 Canvases",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Photography",
+      "points": 23,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Craftsmanship": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a4",
+      "title": "Compose 1 Song",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Filmmaking",
+      "points": 15,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Performance": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a5",
+      "title": "Produce Short Film",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Music Composition",
+      "points": 42,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Design": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a6",
+      "title": "Open Mic",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Music Performance",
+      "points": 25,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Problem Solving": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a7",
+      "title": "Design Logo Pack",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Writing",
+      "points": 45,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Artistic Expression": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a8",
+      "title": "Create Portfolio",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Poetry",
+      "points": 40,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Innovation": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a9",
+      "title": "Animate Short",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Screenwriting",
+      "points": 35,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Craftsmanship": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a10",
+      "title": "Launch Zine",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Game Design",
+      "points": 50,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Performance": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a11",
+      "title": "Write Short Story",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Product Design",
+      "points": 14,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Design": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a12",
+      "title": "Photo Series",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Graphic Design",
+      "points": 17,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Problem Solving": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a13",
+      "title": "Paint 10 Canvases",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "UI/UX",
+      "points": 39,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Artistic Expression": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a14",
+      "title": "Compose 1 Song",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Architecture",
+      "points": 38,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Innovation": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a15",
+      "title": "Produce Short Film",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Fashion",
+      "points": 28,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Craftsmanship": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a16",
+      "title": "Open Mic",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Sculpture",
+      "points": 28,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Performance": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a17",
+      "title": "Design Logo Pack",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Animation",
+      "points": 12,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Design": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a18",
+      "title": "Create Portfolio",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "3D Modeling",
+      "points": 16,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Problem Solving": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a19",
+      "title": "Animate Short",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Culinary Arts",
+      "points": 20,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Artistic Expression": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r1_a20",
+      "title": "Launch Zine",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 1,
+      "rankName": "Novice",
+      "difficulty": 1,
+      "category": "Theater",
+      "points": 15,
+      "globalPercentile": 95.0,
+      "statIncreases": {
+        "Innovation": 2
+      },
+      "estimatedTimeInvestment": "2-6 weeks",
+      "prerequisites": [],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 95.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a1",
+      "title": "Write Short Story",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Painting",
+      "points": 71,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Artistic Expression": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a2",
+      "title": "Photo Series",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Drawing",
+      "points": 73,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Innovation": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a3",
+      "title": "Paint 10 Canvases",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Photography",
+      "points": 56,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Craftsmanship": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a4",
+      "title": "Compose 1 Song",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Filmmaking",
+      "points": 86,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Performance": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a5",
+      "title": "Produce Short Film",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Music Composition",
+      "points": 56,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Design": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a5"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a6",
+      "title": "Open Mic",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Music Performance",
+      "points": 96,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Problem Solving": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a7",
+      "title": "Design Logo Pack",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Writing",
+      "points": 70,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Artistic Expression": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a8",
+      "title": "Create Portfolio",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Poetry",
+      "points": 68,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Innovation": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a9",
+      "title": "Animate Short",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Screenwriting",
+      "points": 75,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Craftsmanship": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a10",
+      "title": "Launch Zine",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Game Design",
+      "points": 86,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Performance": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a10"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a11",
+      "title": "Write Short Story",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Product Design",
+      "points": 90,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Design": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a12",
+      "title": "Photo Series",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Graphic Design",
+      "points": 64,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Problem Solving": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a13",
+      "title": "Paint 10 Canvases",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "UI/UX",
+      "points": 66,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Artistic Expression": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a14",
+      "title": "Compose 1 Song",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Architecture",
+      "points": 65,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Innovation": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a15",
+      "title": "Produce Short Film",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Fashion",
+      "points": 75,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Craftsmanship": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a15"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a16",
+      "title": "Open Mic",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Sculpture",
+      "points": 85,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Performance": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a17",
+      "title": "Design Logo Pack",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Animation",
+      "points": 83,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Design": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a18",
+      "title": "Create Portfolio",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "3D Modeling",
+      "points": 97,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Problem Solving": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a19",
+      "title": "Animate Short",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Culinary Arts",
+      "points": 52,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Artistic Expression": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r2_a20",
+      "title": "Launch Zine",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 2,
+      "rankName": "Apprentice",
+      "difficulty": 2,
+      "category": "Theater",
+      "points": 73,
+      "globalPercentile": 80.0,
+      "statIncreases": {
+        "Innovation": 4
+      },
+      "estimatedTimeInvestment": "4-12 weeks",
+      "prerequisites": [
+        "creative_r1_a20"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 80.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a1",
+      "title": "Write Short Story",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Painting",
+      "points": 196,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Artistic Expression": 6,
+        "Innovation": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a2",
+      "title": "Photo Series",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Drawing",
+      "points": 240,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Innovation": 6,
+        "Craftsmanship": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a3",
+      "title": "Paint 10 Canvases",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Photography",
+      "points": 181,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Craftsmanship": 6,
+        "Performance": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a4",
+      "title": "Compose 1 Song",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Filmmaking",
+      "points": 144,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Performance": 6,
+        "Design": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a5",
+      "title": "Produce Short Film",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Music Composition",
+      "points": 245,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Design": 6,
+        "Problem Solving": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a5"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a6",
+      "title": "Open Mic",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Music Performance",
+      "points": 146,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Problem Solving": 6,
+        "Artistic Expression": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a7",
+      "title": "Design Logo Pack",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Writing",
+      "points": 171,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Artistic Expression": 6,
+        "Innovation": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a8",
+      "title": "Create Portfolio",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Poetry",
+      "points": 227,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Innovation": 6,
+        "Craftsmanship": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a9",
+      "title": "Animate Short",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Screenwriting",
+      "points": 159,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Craftsmanship": 6,
+        "Performance": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a10",
+      "title": "Launch Zine",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Game Design",
+      "points": 112,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Performance": 6,
+        "Design": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a10"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a11",
+      "title": "Write Short Story",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Product Design",
+      "points": 116,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Design": 6,
+        "Problem Solving": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a12",
+      "title": "Photo Series",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Graphic Design",
+      "points": 154,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Problem Solving": 6,
+        "Artistic Expression": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a13",
+      "title": "Paint 10 Canvases",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "UI/UX",
+      "points": 152,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Artistic Expression": 6,
+        "Innovation": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a14",
+      "title": "Compose 1 Song",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Architecture",
+      "points": 118,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Innovation": 6,
+        "Craftsmanship": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a15",
+      "title": "Produce Short Film",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Fashion",
+      "points": 226,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Craftsmanship": 6,
+        "Performance": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a15"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a16",
+      "title": "Open Mic",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Sculpture",
+      "points": 176,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Performance": 6,
+        "Design": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a17",
+      "title": "Design Logo Pack",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Animation",
+      "points": 197,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Design": 6,
+        "Problem Solving": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a18",
+      "title": "Create Portfolio",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "3D Modeling",
+      "points": 248,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Problem Solving": 6,
+        "Artistic Expression": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a19",
+      "title": "Animate Short",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Culinary Arts",
+      "points": 165,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Artistic Expression": 6,
+        "Innovation": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r3_a20",
+      "title": "Launch Zine",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 3,
+      "rankName": "Adept",
+      "difficulty": 3,
+      "category": "Theater",
+      "points": 132,
+      "globalPercentile": 55.0,
+      "statIncreases": {
+        "Innovation": 6,
+        "Craftsmanship": 7
+      },
+      "estimatedTimeInvestment": "6-18 weeks",
+      "prerequisites": [
+        "creative_r2_a20"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 55.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a1",
+      "title": "Release 4 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Painting",
+      "points": 387,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Artistic Expression": 8,
+        "Innovation": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a2",
+      "title": "Exhibit 4 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Drawing",
+      "points": 352,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Innovation": 8,
+        "Craftsmanship": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a3",
+      "title": "Direct 4 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Photography",
+      "points": 412,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Craftsmanship": 8,
+        "Performance": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a4",
+      "title": "Publish 4 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Filmmaking",
+      "points": 268,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Performance": 8,
+        "Design": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a5",
+      "title": "Design 4 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Music Composition",
+      "points": 354,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Design": 8,
+        "Problem Solving": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a5",
+        "creative_r2_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a6",
+      "title": "Release 4 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Music Performance",
+      "points": 339,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Problem Solving": 8,
+        "Artistic Expression": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a7",
+      "title": "Exhibit 4 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Writing",
+      "points": 477,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Artistic Expression": 8,
+        "Innovation": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a8",
+      "title": "Direct 4 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Poetry",
+      "points": 460,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Innovation": 8,
+        "Craftsmanship": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a9",
+      "title": "Publish 4 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Screenwriting",
+      "points": 425,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Craftsmanship": 8,
+        "Performance": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a10",
+      "title": "Design 4 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Game Design",
+      "points": 388,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Performance": 8,
+        "Design": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a10",
+        "creative_r2_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a11",
+      "title": "Release 4 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Product Design",
+      "points": 375,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Design": 8,
+        "Problem Solving": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a12",
+      "title": "Exhibit 4 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Graphic Design",
+      "points": 470,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Problem Solving": 8,
+        "Artistic Expression": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a13",
+      "title": "Direct 4 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "UI/UX",
+      "points": 396,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Artistic Expression": 8,
+        "Innovation": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a14",
+      "title": "Publish 4 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Architecture",
+      "points": 383,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Innovation": 8,
+        "Craftsmanship": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a15",
+      "title": "Design 4 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Fashion",
+      "points": 335,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Craftsmanship": 8,
+        "Performance": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a15",
+        "creative_r2_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a16",
+      "title": "Release 4 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Sculpture",
+      "points": 346,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Performance": 8,
+        "Design": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a17",
+      "title": "Exhibit 4 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Animation",
+      "points": 254,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Design": 8,
+        "Problem Solving": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a18",
+      "title": "Direct 4 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "3D Modeling",
+      "points": 276,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Problem Solving": 8,
+        "Artistic Expression": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a19",
+      "title": "Publish 4 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Culinary Arts",
+      "points": 268,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Artistic Expression": 8,
+        "Innovation": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r4_a20",
+      "title": "Design 4 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 4,
+      "rankName": "Expert",
+      "difficulty": 4,
+      "category": "Theater",
+      "points": 334,
+      "globalPercentile": 25.0,
+      "statIncreases": {
+        "Innovation": 8,
+        "Craftsmanship": 10
+      },
+      "estimatedTimeInvestment": "8-24 weeks",
+      "prerequisites": [
+        "creative_r3_a20",
+        "creative_r2_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 25.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a1",
+      "title": "Release 5 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Painting",
+      "points": 566,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Artistic Expression": 10,
+        "Innovation": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a2",
+      "title": "Exhibit 5 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Drawing",
+      "points": 863,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Innovation": 10,
+        "Craftsmanship": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a3",
+      "title": "Direct 5 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Photography",
+      "points": 814,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Craftsmanship": 10,
+        "Performance": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a4",
+      "title": "Publish 5 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Filmmaking",
+      "points": 707,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Performance": 10,
+        "Design": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a5",
+      "title": "Design 5 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Music Composition",
+      "points": 943,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Design": 10,
+        "Problem Solving": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a5",
+        "creative_r3_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a6",
+      "title": "Release 5 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Music Performance",
+      "points": 906,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Problem Solving": 10,
+        "Artistic Expression": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a7",
+      "title": "Exhibit 5 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Writing",
+      "points": 822,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Artistic Expression": 10,
+        "Innovation": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a8",
+      "title": "Direct 5 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Poetry",
+      "points": 540,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Innovation": 10,
+        "Craftsmanship": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a9",
+      "title": "Publish 5 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Screenwriting",
+      "points": 803,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Craftsmanship": 10,
+        "Performance": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a10",
+      "title": "Design 5 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Game Design",
+      "points": 947,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Performance": 10,
+        "Design": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a10",
+        "creative_r3_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a11",
+      "title": "Release 5 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Product Design",
+      "points": 991,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Design": 10,
+        "Problem Solving": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a12",
+      "title": "Exhibit 5 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Graphic Design",
+      "points": 530,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Problem Solving": 10,
+        "Artistic Expression": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a13",
+      "title": "Direct 5 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "UI/UX",
+      "points": 840,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Artistic Expression": 10,
+        "Innovation": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a14",
+      "title": "Publish 5 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Architecture",
+      "points": 610,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Innovation": 10,
+        "Craftsmanship": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a15",
+      "title": "Design 5 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Fashion",
+      "points": 588,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Craftsmanship": 10,
+        "Performance": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a15",
+        "creative_r3_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a16",
+      "title": "Release 5 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Sculpture",
+      "points": 836,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Performance": 10,
+        "Design": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a17",
+      "title": "Exhibit 5 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Animation",
+      "points": 948,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Design": 10,
+        "Problem Solving": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a18",
+      "title": "Direct 5 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "3D Modeling",
+      "points": 776,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Problem Solving": 10,
+        "Artistic Expression": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a19",
+      "title": "Publish 5 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Culinary Arts",
+      "points": 550,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Artistic Expression": 10,
+        "Innovation": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r5_a20",
+      "title": "Design 5 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 5,
+      "rankName": "Master",
+      "difficulty": 5,
+      "category": "Theater",
+      "points": 993,
+      "globalPercentile": 5.0,
+      "statIncreases": {
+        "Innovation": 10,
+        "Craftsmanship": 12
+      },
+      "estimatedTimeInvestment": "10-30 weeks",
+      "prerequisites": [
+        "creative_r4_a20",
+        "creative_r3_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 5.0% of people can achieve this."
+    },
+    {
+      "id": "creative_r6_a1",
+      "title": "Release 6 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Painting",
+      "points": 1748,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Artistic Expression": 12,
+        "Innovation": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a2",
+      "title": "Exhibit 6 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Drawing",
+      "points": 2473,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Innovation": 12,
+        "Craftsmanship": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a3",
+      "title": "Direct 6 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Photography",
+      "points": 2144,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Craftsmanship": 12,
+        "Performance": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a4",
+      "title": "Publish 6 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Filmmaking",
+      "points": 2458,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Performance": 12,
+        "Design": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a5",
+      "title": "Design 6 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Music Composition",
+      "points": 2225,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Design": 12,
+        "Problem Solving": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a5",
+        "creative_r4_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a6",
+      "title": "Release 6 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Music Performance",
+      "points": 1522,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Problem Solving": 12,
+        "Artistic Expression": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a7",
+      "title": "Exhibit 6 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Writing",
+      "points": 1950,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Artistic Expression": 12,
+        "Innovation": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a8",
+      "title": "Direct 6 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Poetry",
+      "points": 1053,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Innovation": 12,
+        "Craftsmanship": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a9",
+      "title": "Publish 6 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Screenwriting",
+      "points": 1018,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Craftsmanship": 12,
+        "Performance": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a10",
+      "title": "Design 6 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Game Design",
+      "points": 2086,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Performance": 12,
+        "Design": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a10",
+        "creative_r4_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a11",
+      "title": "Release 6 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Product Design",
+      "points": 1170,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Design": 12,
+        "Problem Solving": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a12",
+      "title": "Exhibit 6 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Graphic Design",
+      "points": 2321,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Problem Solving": 12,
+        "Artistic Expression": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a13",
+      "title": "Direct 6 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "UI/UX",
+      "points": 1930,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Artistic Expression": 12,
+        "Innovation": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a14",
+      "title": "Publish 6 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Architecture",
+      "points": 1585,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Innovation": 12,
+        "Craftsmanship": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a15",
+      "title": "Design 6 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Fashion",
+      "points": 1042,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Craftsmanship": 12,
+        "Performance": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a15",
+        "creative_r4_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a16",
+      "title": "Release 6 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Sculpture",
+      "points": 1546,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Performance": 12,
+        "Design": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a17",
+      "title": "Exhibit 6 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Animation",
+      "points": 2163,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Design": 12,
+        "Problem Solving": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a18",
+      "title": "Direct 6 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "3D Modeling",
+      "points": 2259,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Problem Solving": 12,
+        "Artistic Expression": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a19",
+      "title": "Publish 6 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Culinary Arts",
+      "points": 1304,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Artistic Expression": 12,
+        "Innovation": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r6_a20",
+      "title": "Design 6 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 6,
+      "rankName": "Grandmaster",
+      "difficulty": 6,
+      "category": "Theater",
+      "points": 1884,
+      "globalPercentile": 0.5,
+      "statIncreases": {
+        "Innovation": 12,
+        "Craftsmanship": 15
+      },
+      "estimatedTimeInvestment": "18-36 months",
+      "prerequisites": [
+        "creative_r5_a20",
+        "creative_r4_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.5% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a1",
+      "title": "Release 7 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Painting",
+      "points": 3863,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Artistic Expression": 14,
+        "Innovation": 17,
+        "Craftsmanship": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a2",
+      "title": "Exhibit 7 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Drawing",
+      "points": 3291,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Innovation": 14,
+        "Craftsmanship": 17,
+        "Performance": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a3",
+      "title": "Direct 7 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Photography",
+      "points": 3312,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Craftsmanship": 14,
+        "Performance": 17,
+        "Design": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a4",
+      "title": "Publish 7 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Filmmaking",
+      "points": 3917,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Performance": 14,
+        "Design": 17,
+        "Problem Solving": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a5",
+      "title": "Design 7 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Music Composition",
+      "points": 4261,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Design": 14,
+        "Problem Solving": 17,
+        "Artistic Expression": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a5",
+        "creative_r5_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a6",
+      "title": "Release 7 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Music Performance",
+      "points": 3224,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Problem Solving": 14,
+        "Artistic Expression": 17,
+        "Innovation": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a7",
+      "title": "Exhibit 7 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Writing",
+      "points": 4767,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Artistic Expression": 14,
+        "Innovation": 17,
+        "Craftsmanship": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a8",
+      "title": "Direct 7 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Poetry",
+      "points": 2589,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Innovation": 14,
+        "Craftsmanship": 17,
+        "Performance": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a9",
+      "title": "Publish 7 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Screenwriting",
+      "points": 4154,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Craftsmanship": 14,
+        "Performance": 17,
+        "Design": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a10",
+      "title": "Design 7 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Game Design",
+      "points": 4152,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Performance": 14,
+        "Design": 17,
+        "Problem Solving": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a10",
+        "creative_r5_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a11",
+      "title": "Release 7 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Product Design",
+      "points": 2674,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Design": 14,
+        "Problem Solving": 17,
+        "Artistic Expression": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a12",
+      "title": "Exhibit 7 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Graphic Design",
+      "points": 3912,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Problem Solving": 14,
+        "Artistic Expression": 17,
+        "Innovation": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a13",
+      "title": "Direct 7 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "UI/UX",
+      "points": 3143,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Artistic Expression": 14,
+        "Innovation": 17,
+        "Craftsmanship": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a14",
+      "title": "Publish 7 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Architecture",
+      "points": 2579,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Innovation": 14,
+        "Craftsmanship": 17,
+        "Performance": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a15",
+      "title": "Design 7 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Fashion",
+      "points": 2784,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Craftsmanship": 14,
+        "Performance": 17,
+        "Design": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a15",
+        "creative_r5_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a16",
+      "title": "Release 7 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Sculpture",
+      "points": 3646,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Performance": 14,
+        "Design": 17,
+        "Problem Solving": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a17",
+      "title": "Exhibit 7 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Animation",
+      "points": 4482,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Design": 14,
+        "Problem Solving": 17,
+        "Artistic Expression": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a18",
+      "title": "Direct 7 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "3D Modeling",
+      "points": 3103,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Problem Solving": 14,
+        "Artistic Expression": 17,
+        "Innovation": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a19",
+      "title": "Publish 7 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Culinary Arts",
+      "points": 3452,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Artistic Expression": 14,
+        "Innovation": 17,
+        "Craftsmanship": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r7_a20",
+      "title": "Design 7 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 7,
+      "rankName": "Legend",
+      "difficulty": 7,
+      "category": "Theater",
+      "points": 3919,
+      "globalPercentile": 0.05,
+      "statIncreases": {
+        "Innovation": 14,
+        "Craftsmanship": 17,
+        "Performance": 21
+      },
+      "estimatedTimeInvestment": "21-42 months",
+      "prerequisites": [
+        "creative_r6_a20",
+        "creative_r5_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.05% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a1",
+      "title": "Release 8 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Painting",
+      "points": 6984,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Artistic Expression": 16,
+        "Innovation": 20,
+        "Craftsmanship": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a2",
+      "title": "Exhibit 8 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Drawing",
+      "points": 6811,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Innovation": 16,
+        "Craftsmanship": 20,
+        "Performance": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a3",
+      "title": "Direct 8 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Photography",
+      "points": 8227,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Craftsmanship": 16,
+        "Performance": 20,
+        "Design": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a4",
+      "title": "Publish 8 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Filmmaking",
+      "points": 7041,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Performance": 16,
+        "Design": 20,
+        "Problem Solving": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a5",
+      "title": "Design 8 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Music Composition",
+      "points": 9098,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Design": 16,
+        "Problem Solving": 20,
+        "Artistic Expression": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a5",
+        "creative_r6_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a6",
+      "title": "Release 8 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Music Performance",
+      "points": 9804,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Problem Solving": 16,
+        "Artistic Expression": 20,
+        "Innovation": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a7",
+      "title": "Exhibit 8 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Writing",
+      "points": 5706,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Artistic Expression": 16,
+        "Innovation": 20,
+        "Craftsmanship": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a8",
+      "title": "Direct 8 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Poetry",
+      "points": 7853,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Innovation": 16,
+        "Craftsmanship": 20,
+        "Performance": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a9",
+      "title": "Publish 8 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Screenwriting",
+      "points": 6400,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Craftsmanship": 16,
+        "Performance": 20,
+        "Design": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a10",
+      "title": "Design 8 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Game Design",
+      "points": 6517,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Performance": 16,
+        "Design": 20,
+        "Problem Solving": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a10",
+        "creative_r6_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a11",
+      "title": "Release 8 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Product Design",
+      "points": 9876,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Design": 16,
+        "Problem Solving": 20,
+        "Artistic Expression": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a12",
+      "title": "Exhibit 8 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Graphic Design",
+      "points": 8664,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Problem Solving": 16,
+        "Artistic Expression": 20,
+        "Innovation": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a13",
+      "title": "Direct 8 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "UI/UX",
+      "points": 9279,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Artistic Expression": 16,
+        "Innovation": 20,
+        "Craftsmanship": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a14",
+      "title": "Publish 8 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Architecture",
+      "points": 9643,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Innovation": 16,
+        "Craftsmanship": 20,
+        "Performance": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a15",
+      "title": "Design 8 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Fashion",
+      "points": 6766,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Craftsmanship": 16,
+        "Performance": 20,
+        "Design": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a15",
+        "creative_r6_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a16",
+      "title": "Release 8 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Sculpture",
+      "points": 5281,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Performance": 16,
+        "Design": 20,
+        "Problem Solving": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a17",
+      "title": "Exhibit 8 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Animation",
+      "points": 6172,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Design": 16,
+        "Problem Solving": 20,
+        "Artistic Expression": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a18",
+      "title": "Direct 8 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "3D Modeling",
+      "points": 6670,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Problem Solving": 16,
+        "Artistic Expression": 20,
+        "Innovation": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a19",
+      "title": "Publish 8 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Culinary Arts",
+      "points": 6368,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Artistic Expression": 16,
+        "Innovation": 20,
+        "Craftsmanship": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r8_a20",
+      "title": "Design 8 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 8,
+      "rankName": "Mythic",
+      "difficulty": 8,
+      "category": "Theater",
+      "points": 8959,
+      "globalPercentile": 0.005,
+      "statIncreases": {
+        "Innovation": 16,
+        "Craftsmanship": 20,
+        "Performance": 24
+      },
+      "estimatedTimeInvestment": "24-48 months",
+      "prerequisites": [
+        "creative_r7_a20",
+        "creative_r6_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a1",
+      "title": "Release 9 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Painting",
+      "points": 18458,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Artistic Expression": 18,
+        "Innovation": 22,
+        "Craftsmanship": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a2",
+      "title": "Exhibit 9 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Drawing",
+      "points": 24065,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Innovation": 18,
+        "Craftsmanship": 22,
+        "Performance": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a3",
+      "title": "Direct 9 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Photography",
+      "points": 18614,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Craftsmanship": 18,
+        "Performance": 22,
+        "Design": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a4",
+      "title": "Publish 9 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Filmmaking",
+      "points": 17040,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Performance": 18,
+        "Design": 22,
+        "Problem Solving": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a5",
+      "title": "Design 9 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Music Composition",
+      "points": 22657,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Design": 18,
+        "Problem Solving": 22,
+        "Artistic Expression": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a5",
+        "creative_r7_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a6",
+      "title": "Release 9 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Music Performance",
+      "points": 24726,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Problem Solving": 18,
+        "Artistic Expression": 22,
+        "Innovation": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a7",
+      "title": "Exhibit 9 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Writing",
+      "points": 21928,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Artistic Expression": 18,
+        "Innovation": 22,
+        "Craftsmanship": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a8",
+      "title": "Direct 9 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Poetry",
+      "points": 16218,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Innovation": 18,
+        "Craftsmanship": 22,
+        "Performance": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a9",
+      "title": "Publish 9 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Screenwriting",
+      "points": 22343,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Craftsmanship": 18,
+        "Performance": 22,
+        "Design": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a10",
+      "title": "Design 9 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Game Design",
+      "points": 24661,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Performance": 18,
+        "Design": 22,
+        "Problem Solving": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a10",
+        "creative_r7_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a11",
+      "title": "Release 9 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Product Design",
+      "points": 22743,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Design": 18,
+        "Problem Solving": 22,
+        "Artistic Expression": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a12",
+      "title": "Exhibit 9 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Graphic Design",
+      "points": 23928,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Problem Solving": 18,
+        "Artistic Expression": 22,
+        "Innovation": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a13",
+      "title": "Direct 9 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "UI/UX",
+      "points": 10681,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Artistic Expression": 18,
+        "Innovation": 22,
+        "Craftsmanship": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a14",
+      "title": "Publish 9 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Architecture",
+      "points": 21028,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Innovation": 18,
+        "Craftsmanship": 22,
+        "Performance": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a15",
+      "title": "Design 9 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Fashion",
+      "points": 12091,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Craftsmanship": 18,
+        "Performance": 22,
+        "Design": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a15",
+        "creative_r7_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a16",
+      "title": "Release 9 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Sculpture",
+      "points": 13260,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Performance": 18,
+        "Design": 22,
+        "Problem Solving": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a17",
+      "title": "Exhibit 9 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Animation",
+      "points": 23065,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Design": 18,
+        "Problem Solving": 22,
+        "Artistic Expression": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a18",
+      "title": "Direct 9 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "3D Modeling",
+      "points": 13263,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Problem Solving": 18,
+        "Artistic Expression": 22,
+        "Innovation": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a19",
+      "title": "Publish 9 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Culinary Arts",
+      "points": 20138,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Artistic Expression": 18,
+        "Innovation": 22,
+        "Craftsmanship": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r9_a20",
+      "title": "Design 9 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 9,
+      "rankName": "Transcendent",
+      "difficulty": 9,
+      "category": "Theater",
+      "points": 10563,
+      "globalPercentile": 0.0005,
+      "statIncreases": {
+        "Innovation": 18,
+        "Craftsmanship": 22,
+        "Performance": 27
+      },
+      "estimatedTimeInvestment": "27-54 months",
+      "prerequisites": [
+        "creative_r8_a20",
+        "creative_r7_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0005% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a1",
+      "title": "Release 10 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Painting",
+      "points": 82104,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Artistic Expression": 20,
+        "Innovation": 25,
+        "Craftsmanship": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a2",
+      "title": "Exhibit 10 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Drawing",
+      "points": 98209,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Innovation": 20,
+        "Craftsmanship": 25,
+        "Performance": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a2"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a3",
+      "title": "Direct 10 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Photography",
+      "points": 46389,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Craftsmanship": 20,
+        "Performance": 25,
+        "Design": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a3"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a4",
+      "title": "Publish 10 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Filmmaking",
+      "points": 28272,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Performance": 20,
+        "Design": 25,
+        "Problem Solving": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a4"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a5",
+      "title": "Design 10 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Music Composition",
+      "points": 70218,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Design": 20,
+        "Problem Solving": 25,
+        "Artistic Expression": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a5",
+        "creative_r8_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a6",
+      "title": "Release 10 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Music Performance",
+      "points": 69212,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Problem Solving": 20,
+        "Artistic Expression": 25,
+        "Innovation": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a6"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a7",
+      "title": "Exhibit 10 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Writing",
+      "points": 44756,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Artistic Expression": 20,
+        "Innovation": 25,
+        "Craftsmanship": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a7"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a8",
+      "title": "Direct 10 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Poetry",
+      "points": 39887,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Innovation": 20,
+        "Craftsmanship": 25,
+        "Performance": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a8"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a9",
+      "title": "Publish 10 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Screenwriting",
+      "points": 42661,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Craftsmanship": 20,
+        "Performance": 25,
+        "Design": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a9"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a10",
+      "title": "Design 10 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Game Design",
+      "points": 25439,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Performance": 20,
+        "Design": 25,
+        "Problem Solving": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a10",
+        "creative_r8_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a11",
+      "title": "Release 10 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Product Design",
+      "points": 39773,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Design": 20,
+        "Problem Solving": 25,
+        "Artistic Expression": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a11"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a12",
+      "title": "Exhibit 10 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Graphic Design",
+      "points": 42286,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Problem Solving": 20,
+        "Artistic Expression": 25,
+        "Innovation": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a12"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a13",
+      "title": "Direct 10 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "UI/UX",
+      "points": 54731,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Artistic Expression": 20,
+        "Innovation": 25,
+        "Craftsmanship": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a13"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a14",
+      "title": "Publish 10 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Architecture",
+      "points": 47106,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Innovation": 20,
+        "Craftsmanship": 25,
+        "Performance": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a14"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a15",
+      "title": "Design 10 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Fashion",
+      "points": 54065,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Craftsmanship": 20,
+        "Performance": 25,
+        "Design": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a15",
+        "creative_r8_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a16",
+      "title": "Release 10 Albums",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Sculpture",
+      "points": 26917,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Performance": 20,
+        "Design": 25,
+        "Problem Solving": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a16"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a17",
+      "title": "Exhibit 10 Works",
+      "description": "Create and exhibit the artwork with images and exhibition details for verification.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Animation",
+      "points": 27979,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Design": 20,
+        "Problem Solving": 25,
+        "Artistic Expression": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a17"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a18",
+      "title": "Direct 10 Shorts",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "3D Modeling",
+      "points": 91037,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Problem Solving": 20,
+        "Artistic Expression": 25,
+        "Innovation": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a18"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a19",
+      "title": "Publish 10 Books",
+      "description": "Produce and publish the creative work; provide links, files, or distribution proof.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Culinary Arts",
+      "points": 28738,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Artistic Expression": 20,
+        "Innovation": 25,
+        "Craftsmanship": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a19"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    },
+    {
+      "id": "creative_r10_a20",
+      "title": "Design 10 Products",
+      "description": "Complete the creative task and submit artifacts (images, recordings) and a creator's note.",
+      "domain": "Creative",
+      "rank": 10,
+      "rankName": "Ultimate Completionist",
+      "difficulty": 10,
+      "category": "Theater",
+      "points": 86272,
+      "globalPercentile": 0.0001,
+      "statIncreases": {
+        "Innovation": 20,
+        "Craftsmanship": 25,
+        "Performance": 30
+      },
+      "estimatedTimeInvestment": "30-60 months",
+      "prerequisites": [
+        "creative_r9_a20",
+        "creative_r8_a1"
+      ],
+      "verification": "Official result, timestamped media, or third-party confirmation as specified.",
+      "populationComparison": "Approx. 0.0001% of people can achieve this (very rare)."
+    }
+  ],
+  "hiddenAchievements": [
+    {
+      "id": "creative_hidden_1",
+      "title": "Hidden Creative Mastery 1",
+      "description": "Secret-level Creative achievement requiring peer review and multiple evidences.",
+      "domain": "Creative",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "creative_hidden_2",
+      "title": "Hidden Creative Mastery 2",
+      "description": "Secret-level Creative achievement requiring peer review and multiple evidences.",
+      "domain": "Creative",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "creative_hidden_3",
+      "title": "Hidden Creative Mastery 3",
+      "description": "Secret-level Creative achievement requiring peer review and multiple evidences.",
+      "domain": "Creative",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "creative_hidden_4",
+      "title": "Hidden Creative Mastery 4",
+      "description": "Secret-level Creative achievement requiring peer review and multiple evidences.",
+      "domain": "Creative",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "creative_hidden_5",
+      "title": "Hidden Creative Mastery 5",
+      "description": "Secret-level Creative achievement requiring peer review and multiple evidences.",
+      "domain": "Creative",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "creative_hidden_6",
+      "title": "Hidden Creative Mastery 6",
+      "description": "Secret-level Creative achievement requiring peer review and multiple evidences.",
+      "domain": "Creative",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "creative_hidden_7",
+      "title": "Hidden Creative Mastery 7",
+      "description": "Secret-level Creative achievement requiring peer review and multiple evidences.",
+      "domain": "Creative",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "creative_hidden_8",
+      "title": "Hidden Creative Mastery 8",
+      "description": "Secret-level Creative achievement requiring peer review and multiple evidences.",
+      "domain": "Creative",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "creative_hidden_9",
+      "title": "Hidden Creative Mastery 9",
+      "description": "Secret-level Creative achievement requiring peer review and multiple evidences.",
+      "domain": "Creative",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    },
+    {
+      "id": "creative_hidden_10",
+      "title": "Hidden Creative Mastery 10",
+      "description": "Secret-level Creative achievement requiring peer review and multiple evidences.",
+      "domain": "Creative",
+      "hidden": true,
+      "verification": "Review board verification; multi-source proof required."
+    }
+  ],
+  "systemOverview": {
+    "domains": [
+      "Physical",
+      "Mental",
+      "Intellectual",
+      "Social",
+      "Creative",
+      "Financial",
+      "Spiritual"
+    ],
+    "statsPerDomain": [
+      "Artistic Expression",
+      "Innovation",
+      "Craftsmanship",
+      "Performance",
+      "Design",
+      "Problem Solving"
+    ],
+    "ranks": {
+      "1": "Novice",
+      "2": "Apprentice",
+      "3": "Adept",
+      "4": "Expert",
+      "5": "Master",
+      "6": "Grandmaster",
+      "7": "Legend",
+      "8": "Mythic",
+      "9": "Transcendent",
+      "10": "Ultimate Completionist"
+    },
+    "rankPercentileMapping": {
+      "1": 95.0,
+      "2": 80.0,
+      "3": 55.0,
+      "4": 25.0,
+      "5": 5.0,
+      "6": 0.5,
+      "7": 0.05,
+      "8": 0.005,
+      "9": 0.0005,
+      "10": 0.0001
+    },
+    "globalPercentileFormula": "overallPercentile = 100 - (averageDomainRank / 10 * 100) + achievementVarianceAdjustment",
+    "leaderboardDisplayFormat": {
+      "title": "ULTIMATE COMPLETIONIST PROFILE",
+      "fields": [
+        "Overall Rank",
+        "Global Percentile",
+        "Estimated Position",
+        "Next Milestone",
+        "Achievements Needed",
+        "Points Earned",
+        "Domain Breakdown"
+      ]
+    },
+    "pathToUltimate": "Complete all achievements (200 per domain), focus on high-point rare achievements, consistency over years."
+  }
+}
