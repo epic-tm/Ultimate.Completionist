@@ -1,47 +1,89 @@
 :root {
-    --accent: rgba(255, 255, 255, 0.8);
-    --glass: rgba(0, 0, 0, 0.7);
+    --zenith-accent: rgba(255, 255, 255, 0.8);
+    --hud-green: #00ff00;
+    --glass-bg: rgba(0, 0, 0, 0.75);
+    --panel-border: rgba(255, 255, 255, 0.15);
 }
 
-body, html { margin: 0; background: #000; overflow: hidden; font-family: 'Courier New', monospace; color: white; }
+body, html { 
+    margin: 0; padding: 0; background: #000; 
+    overflow: hidden; height: 100vh; 
+    font-family: 'Courier New', monospace; color: white; 
+}
 
-/* MAIN RADAR (CENTER) */
+/* TACTICAL FRAME */
+.hud-frame {
+    position: fixed; inset: 0; pointer-events: none; z-index: 2000;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.corner {
+    position: absolute; width: 30px; height: 30px;
+    border: 2px solid white; box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+.top-left { top: 20px; left: 20px; border-right: 0; border-bottom: 0; }
+.top-right { top: 20px; right: 20px; border-left: 0; border-bottom: 0; }
+.bottom-left { bottom: 20px; left: 20px; border-right: 0; border-top: 0; }
+.bottom-right { bottom: 20px; right: 20px; border-left: 0; border-top: 0; }
+
+/* RADAR CHART CONTAINERS */
 #main-chart-wrapper {
-    position: absolute; width: 600px; height: 600px;
-    z-index: 5; opacity: 0.4; pointer-events: none;
-    transition: 1s ease;
+    position: absolute; width: 700px; height: 700px;
+    top: 50%; left: 50%; transform: translate(-50%, -50%);
+    z-index: 1; opacity: 0.3; pointer-events: none;
+    transition: all 1s ease;
 }
-.viewport.is-zoomed ~ #main-chart-wrapper { opacity: 0; transform: scale(0.8); }
+.viewport.is-zoomed ~ #main-chart-wrapper { 
+    opacity: 0; transform: translate(-50%, -50%) scale(0.5); 
+}
 
-/* SUB RADAR (PANEL) */
 .sub-chart-container {
-    width: 100%; height: 200px; margin: 15px 0;
-    background: rgba(255, 255, 255, 0.02);
-    border-radius: 4px; padding: 10px;
+    width: 100%; height: 220px; margin: 20px 0;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--panel-border);
+    padding: 10px;
 }
 
-/* DATA PANEL UPGRADE */
+/* DATA PANEL */
 #data-panel {
-    position: absolute; right: 5%; top: 50%; transform: translateY(-50%) translateX(50px);
-    width: 420px; height: 85vh; padding: 25px;
-    background: var(--glass); backdrop-filter: blur(15px);
-    border-left: 1px solid rgba(255,255,255,0.2);
-    opacity: 0; transition: 1s cubic-bezier(0.16, 1, 0.3, 1);
+    position: absolute; right: 4%; top: 50%; transform: translateY(-50%) translateX(100px);
+    width: 420px; height: 88vh; padding: 25px;
+    background: var(--glass-bg); backdrop-filter: blur(20px);
+    border-left: 2px solid var(--hud-green);
+    opacity: 0; pointer-events: none; transition: 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 100; display: flex; flex-direction: column;
 }
-.viewport.is-zoomed ~ #data-panel { opacity: 1; transform: translateY(-50%) translateX(0); pointer-events: auto; }
-
-/* MISSION LIST */
-#mission-list { list-style: none; padding: 0; height: 35vh; overflow-y: auto; }
-.mission-item { 
-    font-size: 11px; padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);
-    display: flex; justify-content: space-between; cursor: pointer;
+.viewport.is-zoomed ~ #data-panel { 
+    opacity: 1; transform: translateY(-50%) translateX(0); pointer-events: auto; 
 }
-.mission-item:hover { background: rgba(255,255,255,0.1); }
-.rank-tag { color: #00ff00; width: 80px; }
 
-/* FRAME & UI */
-.hud-frame { position: fixed; inset: 0; z-index: 2000; pointer-events: none; border: 1px solid rgba(255,255,255,0.1); }
-.corner { position: absolute; width: 30px; height: 30px; border: 2px solid white; }
-.top-left { top: 15px; left: 15px; border-right: 0; border-bottom: 0; }
-.top-right { top: 15px; right: 15px; border-left: 0; border-bottom: 0; }
-/* ... (Add other corners as before) ... */
+.panel-tag { font-size: 10px; color: var(--hud-green); letter-spacing: 2px; margin-bottom: 5px; }
+#panel-title { margin: 0; font-size: 24px; letter-spacing: 5px; text-transform: uppercase; }
+
+/* MISSION SCROLLING */
+.section-label { font-size: 11px; color: rgba(255,255,255,0.4); margin: 20px 0 10px; letter-spacing: 2px; }
+#mission-list { 
+    list-style: none; padding: 0; overflow-y: auto; flex-grow: 1;
+    border-top: 1px solid var(--panel-border);
+}
+.mission-item {
+    display: flex; align-items: center; padding: 12px 5px;
+    border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 11px;
+    transition: 0.3s; cursor: pointer;
+}
+.mission-item:hover { background: rgba(255, 255, 255, 0.05); color: var(--hud-green); }
+.rank-tag { color: var(--hud-green); width: 90px; font-weight: bold; }
+
+/* CORE VISUALS */
+#warp-canvas { position: fixed; inset: 0; z-index: 999; background: #000; transition: 1s; }
+#main-ui { opacity: 0; transition: 1.5s; position: relative; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }
+.viewport { position: relative; z-index: 10; width: 1000px; height: 1000px; transition: transform 0.1s; }
+.artifact { position: absolute; width: 100px; height: 100px; cursor: pointer; transition: 1s cubic-bezier(0.16, 1, 0.3, 1); text-align: center; }
+.artifact.is-active { left: 25% !important; top: 50% !important; transform: translate(-50%, -50%) scale(3.5) !important; }
+.artifact.is-hidden { opacity: 0; transform: scale(0); pointer-events: none; }
+
+#back-btn {
+    position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%);
+    background: black; border: 1px solid white; color: white; 
+    padding: 10px 30px; cursor: pointer; opacity: 0; z-index: 1000;
+}
+#back-btn.show { opacity: 1; }
