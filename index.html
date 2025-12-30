@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zenith OS - Star Chart</title>
+    <title>Zenith OS - Tactical HUD</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
+    <div class="hud-frame">
+        <div class="corner top-left"></div><div class="corner top-right"></div>
+        <div class="corner bottom-left"></div><div class="corner bottom-right"></div>
+    </div>
+
     <canvas id="warp-canvas"></canvas>
-    
     <div id="terminal-overlay"></div>
 
     <audio id="bg-music" src="assets/background.mp3" loop></audio>
@@ -17,9 +22,11 @@
 
     <div class="hud-container" id="main-ui">
         <div class="bg-zoom-wrapper"></div>
-        <div class="nebula-layer"></div>
-        <div id="debris-container"></div>
         <div class="scanlines"></div>
+
+        <div id="main-chart-wrapper">
+            <canvas id="mainRadarChart"></canvas>
+        </div>
 
         <div class="viewport" id="viewport">
             <svg class="orbits-svg" id="orbits-svg" viewBox="0 0 1000 1000"></svg>
@@ -30,23 +37,24 @@
 
         <div id="data-panel">
             <div class="panel-header">
-                <h2 id="panel-title">DOMAIN_DATA</h2>
-                <div class="progress-container"><div id="progress-fill"></div></div>
-                <div id="completion-text">SYNC: 0%</div>
+                <div class="panel-tag">LOG_LINK_ESTABLISHED</div>
+                <h2 id="panel-title">SECTOR_SELECT</h2>
+                
+                <div class="sub-chart-container">
+                    <canvas id="subRadarChart"></canvas>
+                </div>
             </div>
+            
             <div class="separator"></div>
             <div class="panel-body">
-                <div class="section-label">ACTIVE_MISSIONS</div>
+                <div class="section-label">OBJECTIVES_LOG</div>
                 <ul id="mission-list"></ul>
-                <div class="section-label" style="margin-top:20px;">ACHIEVEMENTS</div>
-                <div id="achievement-grid"></div>
             </div>
         </div>
     </div>
 
-    <button id="back-btn">DISENGAGE ZOOM</button>
+    <button id="back-btn">DISENGAGE_ZOOM</button>
 
-    <script src="achievements.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
