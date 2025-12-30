@@ -1,48 +1,48 @@
-:root {
-    --hud-green: #00ff00;
-    --hud-white: rgba(255, 255, 255, 0.8);
-    --glass: rgba(0, 0, 0, 0.8);
-}
+body, html { margin: 0; padding: 0; background: #000; overflow: hidden; height: 100vh; font-family: 'Courier New', monospace; color: white; }
 
-body, html { margin: 0; background: #000; overflow: hidden; height: 100vh; font-family: 'Courier New', monospace; color: white; }
+/* CINEMATIC LAYERS */
+.nebula-layer { position: fixed; inset: 0; background: radial-gradient(circle at 50% 50%, rgba(50, 0, 100, 0.2), transparent); mix-blend-mode: screen; pointer-events: none; }
+.scanlines { position: fixed; inset: 0; background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03)); background-size: 100% 3px, 3px 100%; pointer-events: none; z-index: 1000; }
 
-/* FRAME */
-.hud-frame { position: fixed; inset: 0; z-index: 2000; pointer-events: none; border: 1px solid rgba(255, 255, 255, 0.05); }
-.corner { position: absolute; width: 30px; height: 30px; border: 2px solid white; }
-.top-left { top: 20px; left: 20px; border-right: 0; border-bottom: 0; }
-.top-right { top: 20px; right: 20px; border-left: 0; border-bottom: 0; }
-.bottom-left { bottom: 20px; left: 20px; border-right: 0; border-top: 0; }
-.bottom-right { bottom: 20px; right: 20px; border-left: 0; border-top: 0; }
-
-/* RADAR POSITIONING */
+/* CENTER RADAR */
 #main-chart-wrapper {
-    position: absolute; width: 650px; height: 650px;
+    position: absolute; width: 600px; height: 600px;
     top: 50%; left: 50%; transform: translate(-50%, -50%);
-    z-index: 1; opacity: 0.3; pointer-events: none; transition: 1s ease;
+    z-index: 2; opacity: 0.25; pointer-events: none; transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
+.is-zoomed ~ #main-chart-wrapper { transform: translate(-50%, -50%) scale(0.4); opacity: 0; }
 
-.sub-chart-container { width: 100%; height: 200px; margin: 15px 0; background: rgba(255,255,255,0.02); }
+/* ARTIFACTS (Using your hover.png) */
+.artifact { position: absolute; width: 120px; height: 120px; cursor: pointer; transition: 1s cubic-bezier(0.16, 1, 0.3, 1); display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 20; }
+.hover-bg { position: absolute; width: 100%; height: 100%; opacity: 0; transition: 0.4s; transform: scale(0.8); z-index: -1; }
+.artifact:hover .hover-bg { opacity: 0.8; transform: scale(1.3); }
+.artifact-icon { width: 60px; height: 60px; filter: drop-shadow(0 0 10px rgba(255,255,255,0.3)); }
+.artifact-label { font-size: 10px; margin-top: 10px; letter-spacing: 3px; color: rgba(255,255,255,0.7); text-shadow: 0 0 5px #000; }
 
-/* HUD COMPONENTS */
-#data-panel {
-    position: absolute; right: 4%; top: 50%; transform: translateY(-50%) translateX(100px);
-    width: 400px; height: 85vh; padding: 25px; background: var(--glass);
-    backdrop-filter: blur(15px); border-left: 2px solid var(--hud-green);
-    opacity: 0; transition: 0.8s cubic-bezier(0.16, 1, 0.3, 1); z-index: 100;
-}
-
-.viewport.is-zoomed ~ #data-panel { opacity: 1; transform: translateY(-50%) translateX(0); pointer-events: auto; }
-
-#mission-list { list-style: none; padding: 0; overflow-y: auto; max-height: 40vh; border-top: 1px solid rgba(255,255,255,0.1); }
-.mission-item { padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 11px; display: flex; }
-.rank-tag { color: var(--hud-green); font-weight: bold; width: 85px; }
-
-/* VIEWPORT & ARTIFACTS */
-.viewport { position: relative; z-index: 10; width: 1000px; height: 1000px; transition: 1s ease; }
-.artifact { position: absolute; width: 100px; height: 100px; cursor: pointer; transition: 1.2s cubic-bezier(0.16, 1, 0.3, 1); text-align: center; }
-.artifact.is-active { left: 25% !important; top: 50% !important; transform: translate(-50%, -50%) scale(3.5) !important; }
+/* ZOOM STATES */
+.artifact.is-active { left: 25% !important; top: 50% !important; transform: translate(-50%, -50%) scale(3) !important; }
+.artifact.is-active .artifact-label { opacity: 0; }
 .artifact.is-hidden { opacity: 0; transform: scale(0); pointer-events: none; }
 
-#back-btn { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); background: #000; color: #fff; border: 1px solid #fff; padding: 10px 20px; opacity: 0; z-index: 1000; cursor: pointer; }
+/* DATA PANEL (The High-End Glass) */
+#data-panel {
+    position: absolute; right: 5%; top: 50%; transform: translateY(-50%) translateX(100px);
+    width: 420px; height: 85vh; padding: 30px;
+    background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(25px);
+    border-right: 1px solid rgba(255,255,255,0.1); border-left: 1px solid rgba(255,255,255,0.1);
+    opacity: 0; pointer-events: none; transition: 0.8s; z-index: 100;
+}
+.is-zoomed ~ #data-panel { opacity: 1; transform: translateY(-50%) translateX(0); pointer-events: auto; }
+
+/* RADAR IN PANEL */
+.sub-chart-container { height: 200px; margin: 20px 0; background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%); }
+
+/* MISSIONS */
+.mission-scroll-area { height: 35vh; overflow-y: auto; margin-top: 10px; border-top: 1px solid rgba(255,255,255,0.1); }
+.mission-item { padding: 12px 5px; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 11px; cursor: pointer; transition: 0.2s; display: flex; }
+.mission-item:hover { background: rgba(255,255,255,0.08); color: #00ff00; }
+.rank-tag { color: #00ff00; font-weight: bold; width: 85px; }
+
+#back-btn { position: fixed; bottom: 50px; left: 50%; transform: translateX(-50%); background: transparent; color: #fff; border: 1px solid #fff; padding: 10px 40px; cursor: pointer; opacity: 0; z-index: 1000; letter-spacing: 5px; transition: 0.5s; }
 #back-btn.show { opacity: 1; }
-#warp-canvas { position: fixed; inset: 0; z-index: 999; background: #000; transition: 1s; }
+#back-btn:hover { background: #fff; color: #000; }
