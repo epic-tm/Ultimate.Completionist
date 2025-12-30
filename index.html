@@ -3,16 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zenith OS - Tactical HUD</title>
+    <title>Zenith OS - Ultimate Completionist</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <div class="hud-frame">
-        <div class="corner top-left"></div><div class="corner top-right"></div>
-        <div class="corner bottom-left"></div><div class="corner bottom-right"></div>
-    </div>
-
     <canvas id="warp-canvas"></canvas>
     <div id="terminal-overlay"></div>
 
@@ -22,6 +17,8 @@
 
     <div class="hud-container" id="main-ui">
         <div class="bg-zoom-wrapper"></div>
+        <div class="nebula-layer"></div>
+        <div id="debris-container"></div>
         <div class="scanlines"></div>
 
         <div id="main-chart-wrapper">
@@ -37,8 +34,8 @@
 
         <div id="data-panel">
             <div class="panel-header">
-                <div class="panel-tag">LOG_LINK_ESTABLISHED</div>
-                <h2 id="panel-title">SECTOR_SELECT</h2>
+                <div class="panel-tag">// LINK_ESTABLISHED</div>
+                <h2 id="panel-title">DOMAIN_INTEL</h2>
                 
                 <div class="sub-chart-container">
                     <canvas id="subRadarChart"></canvas>
@@ -46,14 +43,22 @@
             </div>
             
             <div class="separator"></div>
+            
             <div class="panel-body">
-                <div class="section-label">OBJECTIVES_LOG</div>
-                <ul id="mission-list"></ul>
+                <div class="section-label">OBJECTIVES_ARRAY</div>
+                <div class="mission-scroll-area">
+                    <ul id="mission-list"></ul>
+                </div>
+            </div>
+
+            <div id="intel-footer">
+                <div class="section-label">VERIFICATION_PROOF</div>
+                <p id="verification-text">SELECT DATA_NODE...</p>
             </div>
         </div>
     </div>
 
-    <button id="back-btn">DISENGAGE_ZOOM</button>
+    <button id="back-btn">DISENGAGE_NEURAL_LINK</button>
 
     <script src="script.js"></script>
 </body>
